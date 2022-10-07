@@ -1,0 +1,49 @@
+@font-face {
+  font-family: 'DAGGERSQUARE';
+  src:  url('/assets/DAGGERSQUARE.woff2') format('woff2'),
+        url('/assets/DAGGERSQUARE.woff') format('woff');
+}
+
+.enhancer-logo {
+  height: 6em;
+  margin: 1em 2em;
+}
+
+.enhancer-blue-bg {
+  background-color: #005289;
+  color: #ffffff;
+}
+
+.enhancer-lb-bg {
+  background-color: #82cde2;
+}
+
+.enhancer-main-heading {
+  font-family: 'DAGGERSQUARE';
+  font-size: 3rem;
+}
+
+@media (min-width: 768px) {
+  .enhancer-main-heading {
+    font-size: 4rem;
+  }
+}
+
+.enhancer-nav {
+  background-color: #c1e3ec;
+}
+
+.enhancer-nav .nav-link {
+  color: black;
+}
+
+.enhancer-nav .nav-link:hover {
+  background-color: #63b9d1;
+}
+
+.enhancer-section {
+  color: #005289;
+  font-size: 1.5rem;
+  font-weight: normal;
+  font-style: italic;
+}
