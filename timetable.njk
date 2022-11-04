@@ -8,3 +8,12 @@ layout: layouts/symposium2022
 Expected end time: 16:00</p>
 
 <p><em>The timetable is TBD based on the number of submissions.</em></p>
+
+<p>
+  The list of submitted topics to date includes:
+  <ul>
+  {% for topic in topics|sort %}
+    <li>{{topic}}</li>
+  {% endfor %}
+  </ul>
+</p>

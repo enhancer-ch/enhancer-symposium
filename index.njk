@@ -14,6 +14,15 @@ layout: layouts/symposium2022
   Talk about your own projects in the form of show-and-tell demos, learn about trends of the field, discuss common problems and solutions.
 </p>
 
+<p>
+  The list of submitted topics to date includes:
+  <ul>
+  {% for topic in topics|sort %}
+    <li>{{topic}}</li>
+  {% endfor %}
+  </ul>
+</p>
+
 <h3 class="enhancer-section">How to participate?</h3>
 
 <p><a href="{{ registration.url }}">Registration form for the event</a></p>
