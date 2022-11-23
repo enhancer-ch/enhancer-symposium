@@ -1,15 +1,13 @@
 [
   "Bioinformatics co-analysis service at ETH Zurich",
-  "datapool - sensor data warehouse",
+  "datapool - data warehouse for sensor data",
   "openRDM.swiss: data management service for the Swiss academic community",
-  "Vulnerability Scanner at UniFR",
-  "Bioinformatics User personas at Agroscope",
-  "Training and Continuing Education for Data Science and Research IT",
-  "Data Science support at ETH Zurich",
+  "UniFR - Vulnerability Scanner on Scientific IT machines",
+  "Agroscope: Access to HPC prototype",
+  "Business Models for Research Support Units",
+  "Data Science support at ETH - from computer vision to NLP",
   "Overview of CSCS Services and Partners",
   "Using SLEPc to solve eigenvalue problems in Matlab",
   "E-Assessment on BYOD (Bring Your Own Device)",
-  "inseri.swiss - connecting data repositories, research methods, and researchers",
-  "Renku@UniFR - a platform for reproducible teaching/research",
-  "Data activation through Renku"
+  "inseri.swiss - connecting data repositories, research methods, and researchers"
 ]

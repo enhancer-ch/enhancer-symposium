@@ -4,13 +4,26 @@ layout: layouts/symposium2022
 ---
 <p>EnhanceR Symposium 2022 will take place in Bern on <b>Tuesday, November 29, 2022.</b></p>
 
-<p>Start time: 10:00<br>
-Expected end time: 16:00</p>
+<p>Location: Hochschulstrasse 4, Hauptgebäude, room 501 (Kuppelraum)</p>
 
-<p><em>The timetable is TBD based on the number of submissions.</em></p>
+<table class="schedule-table">
+  <thead>
+    <tr><th scope="col" colspan=2>Schedule</th></tr>
+  </thead>
+  <tbody>
+    {% for event in schedule %}
+    <tr>
+      <td class="timespan">{{event.start}}–{{event.end}}</td>
+      <td class="event-name">{{event.name}}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+<p>Exact schedule of show-and-tell topics will be posted closer to the event.</p>
 
 <p>
-  The list of submitted topics to date includes:
+  The list of confirmed topics to date includes:
   <ul>
   {% for topic in topics|sort %}
     <li>{{topic}}</li>

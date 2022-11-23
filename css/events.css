@@ -47,3 +47,17 @@
   font-weight: normal;
   font-style: italic;
 }
+
+.schedule-table {
+  margin-bottom: 1em;
+}
+
+.schedule-table th {
+  text-align: center;
+}
+
+.schedule-table .timespan {
+  text-align: center;
+  padding-left: 2em;
+  padding-right: 2em;
+}
