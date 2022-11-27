@@ -54,10 +54,100 @@
 
 .schedule-table th {
   text-align: center;
+  font-size: larger;
+  padding: 0.5em;
 }
 
 .schedule-table .timespan {
   text-align: center;
   padding-left: 2em;
   padding-right: 2em;
+}
+
+.schedule-table-full {
+  margin-bottom: 1em;
+  width: 100%;
+}
+
+.schedule-table-full th {
+  border: lightgrey 1px solid;
+  text-align: center;
+  font-weight: normal;
+  padding: 0.5em;
+}
+
+.schedule-table-full td {
+  border: lightgrey 1px solid;
+  text-align: center;
+}
+
+.schedule-table-full th:first-child {
+  border: none;
+  font-size: larger;
+  font-weight: bold;
+}
+
+.schedule-table-full .blank-corner {
+  border-top: none;
+  border-left: none;
+}
+
+.schedule-table-full .timespan {
+  text-align: center;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.schedule-table-full .event-name {
+  text-align: center;
+  max-width: 20em;
+  padding: 0.5em;
+  font-weight: bold;
+}
+
+.schedule-table-full .presentation-name {
+  text-align: left;
+  max-width: 20em;
+  padding: 0.5em;
+  padding-right: 0.5em;
+}
+
+.host {
+  font-style: italic;
+  font-size: small;
+}
+
+.sessions-table {
+  margin-bottom: 1em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sessions-table th:first-child {
+  border: none;
+  font-size: larger;
+  font-weight: bold;
+  text-align: center;
+  padding: 0.5em;
+}
+
+.sessions-table td {
+  padding: 0.5em;
+}
+
+.sessions-table .timespan {
+  text-align: center;
+}
+
+.title-url {
+  color: inherit;
+  text-decoration: none;
+}
+
+.title-url:hover {
+  color: inherit;
+}
+
+.title-url:visited {
+  color: inherit;
 }

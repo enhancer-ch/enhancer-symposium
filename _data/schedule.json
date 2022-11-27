@@ -1,9 +1,9 @@
 [
     {"start": "9:30", "end": "10:00", "name": "Registration / Coffee"},
     {"start": "10:00", "end": "10:30", "name": "Welcome"},
-    {"start": "10:30", "end": "13:00", "name": "Show-and-tell parallel sessions"},
+    {"start": "10:30", "end": "13:00", "name": "Show-and-tell parallel sessions (see below)"},
     {"start": "13:00", "end": "14:00", "name": "Lunch (restaurant Grosse Schanze)"},
-    {"start": "14:00", "end": "14:30", "name": "Community needs discussion"},
-    {"start": "14:30", "end": "16:00", "name": "Show-and-tell parallel sessions"},
+    {"start": "14:00", "end": "15:00", "name": "Community needs discussion"},
+    {"start": "15:00", "end": "16:00", "name": "Show-and-tell parallel sessions (see below)"},
     {"start": "16:00", "end": "16:15", "name": "Farewell"}
 ]

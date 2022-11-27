@@ -8,7 +8,7 @@ layout: layouts/symposium2022
 
 <table class="schedule-table">
   <thead>
-    <tr><th scope="col" colspan=2>Schedule</th></tr>
+    <tr><th scope="col" colspan=2>Overview schedule</th></tr>
   </thead>
   <tbody>
     {% for event in schedule %}
@@ -20,13 +20,49 @@ layout: layouts/symposium2022
   </tbody>
 </table>
 
-<p>Exact schedule of show-and-tell topics will be posted closer to the event.</p>
+<table class="schedule-table-full">
+  <thead>
+    <tr><th scope="col" colspan={{ schedule_full.stations.length + 1 }}>Full schedule</th></tr>
+    <tr>
+      <th class="blank-corner"></th>
+      {% for station in schedule_full.stations %}
+      <th scope="col">{{station.name}}</th>
+      {% endfor %}
+    </tr>
+  </thead>
+  <tbody>
+    {% for scheduleItem in schedule_full.schedule %}
+    <tr>
+      {% if scheduleItem.merged %}
+      <td class="timespan"><b>{{scheduleItem.start}}–{{scheduleItem.end}}</b></td>
+      <td class="event-name" colspan={{ schedule_full.stations.length }}>{{scheduleItem.name}}</td>
+      {% else %}
+        <td class="timespan">{{scheduleItem.name}}<br><b>{{scheduleItem.start}}–{{scheduleItem.end}}</b></td>
+        {% for station in schedule_full.stations %}
+        <td class="presentation-name"
+          {% if scheduleItem.presentations[station.code].color %}style="background-color: {{scheduleItem.presentations[station.code].color}}"{% endif %}
+        >
+          {{scheduleItem.presentations[station.code].name}}<br><span class="host">{{scheduleItem.presentations[station.code].host}}</span>
+        </td>
+        {% endfor %}
+      {% endif %}
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
 
-<p>
-  The list of confirmed topics to date includes:
-  <ul>
-  {% for topic in topics|sort %}
-    <li>{{topic}}</li>
-  {% endfor %}
-  </ul>
-</p>
+<table class="sessions-table">
+  <thead>
+    <tr><th scope="col" colspan={{ schedule_full.maxRepeats + 1 }}>Show-and-tell sessions</th></tr>
+  </thead>
+  <tbody>
+    {% for presentation in schedule_full.presentations %}
+    <tr style="background-color: {{presentation.color}}">
+      <td class="event-name">{{presentation.name}}<br><span class="host">{{presentation.host}}</td>
+      {% for slot in presentation.slots %}
+      <td class="timespan"><b>{{slot.timeslot}}{{slot.station}}</b><br>{{slot.start}}–{{slot.end}}</td>
+      {% endfor %}
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
