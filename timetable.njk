@@ -41,6 +41,7 @@ layout: layouts/symposium2022
         {% for station in schedule_full.stations %}
         <td class="presentation-name"
           {% if scheduleItem.presentations[station.code].color %}style="background-color: {{scheduleItem.presentations[station.code].color}}"{% endif %}
+          data-timeslot="{{scheduleItem.timeslot}}" data-station="{{station.code}}"
         >
           {{scheduleItem.presentations[station.code].name}}<br><span class="host">{{scheduleItem.presentations[station.code].host}}</span>
         </td>
@@ -51,17 +52,31 @@ layout: layouts/symposium2022
   </tbody>
 </table>
 
+<script src="/js/wantToSee.js" defer></script>
+
 <table class="sessions-table">
   <thead>
-    <tr><th scope="col" colspan={{ schedule_full.maxRepeats + 1 }}>Show-and-tell sessions</th></tr>
+    <tr><th id="sessions-header" scope="col" colspan={{ schedule_full.maxRepeats + 1 }}>Show-and-tell sessions</th></tr>
+    <tr>
+      <th>Topic and host</th>
+      {% for i in range(0, schedule_full.maxRepeats) %}
+      <th>Session {{i + 1}}</th>
+      {% endfor %}
+      <th hidden class="want-to-see">Want to see</th>
+    </tr>
   </thead>
   <tbody>
     {% for presentation in schedule_full.presentations %}
+    {% set outer_loop = loop %}
     <tr style="background-color: {{presentation.color}}">
       <td class="event-name">{{presentation.name}}<br><span class="host">{{presentation.host}}</td>
-      {% for slot in presentation.slots %}
-      <td class="timespan"><b>{{slot.timeslot}}{{slot.station}}</b><br>{{slot.start}}–{{slot.end}}</td>
+      {% for i in range(0, schedule_full.maxRepeats) %}
+      <td class="timespan" data-index="{{outer_loop.index0}}" data-timeslot="{{presentation.slots[i].timeslot}}" data-station="{{presentation.slots[i].station}}">
+        <b>{{presentation.slots[i].timeslot}}{{presentation.slots[i].station}}</b><br>
+        {{presentation.slots[i].start}}–{{presentation.slots[i].end}}
+      </td>
       {% endfor %}
+      <td hidden class="want-to-see"><input type="checkbox" data-index="{{loop.index0}}"></td>
     </tr>
     {% endfor %}
   </tbody>

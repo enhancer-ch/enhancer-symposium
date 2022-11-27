@@ -81,7 +81,7 @@
   text-align: center;
 }
 
-.schedule-table-full th:first-child {
+.schedule-table-full tr:first-child th {
   border: none;
   font-size: larger;
   font-weight: bold;
@@ -123,8 +123,11 @@
   margin-right: auto;
 }
 
-.sessions-table th:first-child {
-  border: none;
+.sessions-table th {
+  text-align: center;
+}
+
+.sessions-table tr:first-child th {
   font-size: larger;
   font-weight: bold;
   text-align: center;
@@ -150,4 +153,23 @@
 
 .title-url:visited {
   color: inherit;
+}
+
+.want-to-see {
+  text-align: center;
+}
+
+.want-to-see input {
+  width: 2em;
+  height: 2em;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.must-see {
+  box-shadow: inset 0px 0px 2px 2px green;
+}
+
+.cant-see {
+  box-shadow: inset 0px 0px 2px 2px red;
 }
