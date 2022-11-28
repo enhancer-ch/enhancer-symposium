@@ -60,14 +60,6 @@ module.exports = function() {
             ]
         },
         {
-            "name": "Using SLEPc to solve eigenvalue problems in Matlab",
-            "host": "John Hennig (ETHZ)",
-            "slots": [
-                {"timeslot": 4, "station": "B"},
-                {"timeslot": 6, "station": "A"}
-            ]
-        },
-        {
             "name": "Business Models for Research Support Units",
             "host": "Sigve Haug (UniBE)",
             "slots": [
