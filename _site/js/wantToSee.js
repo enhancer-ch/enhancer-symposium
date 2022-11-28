@@ -43,24 +43,6 @@ function calculateSessions() {
 
   const timeslots = Array.from(document.querySelectorAll("[data-timeslot]"));
 
-  /*const slotMap = new Map(
-    wants.map(want => [want, timeslots.filter(slot => slot.dataset.index == want).map(slot => slot.dataset.timeslot)])
-  );
-  const relevantSlots = new Set([...slotMap.values()].flatMap(slots => slots));
-  const reverseSlotMap = new Map(
-    [...relevantSlots].map(slot => [slot, [...slotMap.keys()].filter(want => slotMap.get(want)?.includes(slot))])
-  );
-
-  if (relevantSlots.size < wants.length) {
-    timeslots.forEach(el => el.classList.remove("must-see"));
-    checkboxes.forEach(
-      el => { if (el.checked) { el.parentElement.classList.add("cant-see"); }}
-    );
-    return false;
-  } else {
-    checkboxes.forEach(el => el.parentElement.classList.remove("cant-see"));
-  }*/
-
   let solutions = wants.reduce((acc, want) => 
     timeslots.filter(
       slot => slot.dataset.index == want
