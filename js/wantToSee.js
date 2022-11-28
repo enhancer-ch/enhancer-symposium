@@ -39,7 +39,7 @@ checkboxes.forEach(el => {
 });
 
 function calculateSessions() {
-  const wants = [...wantToSee.values()];
+  const wants = [...wantToSee.values()].sort();
 
   const timeslots = Array.from(document.querySelectorAll("[data-timeslot]"));
 
