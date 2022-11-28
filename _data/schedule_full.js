@@ -34,7 +34,7 @@ module.exports = function() {
             "code": "b",
             "slots": [
                 {"timeslot": 4, "station": "C"},
-                {"timeslot": 7, "station": "C"}
+                {"timeslot": 6, "station": "C"}
             ]
         },
         {
