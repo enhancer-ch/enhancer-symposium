@@ -22,30 +22,25 @@ module.exports = function() {
         {
             "name": "UniFR - Vulnerability Scanner on Scientific IT machines",
             "host": "Arnaud Fortier (UniFR)",
+            "code": "a",
             "slots": [
-                {"timeslot": 1, "station": "C"},
+                {"timeslot": 1, "station": "A"},
                 {"timeslot": 7, "station": "A"}
             ]
         },
         {
             "name": "openRDM.swiss: data management service for the Swiss academic community",
             "host": "Caterina Barillari & Rostyk Kuzyakiv (ETHZ)",
+            "code": "b",
             "slots": [
                 {"timeslot": 4, "station": "C"},
                 {"timeslot": 7, "station": "C"}
             ]
         },
         {
-            "name": "inseri.swiss - connecting data repositories, research methods, and researchers",
-            "host": "Andrei Plamada (UZH)",
-            "slots": [
-                {"timeslot": 1, "station": "A"},
-                {"timeslot": 2, "station": "A"}
-            ]
-        },
-        {
             "name": "E-Assessment on BYOD (Bring Your Own Device)",
             "host": "Merima Hotic & Simon Kaspar (FHNW)",
+            "code": "c",
             "slots": [
                 {"timeslot": 3, "station": "A"},
                 {"timeslot": 4, "station": "A"}
@@ -54,14 +49,16 @@ module.exports = function() {
         {
             "name": "Overview of CSCS Services and Partners",
             "host": "Alex Upton (CSCS)",
+            "code": "d",
             "slots": [
-                {"timeslot": 5, "station": "C"},
-                {"timeslot": 6, "station": "C"}
+                {"timeslot": 5, "station": "A"},
+                {"timeslot": 6, "station": "A"}
             ]
         },
         {
             "name": "Business Models for Research Support Units",
             "host": "Sigve Haug (UniBE)",
+            "code": "e",
             "slots": [
                 {"timeslot": 2, "station": "C"},
                 {"timeslot": 3, "station": "C"}
@@ -70,6 +67,7 @@ module.exports = function() {
         {
             "name": "Bioinformatics co-analysis service at the ETH Zurich",
             "host": "Michal Okoniewski (ETHZ)",
+            "code": "f",
             "slots": [
                 {"timeslot": 1, "station": "B"},
                 {"timeslot": 3, "station": "B"}
@@ -78,6 +76,7 @@ module.exports = function() {
         {
             "name": "Data Science support at ETH - from computer vision to NLP",
             "host": "Franziska Oschmann & Tarun Chadha (ETHZ)",
+            "code": "g",
             "slots": [
                 {"timeslot": 6, "station": "B"},
                 {"timeslot": 7, "station": "B"}
@@ -86,6 +85,7 @@ module.exports = function() {
         {
             "name": "Agroscope: Access to HPC prototype",
             "host": "Julia Gustavsen (Agroscope)",
+            "code": "h",
             "slots": [
                 {"timeslot": 2, "station": "B"},
                 {"timeslot": 5, "station": "B"}
