@@ -71,12 +71,16 @@ layout: layouts/symposium2022
     <tr style="background-color: {{presentation.color}}">
       <td class="event-name">{{presentation.name}}<br><span class="host">{{presentation.host}}</td>
       {% for i in range(0, schedule_full.maxRepeats) %}
-      <td class="timespan" data-index="{{outer_loop.index0}}" data-timeslot="{{presentation.slots[i].timeslot}}" data-station="{{presentation.slots[i].station}}">
+      <td class="timespan"
+        data-timeslot="{{presentation.slots[i].timeslot}}"
+        data-station="{{presentation.slots[i].station}}"
+        data-code="{{presentation.code}}"
+      >
         <b>{{presentation.slots[i].timeslot}}{{presentation.slots[i].station}}</b><br>
         {{presentation.slots[i].start}}–{{presentation.slots[i].end}}
       </td>
       {% endfor %}
-      <td hidden class="want-to-see"><input type="checkbox" data-index="{{loop.index0}}"></td>
+      <td hidden class="want-to-see"><input type="checkbox" data-code="{{presentation.code}}"></td>
     </tr>
     {% endfor %}
   </tbody>
