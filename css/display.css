@@ -1,0 +1,109 @@
+@font-face {
+  font-family: 'DAGGERSQUARE';
+  src:  url('/assets/DAGGERSQUARE.woff2') format('woff2'),
+        url('/assets/DAGGERSQUARE.woff') format('woff');
+}
+
+body {
+  background-color: black;
+  color: white;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.slot-name {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 28pt;
+}
+
+.slot-time {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 36pt;
+}
+
+.slot-contents {
+  padding: 0.5em;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 56pt;
+}
+
+.big-clock {
+  font-family: monospace;
+  font-size: 120pt;
+}
+
+.hurry {
+  color: lightcoral;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2em;
+}
+
+.spacer {
+  flex-grow: 1;
+}
+
+.hero {
+  flex-grow: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#now {
+  font-family: monospace;
+  font-size: 32pt;
+  color: lightgray;
+  position: absolute;
+  top: 0.5em;
+  left: calc(100vw - 3.5em);
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2em;
+}
+
+.orange {
+  color: orange;
+}
+
+.next-up {
+  text-align: center;
+}
+
+.slot {
+  font-size: 32pt;
+}
+
+.next-slot-contents {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 24pt;
+  margin-top: 0.5em;
+}
+
+.next-slot {
+  font-size: 24pt;
+}

@@ -120,7 +120,8 @@ module.exports = function() {
             slot.start = schedule.find(scheduleItem => scheduleItem.timeslot == slot.timeslot)?.start;
             slot.end = schedule.find(scheduleItem => scheduleItem.timeslot == slot.timeslot)?.end;
         })
-        presentation.color = `hsl(${Math.floor(360 * index / (presentations.length + 1))}, 100%, 95%)`
+        presentation.color = `hsl(${Math.floor(360 * index / (presentations.length + 1))}, 100%, 95%)`;
+        presentation.fgColor = `hsl(${Math.floor(360 * index / (presentations.length + 1))}, 100%, 90%)`;
     });
 
     let maxRepeats = Math.max(...presentations.map(presentation => presentation.slots.length));
