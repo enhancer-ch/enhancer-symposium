@@ -71,10 +71,10 @@ body {
 
 #now {
   font-family: monospace;
-  font-size: 32pt;
+  font-size: 36pt;
   color: lightgray;
   position: absolute;
-  top: 0.5em;
+  top: 1em;
   left: calc(100vw - 3.5em);
 }
 

@@ -105,7 +105,7 @@ function updateClock() {
 
   const remaining = Interval.fromDateTimes(dtNow, DateTime.fromISO(scheduleItem.end)).toDuration(["hours", "minutes", "seconds"]);
   document.getElementById("clock").replaceChildren(hMS(remaining));
-  document.getElementById("clock").classList.toggle("hurry", remaining.minutes < 5);
+  document.getElementById("clock").classList.toggle("hurry", (remaining.minutes < 5) && (remaining.hours == 0));
 }
 
 updateClock();
