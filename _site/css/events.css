@@ -37,6 +37,10 @@
   color: black;
 }
 
+.enhancer-nav .nav-link.active {
+  background-color: #82cde2;
+}
+
 .enhancer-nav .nav-link:hover {
   background-color: #63b9d1;
 }

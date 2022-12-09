@@ -35,6 +35,12 @@ module.exports = function() {
             "slots": [
                 {"timeslot": 4, "station": "C"},
                 {"timeslot": 6, "station": "C"}
+            ],
+            "materials": [
+                {
+                    "url": "/assets/materials/20221129-EnhanceR-openRDM.swiss.pdf",
+                    "name": "Presentation slides (PDF)"
+                }
             ]
         },
         {
@@ -44,6 +50,12 @@ module.exports = function() {
             "slots": [
                 {"timeslot": 3, "station": "A"},
                 {"timeslot": 4, "station": "A"}
+            ],
+            "materials": [
+                {
+                    "url": "/assets/materials/Plakat_CAMPLA-Lernstick_EnhanceR.pdf",
+                    "name": "Poster (PDF)"
+                }
             ]
         },
         {
@@ -71,6 +83,12 @@ module.exports = function() {
             "slots": [
                 {"timeslot": 1, "station": "B"},
                 {"timeslot": 3, "station": "B"}
+            ],
+            "materials": [
+                {
+                    "url": "/assets/materials/EnhanceR_bioinformaticsETH_show_and_tell.pdf",
+                    "name": "Presentation slides (PDF)"
+                }
             ]
         },
         {

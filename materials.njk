@@ -1,0 +1,19 @@
+---
+title: Materials | EnhanceR Symposium 2022
+layout: layouts/symposium2022
+date: Last Modified
+---
+<p>The following show-and-tell sessions shared their materials:</p>
+
+{% for presentation in schedule_full.presentations %}
+{% if presentation.materials %}
+<p>
+  <b>{{presentation.name}}</b><br>by {{presentation.host}}
+  <ul>
+    {% for material in presentation.materials %}
+    <li><a href="{{material.url}}" target="_blank">{{material.name}}</a></li>
+    {% endfor %}
+  </ul>
+</p>
+{% endif %}
+{% endfor %}

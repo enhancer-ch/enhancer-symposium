@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Home",
+    "url": "/"
+  },
+  {
+    "name": "Timetable",
+    "url": "/timetable/"
+  },
+  {
+    "name": "Registration",
+    "url": "/registration/"
+  },
+  {
+    "name": "Materials",
+    "url": "/materials/"
+  }
+]
