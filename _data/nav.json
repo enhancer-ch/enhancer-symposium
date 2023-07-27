@@ -10,9 +10,5 @@
   {
     "name": "Registration",
     "url": "/registration/"
-  },
-  {
-    "name": "Materials",
-    "url": "/materials/"
   }
 ]

@@ -48,6 +48,18 @@
   font-style: italic;
 }
 
+.two-columns {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  column-gap: 2em;
+}
+
+@media (max-width: 640px) {
+  .two-columns {
+    display: block;
+  }
+}
+
 .schedule-table {
   margin-bottom: 1em;
 }

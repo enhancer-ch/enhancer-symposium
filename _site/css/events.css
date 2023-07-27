@@ -37,10 +37,6 @@
   color: black;
 }
 
-.enhancer-nav .nav-link.active {
-  background-color: #82cde2;
-}
-
 .enhancer-nav .nav-link:hover {
   background-color: #63b9d1;
 }
@@ -50,6 +46,18 @@
   font-size: 1.5rem;
   font-weight: normal;
   font-style: italic;
+}
+
+.two-columns {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  column-gap: 2em;
+}
+
+@media (max-width: 640px) {
+  .two-columns {
+    display: block;
+  }
 }
 
 .schedule-table {
