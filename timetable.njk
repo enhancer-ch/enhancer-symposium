@@ -3,6 +3,39 @@ title: Timetable | EnhanceR Symposium 2023
 layout: layouts/symposium2023
 date: Last Modified
 ---
-<p>EnhanceR Symposium 2023 will take place in (Bern or Fribourg) on <b>Wednesday, October 18, 2023.</b></p>
+<p>EnhanceR Symposium 2023 will take place in Bern on <b>Wednesday, October 18, 2023.</b></p>
 
-<p>The timetable is not defined yet.</p>
+<p>If you are registered, you will receive all news about the schedule by email.</p>
+
+<table class="schedule-table">
+  <thead>
+    <tr><th scope="col" colspan="2">Overview schedule</th></tr>
+  </thead>
+  <tbody>
+    {% for event in schedule %}
+    <tr>
+      <td class="timespan">{{event.start}}–{{event.end}}</td>
+      <td class="event-name">{{event.name}}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+<h3>Show-and-tell sessions</h3>
+
+<p>The show-and-tell timetable is being finalized and will be posted soon. Tentative show and tell topics are listed below:</p>
+
+<table class="schedule-table">
+  <thead>
+    <tr><th scope="col" colspan="2">Show-and-tell topics</th></tr>
+  </thead>
+  <tbody>
+    {% for topic in topics %}
+    <tr>
+      <td class="timespan">{{topic.speaker}}</td>
+      <td class="event-name">{{topic.topic}}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+

@@ -1,13 +1,50 @@
 [
-  "Bioinformatics co-analysis service at ETH Zurich",
-  "datapool - data warehouse for sensor data",
-  "openRDM.swiss: data management service for the Swiss academic community",
-  "UniFR - Vulnerability Scanner on Scientific IT machines",
-  "Agroscope: Access to HPC prototype",
-  "Business Models for Research Support Units",
-  "Data Science support at ETH - from computer vision to NLP",
-  "Overview of CSCS Services and Partners",
-  "Using SLEPc to solve eigenvalue problems in Matlab",
-  "E-Assessment on BYOD (Bring Your Own Device)",
-  "inseri.swiss - connecting data repositories, research methods, and researchers"
+  {
+    "speaker": "Aliaksandr Yakutovich",
+    "topic": "AiiDAlab journey: navigating development challenges and community growth"
+  },
+  {
+    "speaker": "Ana Stojiljkovic",
+    "topic": "Usability when building UI, Documentation, Outreach "
+  },
+  {
+    "speaker": "Andrei Plamada",
+    "topic": "inseri.swiss – connecting data repositories, research methods, and researchers"
+  },
+  {
+    "speaker": "Anna Sintsova",
+    "topic": "Empowering biological data re-use with interactive dashboards"
+  },
+  {
+    "speaker": "Chaoran Chen",
+    "topic": "GenSpectrum: Database Engine and Dashboards for Genomic Epidemiology"
+  },
+  {
+    "speaker": "Daniel Roten",
+    "topic": "Scalable Lidar data processing pipeline for the generation of 3D fuel models for wildfire simulations"
+  },
+  {
+    "speaker": "David Meyer",
+    "topic": "Automated Lab Data Management - from experiment to report"
+  },
+  {
+    "speaker": "Enkelejda Miho",
+    "topic": "Personalis: a clinical decision support software for the personalized diagnosis of autoimmune diseases"
+  },
+  {
+    "speaker": "Franziska Oschmann",
+    "topic": "MIDAP: development of an image analysis software for cell segmentation and tracking "
+  },
+  {
+    "speaker": "Michal Okoniewski",
+    "topic": "Reproducibility in practice: Snakemake with Galaxy containers"
+  },
+  {
+    "speaker": "Mykhailo Vladymyrov",
+    "topic": "Modern ways of thinking about research data: relations, representations, storage, safety, flow, and impact"
+  },
+  {
+    "speaker": "Simone Baffelli",
+    "topic": "OpenBIS chef: on-demand custom data entry workflows for ELNs"
+  }
 ]

@@ -1,6 +1,21 @@
 ---
 title: Registration | EnhanceR Symposium 2023
+description: Registration for EnhanceR Symposium 2023 is closed!
 layout: layouts/symposium2023
 date: Last Modified
 ---
-Registration for the 2023 event is not yet open.
+<h3 class="enhancer-section">Registration</h3>
+
+Registration for the 2023 event is closed.
+
+If you want to join at the last minute, or have questions regarding the event, please reach out to <a href="mailto:office@enhancer.ch">office@enhancer.ch</a>
+
+<h3 class="enhancer-section">Participants</h3>
+
+The list of registered participants:
+
+<ul>
+  {% for participant in participants %}
+  <li>{{ participant.name }}</li>
+  {% endfor %}
+</ul>
