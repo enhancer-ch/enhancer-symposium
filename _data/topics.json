@@ -1,50 +1,50 @@
 [
   {
-    "speaker": "Aliaksandr Yakutovich",
+    "host": "Aliaksandr Yakutovich",
     "topic": "AiiDAlab journey: navigating development challenges and community growth"
   },
   {
-    "speaker": "Ana Stojiljkovic",
-    "topic": "Usability when building UI, Documentation, Outreach "
+    "host": "David Meyer",
+    "topic": "Automated Lab Data Management – from experiment to report"
   },
   {
-    "speaker": "Andrei Plamada",
-    "topic": "inseri.swiss – connecting data repositories, research methods, and researchers"
-  },
-  {
-    "speaker": "Anna Sintsova",
+    "host": "Anna Sintsova",
     "topic": "Empowering biological data re-use with interactive dashboards"
   },
   {
-    "speaker": "Chaoran Chen",
+    "host": "Chaoran Chen",
     "topic": "GenSpectrum: Database Engine and Dashboards for Genomic Epidemiology"
   },
   {
-    "speaker": "Daniel Roten",
-    "topic": "Scalable Lidar data processing pipeline for the generation of 3D fuel models for wildfire simulations"
+    "host": "Andrei Plamada",
+    "topic": "inseri.swiss – connecting data repositories, research methods, and researchers"
   },
   {
-    "speaker": "David Meyer",
-    "topic": "Automated Lab Data Management - from experiment to report"
+    "host": "Franziska Oschmann",
+    "topic": "MIDAP: development of an image analysis software for cell segmentation and tracking"
   },
   {
-    "speaker": "Enkelejda Miho",
-    "topic": "Personalis: a clinical decision support software for the personalized diagnosis of autoimmune diseases"
-  },
-  {
-    "speaker": "Franziska Oschmann",
-    "topic": "MIDAP: development of an image analysis software for cell segmentation and tracking "
-  },
-  {
-    "speaker": "Michal Okoniewski",
-    "topic": "Reproducibility in practice: Snakemake with Galaxy containers"
-  },
-  {
-    "speaker": "Mykhailo Vladymyrov",
+    "host": "Mykhailo Vladymyrov",
     "topic": "Modern ways of thinking about research data: relations, representations, storage, safety, flow, and impact"
   },
   {
-    "speaker": "Simone Baffelli",
+    "host": "Simone Baffelli",
     "topic": "OpenBIS chef: on-demand custom data entry workflows for ELNs"
+  },
+  {
+    "host": "Enkelejda Miho",
+    "topic": "Personalis: a clinical decision support software for the personalized diagnosis of autoimmune diseases"
+  },
+  {
+    "host": "Michal Okoniewski",
+    "topic": "Reproducibility in practice: Snakemake with Galaxy containers"
+  },
+  {
+    "host": "Daniel Roten",
+    "topic": "Scalable Lidar data processing pipeline for the generation of 3D fuel models for wildfire simulations"
+  },
+  {
+    "host": "Ana Stojiljkovic",
+    "topic": "Usability when building UI, Documentation, Outreach"
   }
 ]

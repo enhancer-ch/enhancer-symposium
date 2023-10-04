@@ -2,7 +2,7 @@
     {"start":  "9:30", "end": "10:00", "name": "Registration / Coffee", "type": "registration"},
     {"start": "10:00", "end": "10:15", "name": "Welcome", "type": "announcement"},
     {"start": "10:15", "end": "11:00", "name": "The growth of Research Software Engineering and its vital place in research (Simon Hettrick)", "type": "keynote"},
-    {"start": "11:00", "end": "11:30", "name": "SWITCH Cloud - The cloud for education and research (Visho Jesudasan)", "type": "plenary"},
+    {"start": "11:00", "end": "11:30", "name": "SWITCH Cloud – The cloud for education and research (Visho Jesudasan)", "type": "plenary"},
     {"start": "11:30", "end": "12:00", "name": "Collaborative expertise: synergies between multi-disciplinary experts and end users in software development (Aaron Ponti)", "type": "plenary"},
     {"start": "12:00", "end": "13:00", "name": "Show-and-tell parallel sessions (TBD)", "type": "session"},
     {"start": "13:00", "end": "14:00", "name": "Lunch (restaurant Grosse Schanze)", "type": "lunch"},
