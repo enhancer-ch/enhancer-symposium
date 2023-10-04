@@ -33,6 +33,10 @@
   background-color: #c1e3ec;
 }
 
+.enhancer-nav .active {
+  background-color: #8ccee0;
+}
+
 .enhancer-nav .nav-link {
   color: black;
 }
