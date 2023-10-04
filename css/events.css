@@ -66,6 +66,8 @@
 
 .schedule-table {
   margin-bottom: 1em;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .schedule-table th {
@@ -112,6 +114,12 @@
   text-align: center;
   padding-left: 1em;
   padding-right: 1em;
+}
+
+@media only screen and (min-width: 800px) {
+  .schedule-table-full .timespan {
+    min-width: 8em;
+  }
 }
 
 .schedule-table-full .event-name {

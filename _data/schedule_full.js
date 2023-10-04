@@ -2,114 +2,208 @@ module.exports = function() {
     let stations = [
         {code: "A", name: "Track A"},
         {code: "B", name: "Track B"},
-        {code: "C", name: "Track C"}
+        {code: "C", name: "Track C"},
+        {code: "D", name: "Track D"}
     ];
     let schedule = [
-        {"start": "9:30", "end": "10:00", "name": "Registration / Coffee", "merged": true},
-        {"start": "10:00", "end": "10:30", "name": "Welcome", "merged": true},
-        {"start": "10:30", "end": "11:00", "name": "Slot 1", "timeslot": 1},
-        {"start": "11:00", "end": "11:30", "name": "Slot 2", "timeslot": 2},
-        {"start": "11:30", "end": "12:00", "name": "Slot 3", "timeslot": 3},
-        {"start": "12:00", "end": "12:30", "name": "Slot 4", "timeslot": 4},
-        {"start": "12:30", "end": "13:00", "name": "Slot 5", "timeslot": 5},
-        {"start": "13:00", "end": "14:00", "name": "Lunch (restaurant Grosse Schanze)", "merged": true},
-        {"start": "14:00", "end": "15:00", "name": "Community needs discussion", "merged": true},
-        {"start": "15:00", "end": "15:30", "name": "Slot 6", "timeslot": 6},
-        {"start": "15:30", "end": "16:00", "name": "Slot 7", "timeslot": 7},
-        {"start": "16:00", "end": "16:15", "name": "Farewell", "merged": true}
-    ];
+        {"start":  "9:30", "end": "10:00", "name": "Registration / Coffee", "type": "registration", "merged": true},
+        {"start": "10:00", "end": "10:15", "name": "Welcome", "type": "announcement", "merged": true},
+        {"start": "10:15", "end": "11:00", "name": "The growth of Research Software Engineering and its vital place in research (Simon Hettrick)", "type": "keynote", "merged": true},
+        {"start": "11:00", "end": "11:30", "name": "SWITCH Cloud – The cloud for education and research (Visho Jesudasan)", "type": "plenary", "merged": true},
+        {"start": "11:30", "end": "12:00", "name": "Collaborative expertise: synergies between multi-disciplinary experts and end users in software development (Aaron Ponti)", "type": "plenary", "merged": true},
+        {"start": "12:00", "end": "12:30", "name": "Slot 1", "type": "session", "timeslot": 1},
+        {"start": "12:30", "end": "13:00", "name": "Slot 2", "type": "session", "timeslot": 2},
+        {"start": "13:00", "end": "14:00", "name": "Lunch (restaurant Grosse Schanze)", "type": "lunch", "merged": true},
+        {"start": "14:00", "end": "14:30", "name": "Streamlining Research Data Storage: A user-centric approach (Julia Gustavsen)", "type": "plenary", "merged": true},
+        {"start": "14:30", "end": "15:00", "name": "EnhanceR Seminar announcement + community needs discussion", "type": "announcement", "merged": true},
+        {"start": "15:00", "end": "15:30", "name": "Slot 3", "type": "session", "timeslot": 3},
+        {"start": "15:30", "end": "16:00", "name": "Slot 4", "type": "session", "timeslot": 4},
+        {"start": "16:00", "end": "16:30", "name": "Slot 5", "type": "session", "timeslot": 5},
+        {"start": "16:30", "end": "17:00", "name": "Slot 6", "type": "session", "timeslot": 6},
+        {"start": "17:00", "end": "17:10", "name": "Farewell", "type": "announcement", "merged": true}
+    ]
     let presentations = [
         {
-            "name": "UniFR - Vulnerability Scanner on Scientific IT machines",
-            "host": "Arnaud Fortier (UniFR)",
-            "code": "a",
-            "slots": [
-                {"timeslot": 1, "station": "A"},
-                {"timeslot": 7, "station": "A"}
-            ]
+          "name": "AiiDAlab journey: navigating development challenges and community growth",
+          "host": "Aliaksandr Yakutovich",
+          "code": "a",
+          "slots": [
+            {
+              "timeslot": 1,
+              "station": "D"
+            },
+            {
+              "timeslot": 6,
+              "station": "C"
+            }
+          ]
         },
         {
-            "name": "openRDM.swiss: data management service for the Swiss academic community",
-            "host": "Caterina Barillari & Rostyk Kuzyakiv (ETHZ)",
-            "code": "b",
-            "slots": [
-                {"timeslot": 4, "station": "C"},
-                {"timeslot": 6, "station": "C"}
-            ],
-            "materials": [
-                {
-                    "url": "/assets/materials/20221129-EnhanceR-openRDM.swiss.pdf",
-                    "name": "Presentation slides (PDF)"
-                }
-            ]
+          "name": "Automated Lab Data Management - from experiment to report",
+          "host": "David Meyer",
+          "code": "b",
+          "slots": [
+            {
+              "timeslot": 2,
+              "station": "D"
+            },
+            {
+              "timeslot": 6,
+              "station": "D"
+            }
+          ]
         },
         {
-            "name": "E-Assessment on BYOD (Bring Your Own Device)",
-            "host": "Merima Hotic & Simon Kaspar (FHNW)",
-            "code": "c",
-            "slots": [
-                {"timeslot": 3, "station": "A"},
-                {"timeslot": 4, "station": "A"}
-            ],
-            "materials": [
-                {
-                    "url": "/assets/materials/Plakat_CAMPLA-Lernstick_EnhanceR.pdf",
-                    "name": "Poster (PDF)"
-                }
-            ]
+          "name": "Empowering biological data re-use with interactive dashboards",
+          "host": "Anna Sintsova",
+          "code": "c",
+          "slots": [
+            {
+              "timeslot": 1,
+              "station": "B"
+            },
+            {
+              "timeslot": 3,
+              "station": "B"
+            }
+          ]
         },
         {
-            "name": "Overview of CSCS Services and Partners",
-            "host": "Alex Upton (CSCS)",
-            "code": "d",
-            "slots": [
-                {"timeslot": 5, "station": "A"},
-                {"timeslot": 6, "station": "A"}
-            ]
+          "name": "GenSpectrum: Database Engine and Dashboards for Genomic Epidemiology",
+          "host": "Chaoran Chen",
+          "code": "d",
+          "slots": [
+            {
+              "timeslot": 3,
+              "station": "D"
+            },
+            {
+              "timeslot": 5,
+              "station": "C"
+            }
+          ]
         },
         {
-            "name": "Business Models for Research Support Units",
-            "host": "Sigve Haug (UniBE)",
+            "name": "inseri.swiss – connecting data repositories, research methods, and researchers",
+            "host": "Andrei Plamada",
             "code": "e",
             "slots": [
-                {"timeslot": 2, "station": "C"},
-                {"timeslot": 3, "station": "C"}
-            ]
-        },
-        {
-            "name": "Bioinformatics co-analysis service at the ETH Zurich",
-            "host": "Michal Okoniewski (ETHZ)",
-            "code": "f",
-            "slots": [
-                {"timeslot": 1, "station": "B"},
-                {"timeslot": 3, "station": "B"}
-            ],
-            "materials": [
                 {
-                    "url": "/assets/materials/EnhanceR_bioinformaticsETH_show_and_tell.pdf",
-                    "name": "Presentation slides (PDF)"
+                "timeslot": 4,
+                "station": "D"
+                },
+                {
+                "timeslot": 5,
+                "station": "D"
                 }
             ]
         },
         {
-            "name": "Data Science support at ETH - from computer vision to NLP",
-            "host": "Franziska Oschmann & Tarun Chadha (ETHZ)",
-            "code": "g",
-            "slots": [
-                {"timeslot": 6, "station": "B"},
-                {"timeslot": 7, "station": "B"}
-            ]
+          "name": "MIDAP: development of an image analysis software for cell segmentation and tracking",
+          "host": "Franziska Oschmann",
+          "code": "f",
+          "slots": [
+            {
+              "timeslot": 2,
+              "station": "B"
+            },
+            {
+              "timeslot": 5,
+              "station": "B"
+            }
+          ]
         },
         {
-            "name": "Agroscope: Access to HPC prototype",
-            "host": "Julia Gustavsen (Agroscope)",
-            "code": "h",
-            "slots": [
-                {"timeslot": 2, "station": "B"},
-                {"timeslot": 5, "station": "B"}
-            ]
+          "name": "Modern ways of thinking about research data: relations, representations, storage, safety, flow, and impact",
+          "host": "Mykhailo Vladymyrov",
+          "code": "g",
+          "slots": [
+            {
+              "timeslot": 3,
+              "station": "A"
+            },
+            {
+              "timeslot": 4,
+              "station": "A"
+            }
+          ]
+        },
+        {
+          "name": "OpenBIS chef: on-demand custom data entry workflows for ELNs",
+          "host": "Simone Baffelli",
+          "code": "h",
+          "slots": [
+            {
+              "timeslot": 2,
+              "station": "C"
+            },
+            {
+              "timeslot": 3,
+              "station": "C"
+            }
+          ]
+        },
+        {
+          "name": "Personalis: a clinical decision support software for the personalized diagnosis of autoimmune diseases",
+          "host": "Enkelejda Miho",
+          "code": "i",
+          "slots": [
+            {
+              "timeslot": 5,
+              "station": "A"
+            },
+            {
+              "timeslot": 6,
+              "station": "A"
+            }
+          ]
+        },
+        {
+          "name": "Reproducibility in practice: Snakemake with Galaxy containers",
+          "host": "Michal Okoniewski",
+          "code": "j",
+          "slots": [
+            {
+              "timeslot": 1,
+              "station": "C"
+            },
+            {
+              "timeslot": 4,
+              "station": "C"
+            }
+          ]
+        },
+        {
+          "name": "Scalable Lidar data processing pipeline for the generation of 3D fuel models for wildfire simulations",
+          "host": "Daniel Roten",
+          "code": "k",
+          "slots": [
+            {
+              "timeslot": 1,
+              "station": "A"
+            },
+            {
+              "timeslot": 2,
+              "station": "A"
+            }
+          ]
+        },
+        {
+          "name": "Usability when building UI, Documentation, Outreach",
+          "host": "Ana Stojiljkovic",
+          "code": "l",
+          "slots": [
+            {
+              "timeslot": 4,
+              "station": "B"
+            },
+            {
+              "timeslot": 6,
+              "station": "B"
+            }
+          ]
         }
-    ];
+      ];
 
     schedule.forEach(scheduleItem => {
         if (scheduleItem.timeslot) {
