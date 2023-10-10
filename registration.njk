@@ -16,6 +16,6 @@ The list of registered participants:
 
 <ul>
   {% for participant in participants %}
-  <li>{{ participant.name }}</li>
+  <li>{{ participant.name }}{% if participant.affiliation %} ({{participant.affiliation}}){% endif %}</li>
   {% endfor %}
 </ul>

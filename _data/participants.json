@@ -1,170 +1,224 @@
 [
   {
-    "name": "Ahmad Alhineidi"
+    "name": "Ahmad Alhineidi",
+    "affiliation": "UniBe"
   },
   {
-    "name": "Gael Anex"
+    "name": "Gael Anex",
+    "affiliation": "EPFL"
   },
   {
-    "name": "Alun Ashton"
+    "name": "Alun Ashton",
+    "affiliation": "PSI"
   },
   {
-    "name": "Anusch Bachofner"
+    "name": "Anusch Bachofner",
+    "affiliation": "Empa"
   },
   {
-    "name": "Simone Baffelli"
+    "name": "Simone Baffelli",
+    "affiliation": "Empa"
   },
   {
-    "name": "Edoardo Baldi"
+    "name": "Edoardo Baldi",
+    "affiliation": "Empa"
   },
   {
-    "name": "Pierre-Yves Burgi"
+    "name": "Pierre-Yves Burgi",
+    "affiliation": "UNIGE"
   },
   {
-    "name": "Luca Cervigni"
+    "name": "Luca Cervigni",
+    "affiliation": "SWITCH"
   },
   {
-    "name": "Chaoran Chen"
+    "name": "Chaoran Chen",
+    "affiliation": "ETHZ"
   },
   {
-    "name": "Peter Daengeli"
+    "name": "Peter Daengeli",
+    "affiliation": "UniBe"
   },
   {
-    "name": "Stuart Dennis"
+    "name": "Stuart Dennis",
+    "affiliation": "Eawag"
   },
   {
-    "name": "Lilith Feer"
+    "name": "Lilith Feer",
+    "affiliation": "ETHZ"
   },
   {
-    "name": "Alexandre Flament"
+    "name": "Alexandre Flament",
+    "affiliation": "HES GE"
   },
   {
-    "name": "Victor Férat"
+    "name": "Victor Férat",
+    "affiliation": "UNIGE"
   },
   {
-    "name": "Davide Grassano"
+    "name": "Davide Grassano",
+    "affiliation": "EPFL"
   },
   {
-    "name": "Julia Gustavsen"
+    "name": "Julia Gustavsen",
+    "affiliation": "Agroscope"
   },
   {
-    "name": "Sigve Haug"
+    "name": "Sigve Haug",
+    "affiliation": "UniBe"
   },
   {
-    "name": "John Hennig"
+    "name": "John Hennig",
+    "affiliation": "ETHZ"
   },
   {
-    "name": "Simon Hettrick"
+    "name": "Simon Hettrick",
+    "affiliation": "Software Sustainability Institute, UK"
   },
   {
-    "name": "Agnieszka Ilnicka"
+    "name": "Agnieszka Ilnicka",
+    "affiliation": "ETHZ"
   },
   {
-    "name": "Visho Jesudasan"
+    "name": "Visho Jesudasan",
+    "affiliation": "SWITCH"
   },
   {
-    "name": "Alexander Kashev"
+    "name": "Alexander Kashev",
+    "affiliation": "UniBe"
   },
   {
-    "name": "Irene Keller"
+    "name": "Irene Keller",
+    "affiliation": "ETHZ"
   },
   {
-    "name": "Viktor Kovtun"
+    "name": "Viktor Kovtun",
+    "affiliation": "ETHZ"
   },
   {
-    "name": "Rostyslav Kuzyakiv"
+    "name": "Rostyslav Kuzyakiv",
+    "affiliation": "ETHZ"
   },
   {
-    "name": "Niklaus Lang"
+    "name": "Niklaus Lang",
+    "affiliation": "FHNW"
   },
   {
-    "name": "Henry Luetcke"
+    "name": "Henry Luetcke",
+    "affiliation": "ETHZ"
   },
   {
-    "name": "Ingo Maindorfer"
+    "name": "Ingo Maindorfer",
+    "affiliation": "Eawag"
   },
   {
-    "name": "David Meyer"
+    "name": "David Meyer",
+    "affiliation": "ETHZ"
   },
   {
-    "name": "Enkelejda Miho"
+    "name": "Enkelejda Miho",
+    "affiliation": "FHNW"
   },
   {
-    "name": "Petra Muller"
+    "name": "Petra Muller",
+    "affiliation": "UniBe"
   },
   {
-    "name": "Sukanya Nath"
+    "name": "Sukanya Nath",
+    "affiliation": "UniBe"
   },
   {
-    "name": "Michal Okoniewski"
+    "name": "Michal Okoniewski",
+    "affiliation": "ETHZ"
   },
   {
-    "name": "Franziska Oschmann"
+    "name": "Franziska Oschmann",
+    "affiliation": "ETHZ"
   },
   {
-    "name": "Andrei Plamada"
+    "name": "Andrei Plamada",
+    "affiliation": "UZH"
   },
   {
-    "name": "Aaron Ponti"
+    "name": "Aaron Ponti",
+    "affiliation": "ETHZ"
   },
   {
-    "name": "Champak Beeravolu Reddy"
+    "name": "Champak Beeravolu Reddy",
+    "affiliation": "UNIFR"
   },
   {
     "name": "Avisek Regmi"
   },
   {
-    "name": "Marcel Riedi"
+    "name": "Marcel Riedi",
+    "affiliation": "UZH"
   },
   {
-    "name": "Bernd Rinn"
+    "name": "Bernd Rinn",
+    "affiliation": "ETHZ"
   },
   {
-    "name": "Daniel Roten"
+    "name": "Daniel Roten",
+    "affiliation": "FMI"
   },
   {
     "name": "Jonas Rudin"
   },
   {
-    "name": "Giannis Savva"
+    "name": "Giannis Savva",
+    "affiliation": "EPFL"
   },
   {
-    "name": "Uwe Schmitt"
+    "name": "Uwe Schmitt",
+    "affiliation": "ETHZ"
   },
   {
-    "name": "Leonardo Schwarz"
+    "name": "Leonardo Schwarz",
+    "affiliation": "ETHZ"
   },
   {
-    "name": "Thierry Sengstag"
+    "name": "Thierry Sengstag",
+    "affiliation": "UNIBAS"
   },
   {
-    "name": "Anna Sintsova"
+    "name": "Anna Sintsova",
+    "affiliation": "ETHZ"
   },
   {
-    "name": "Vipin T Sreedhar"
+    "name": "Vipin T Sreedhar",
+    "affiliation": "ETHZ"
   },
   {
-    "name": "Ana Stojiljkovic"
+    "name": "Ana Stojiljkovic",
+    "affiliation": "UniBe"
   },
   {
-    "name": "Dillenn Terumalai"
+    "name": "Dillenn Terumalai",
+    "affiliation": "SIB"
   },
   {
-    "name": "Federico Grasso Toro"
+    "name": "Federico Grasso Toro",
+    "affiliation": "UniBe"
   },
   {
-    "name": "Mykhailo Vladymyrov"
+    "name": "Mykhailo Vladymyrov",
+    "affiliation": "UniBe"
   },
   {
-    "name": "Christoph Witzig"
+    "name": "Christoph Witzig",
+    "affiliation": "SWITCH"
   },
   {
-    "name": "Thomas Wuest"
+    "name": "Thomas Wuest",
+    "affiliation": "ETHZ"
   },
   {
-    "name": "Aliaksandr Yakutovich"
+    "name": "Aliaksandr Yakutovich",
+    "affiliation": "Empa"
   },
   {
-    "name": "Solange Zoergiebel"
+    "name": "Solange Zoergiebel",
+    "affiliation": "CHUV"
   }
 ]

@@ -15,7 +15,7 @@ date: Last Modified
     {% for event in schedule %}
     <tr>
       <td class="timespan">{{event.start}}–{{event.end}}</td>
-      <td class="event-name">{{event.name}}</td>
+      <td class="event-name">{% if event.type == "keynote" %}<b>Keynote:</b> {% elif event.type == "plenary" %}<b>Plenary:</b> {% endif %}{{event.name}}</td>
     </tr>
     {% endfor %}
   </tbody>
@@ -23,7 +23,7 @@ date: Last Modified
 
 <table class="schedule-table-full">
   <thead>
-    <tr><th scope="col" colspan={{ schedule_full.stations.length + 1 }}>Full schedule</th></tr>
+    <tr><th scope="col" colspan="{{ schedule_full.stations.length + 1 }}">Full schedule</th></tr>
     <tr>
       <th class="blank-corner"></th>
       {% for station in schedule_full.stations %}
@@ -36,7 +36,7 @@ date: Last Modified
     <tr>
       {% if scheduleItem.merged %}
       <td class="timespan"><b>{{scheduleItem.start}}–{{scheduleItem.end}}</b></td>
-      <td class="event-name" colspan={{ schedule_full.stations.length }}>{{scheduleItem.name}}</td>
+      <td class="event-name" colspan="{{ schedule_full.stations.length }}">{{scheduleItem.name}}</td>
       {% else %}
         <td class="timespan">{{scheduleItem.name}}<br><b>{{scheduleItem.start}}–{{scheduleItem.end}}</b></td>
         {% for station in schedule_full.stations %}
@@ -57,7 +57,7 @@ date: Last Modified
 
 <table class="sessions-table">
   <thead>
-    <tr><th id="sessions-header" scope="col" colspan={{ schedule_full.maxRepeats + 1 }}>Show-and-tell sessions</th></tr>
+    <tr><th id="sessions-header" scope="col" colspan="{{ schedule_full.maxRepeats + 1 }}">Show-and-tell sessions</th></tr>
     <tr>
       <th>Topic and host</th>
       {% for i in range(0, schedule_full.maxRepeats) %}
