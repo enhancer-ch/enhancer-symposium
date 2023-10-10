@@ -60,6 +60,10 @@
     "affiliation": "EPFL"
   },
   {
+    "name": "Achim Gsell",
+    "affiliation": "PSI"
+  },
+  {
     "name": "Julia Gustavsen",
     "affiliation": "Agroscope"
   },
@@ -175,11 +179,11 @@
   },
   {
     "name": "Leonardo Schwarz",
-    "affiliation": "ETHZ"
+    "affiliation": "ETHZ + UZH"
   },
   {
     "name": "Thierry Sengstag",
-    "affiliation": "UNIBAS"
+    "affiliation": "UNIBAS + SIB"
   },
   {
     "name": "Anna Sintsova",
@@ -200,6 +204,10 @@
   {
     "name": "Federico Grasso Toro",
     "affiliation": "UniBe"
+  },
+  {
+    "name": "Nora C. Toussaint",
+    "affiliation": "ETHZ"
   },
   {
     "name": "Mykhailo Vladymyrov",

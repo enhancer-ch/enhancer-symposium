@@ -73,12 +73,18 @@ date: Last Modified
       <td class="event-name">{{presentation.name}}<br><span class="host">{{presentation.host}}</td>
       {% for i in range(0, schedule_full.maxRepeats) %}
       <td class="timespan"
+        {% if presentation.slots[i] %}
         data-timeslot="{{presentation.slots[i].timeslot}}"
         data-station="{{presentation.slots[i].station}}"
+        {% endif %}
         data-code="{{presentation.code}}"
       >
+        {% if presentation.slots[i] %}
         <b>{{presentation.slots[i].timeslot}}{{presentation.slots[i].station}}</b><br>
         {{presentation.slots[i].start}}–{{presentation.slots[i].end}}
+        {% else %}
+        <b>N/A</b>
+        {% endif %}
       </td>
       {% endfor %}
       <td hidden class="want-to-see"><input type="checkbox" data-code="{{presentation.code}}"></td>

@@ -104,12 +104,12 @@ module.exports = function() {
           "code": "f",
           "slots": [
             {
-              "timeslot": 2,
-              "station": "B"
+              "timeslot": 1,
+              "station": "A"
             },
             {
-              "timeslot": 5,
-              "station": "B"
+              "timeslot": 2,
+              "station": "A"
             }
           ]
         },
@@ -179,12 +179,8 @@ module.exports = function() {
           "code": "k",
           "slots": [
             {
-              "timeslot": 1,
-              "station": "A"
-            },
-            {
               "timeslot": 2,
-              "station": "A"
+              "station": "B"
             }
           ]
         },
