@@ -64,7 +64,7 @@ body {
   display: flex;
 
   position: absolute;
-  top: 50%;
+  top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -106,4 +106,8 @@ body {
 
 .next-slot {
   font-size: 24pt;
+}
+
+.slot-contents:has(.orange) {
+  text-align: center;
 }
