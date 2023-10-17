@@ -10,5 +10,9 @@
   {
     "name": "Registration",
     "url": "/registration/"
+  },
+  {
+    "name": "EnhanceR Seminar",
+    "url": "https://www.enhancer.ch/seminar"
   }
 ]
