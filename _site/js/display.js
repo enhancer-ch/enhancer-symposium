@@ -1,12 +1,15 @@
 const {DateTime, Interval} = luxon;
 
-const audio = new Audio("/assets/bell.wav");
+const audio = new Audio("/assets/bell_short.wav");
+const audio_tick = new Audio("/assets/clock_ticking.wav");
 
 const clock = document.getElementById("clock");
 
 const schedule_full = JSON.parse(document.getElementById("schedule_full").text);
 
 let lastScheduleItem = undefined;
+
+let hurry = false;
 
 let debugOffset = 0;
 if (location.hash) {
@@ -105,7 +108,18 @@ function updateClock() {
 
   const remaining = Interval.fromDateTimes(dtNow, DateTime.fromISO(scheduleItem.end)).toDuration(["hours", "minutes", "seconds"]);
   document.getElementById("clock").replaceChildren(hMS(remaining));
-  document.getElementById("clock").classList.toggle("hurry", (remaining.minutes < 5) && (remaining.hours == 0));
+
+  if ((remaining.minutes < 5) && (remaining.hours == 0)) {
+    if (hurry == false) {
+      audio_tick.pause();
+      audio_tick.currentTime = 0;
+      audio_tick.play();
+    }
+    hurry = true;
+  } else {
+    hurry = false;
+  }
+  document.getElementById("clock").classList.toggle("hurry", hurry);
 }
 
 updateClock();
@@ -116,5 +130,9 @@ document.addEventListener("keydown", (ev) => {
     audio.pause();
     audio.currentTime = 0;
     audio.play();
+  } else if (ev.key === "t") {
+    audio_tick.pause();
+    audio_tick.currentTime = 0;
+    audio_tick.play();
   }
 })
