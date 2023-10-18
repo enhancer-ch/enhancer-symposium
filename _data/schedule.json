@@ -42,7 +42,13 @@
         "end": "12:00",
         "name": "Collaborative expertise: synergies between multi-disciplinary experts and end users in software development (Aaron Ponti)",
         "type": "plenary",
-        "host": "Aaron Ponti"
+        "host": "Aaron Ponti",
+        "materials": [
+            {
+                "name": "Slides PDF",
+                "url": "/assets/materials/Aaron_Ponti_EnhanceR_2023.pdf"
+            }
+        ]
     },
     {
         "start": "12:00",
