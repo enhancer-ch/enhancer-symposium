@@ -1,0 +1,33 @@
+---
+title: Materials | EnhanceR Symposium 2023
+layout: layouts/symposium2023
+date: Last Modified
+---
+<h3 class="enhancer-section">Plenary session materials</h2>
+{% for schedule_item in schedule %}
+{% if schedule_item.materials %}
+<p>
+  <b>{{schedule_item.name}}</b><br>by {{schedule_item.host}}
+  <ul>
+    {% for material in schedule_item.materials %}
+    <li><a href="{{material.url}}" target="_blank">{{material.name}}</a></li>
+    {% endfor %}
+  </ul>
+</p>
+{% endif %}
+{% endfor %}
+
+<h3 class="enhancer-section">Show-and-tell session materials</h2>
+
+{% for presentation in schedule_full.presentations %}
+{% if presentation.materials %}
+<p>
+  <b>{{presentation.name}}</b><br>by {{presentation.host}}
+  <ul>
+    {% for material in presentation.materials %}
+    <li><a href="{{material.url}}" target="_blank">{{material.name}}</a></li>
+    {% endfor %}
+  </ul>
+</p>
+{% endif %}
+{% endfor %}

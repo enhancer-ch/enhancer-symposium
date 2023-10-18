@@ -12,6 +12,10 @@
     "url": "/registration/"
   },
   {
+    "name": "Materials",
+    "url": "/materials/"
+  },
+  {
     "name": "EnhanceR Seminar",
     "url": "https://www.enhancer.ch/seminar"
   }
