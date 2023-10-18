@@ -74,8 +74,8 @@ module.exports = function() {
           "code": "d",
           "slots": [
             {
-              "timeslot": 3,
-              "station": "D"
+              "timeslot": 4,
+              "station": "C"
             },
             {
               "timeslot": 5,
@@ -168,8 +168,8 @@ module.exports = function() {
               "station": "C"
             },
             {
-              "timeslot": 4,
-              "station": "C"
+              "timeslot": 3,
+              "station": "D"
             }
           ]
         },
