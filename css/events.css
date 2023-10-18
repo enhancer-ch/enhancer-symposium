@@ -79,8 +79,8 @@
 
 .schedule-table .timespan {
   text-align: center;
-  padding-left: 2em;
-  padding-right: 2em;
+  padding-left: 1em;
+  padding-right: 1em;
 }
 
 .schedule-table-full {
@@ -119,6 +119,10 @@
 
 @media only screen and (min-width: 800px) {
   .schedule-table-full .timespan {
+    min-width: 8em;
+  }
+
+  .schedule-table .timespan {
     min-width: 8em;
   }
 }
