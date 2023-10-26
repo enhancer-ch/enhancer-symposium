@@ -96,6 +96,12 @@ module.exports = function() {
                 "timeslot": 5,
                 "station": "D"
                 }
+            ],
+            "materials": [
+              {
+                  "name": "Slides PDF",
+                  "url": "/assets/materials/2023-10-18-inseri.swiss-EnhanceR_published.pdf"
+              }
             ]
         },
         {
@@ -182,6 +188,12 @@ module.exports = function() {
               "timeslot": 2,
               "station": "B"
             }
+          ],
+          "materials": [
+            {
+                "name": "Slides PDF",
+                "url": "/assets/materials/enhanceR_2023_roten%20Daniel%20Roten.pdf"
+            }
           ]
         },
         {
@@ -196,6 +208,12 @@ module.exports = function() {
             {
               "timeslot": 6,
               "station": "B"
+            }
+          ],
+          "materials": [
+            {
+                "name": "Slides PDF",
+                "url": "/assets/materials/EnhanceR%20Symposium-Ana%20Stojiljkovic.pdf"
             }
           ]
         }
