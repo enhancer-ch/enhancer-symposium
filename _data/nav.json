@@ -13,7 +13,8 @@
   },
   {
     "name": "Materials",
-    "url": "/materials/"
+    "url": "/materials/",
+    "hide": true
   },
   {
     "name": "EnhanceR Seminar",

@@ -1,9 +1,11 @@
 <nav class="enhancer-lb-bg mb-2">
   <ul class="nav fw-bold enhancer-nav">
     {% for item in nav %}
+    {% if not item.hide %}
     <li>
       <a href="{{item.url}}" class="nav-link{% if page.url == item.url %} active{% endif %}"><div>{{item.name}}</div></a>
     </li>
+    {% endif %}
     {% endfor %}
   </ul>
 </nav>

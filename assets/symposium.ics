@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+PRODID:-//GALAXY CALENDAR//Calendar//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+DTSTAMP:20240417T131722Z
+UID:20240417T131722Z-1@GALAXY-CALENDAR-EVENT-54d96c2c-d7be-4435-9eb7-8d77
+ 20eef94a
+CREATED:20240417T131722Z
+DESCRIPTION;ENCODING=QUOTED-PRINTABLE:<br><br>An in-person event for memb
+ ers of the Swiss research IT community\, the EnhanceR Symposium provides
+  a platform for professionals to meet\, network\, and exchange knowledge
+ . Focus topic for 2024 is Research IT contribution to FAIRness.<br><br><
+ b>Location:=C2=A0</b>Empa-Akademie<br>=C3=9Cberlandstrasse 129<br>8600 D
+ =C3=BCbendorf<br><br><b>Website:</b>=C2=A0<a href=3D"https://symposium.e
+ nhancer.ch/">https://symposium.enhancer.ch/</a>
+LOCATION;ENCODING=QUOTED-PRINTABLE:Akademie\, Eduard Amstutz-Strasse\, Ue
+ berlandstrasse 129\, 8600 D=C3=BCbendorf\, Switzerland
+SUMMARY:EnhanceR Symposium
+STATUS:CONFIRMED
+DTSTART;VALUE=DATE:20241107
+DTEND;VALUE=DATE:20241108
+ORGANIZER:mailto:office@enhancer.ch
+END:VEVENT
+END:VCALENDAR

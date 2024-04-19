@@ -4,18 +4,22 @@
         url('/assets/DAGGERSQUARE.woff') format('woff');
 }
 
+body {
+  background-color: black;
+}
+
 .enhancer-logo {
   height: 6em;
   margin: 1em 2em;
 }
 
 .enhancer-blue-bg {
-  background-color: #005289;
+  background-color: #001989;
   color: #ffffff;
 }
 
 .enhancer-lb-bg {
-  background-color: #82cde2;
+  background-color: #82b4e2;
 }
 
 .enhancer-main-heading {
@@ -30,11 +34,11 @@
 }
 
 .enhancer-nav {
-  background-color: #c1e3ec;
+  background-color: #c1d4ec;
 }
 
 .enhancer-nav .active {
-  background-color: #8ccee0;
+  background-color: #8cb3e0;
 }
 
 .enhancer-nav .nav-link {
