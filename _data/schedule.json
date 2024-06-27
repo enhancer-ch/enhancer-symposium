@@ -14,71 +14,52 @@
     {
         "start": "10:15",
         "end": "11:00",
-        "name": "The growth of Research Software Engineering and its vital place in research (Simon Hettrick)",
+        "name": "TBA (Mark Wilkinson)",
         "type": "keynote",
-        "host": "Simon Hettrick",
-        "materials": [
-            {
-                "name": "Slide deck (online)",
-                "url": "https://slides.com/simonhettrick/growth-of-rse-and-research-2023"
-            }
-        ]
+        "host": "Mark Wilkinson"
     },
     {
         "start": "11:00",
         "end": "11:30",
-        "name": "SWITCH Cloud – The cloud for education and research (Visho Jesudasan)",
+        "name": "TBD",
         "type": "plenary",
-        "host": "Visho Jesudasan",
-        "materials": [
-            {
-                "name": "Slides PPTX",
-                "url": "/assets/materials/SWITCHCloud_enhancer_181023.pptx"
-            }
-        ]
+        "host": "TBD"
     },
     {
         "start": "11:30",
         "end": "12:00",
-        "name": "Collaborative expertise: synergies between multi-disciplinary experts and end users in software development (Aaron Ponti)",
-        "type": "plenary",
-        "host": "Aaron Ponti",
-        "materials": [
-            {
-                "name": "Slides PDF",
-                "url": "/assets/materials/Aaron_Ponti_EnhanceR_2023.pdf"
-            }
-        ]
+        "name": "Short presentations of show-and-tell topics",
+        "type": "teaser"
     },
     {
         "start": "12:00",
         "end": "13:00",
-        "name": "Show-and-tell parallel sessions 1–2 (see below)",
+        "name": "Show-and-tell parallel sessions 1–2",
         "type": "session"
     },
     {
         "start": "13:00",
         "end": "14:00",
-        "name": "Lunch (restaurant Grosse Schanze)",
+        "name": "Lunch",
         "type": "lunch"
     },
     {
         "start": "14:00",
         "end": "14:30",
-        "name": "Streamlining Research Data Storage: A user-centric approach (Julia Gustavsen)",
-        "type": "plenary",
-        "host": "Julia Gustavsen"
+        "name": "TBD",
+        "type": "keynote",
+        "host": "TBD"
     },
     {
         "start": "14:30",
         "end": "15:00",
-        "name": "EnhanceR Seminar announcement + community needs discussion",
-        "type": "announcement"
+        "name": "TBD",
+        "type": "plenary"
     },
     {
         "start": "15:00",
         "end": "17:00",
-        "name": "Show-and-tell parallel sessions 3–6 (see below)",
+        "name": "Show-and-tell parallel sessions 3–6",
         "type": "session"
     },
     {
