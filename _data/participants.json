@@ -1,19 +1,15 @@
 [
   {
+    "name": "Despina Adamopoulou",
+    "affiliation": "Empa"
+  },
+  {
     "name": "Ahmad Alhineidi",
     "affiliation": "UniBe"
   },
   {
-    "name": "Gael Anex",
-    "affiliation": "EPFL"
-  },
-  {
-    "name": "Nicolas Argento",
-    "affiliation": "EPFL"
-  },
-  {
-    "name": "Alun Ashton",
-    "affiliation": "PSI"
+    "name": "Raymond C. Amador",
+    "affiliation": "Empa"
   },
   {
     "name": "Anusch Bachofner",
@@ -24,60 +20,56 @@
     "affiliation": "Empa"
   },
   {
-    "name": "Edoardo Baldi",
-    "affiliation": "Empa"
+    "name": "Caterina Barillari",
+    "affiliation": "ETHZ"
   },
   {
-    "name": "Yuru Belyaev",
-    "affiliation": "Unibe"
+    "name": "Fabian Bernhard",
+    "affiliation": "UniBe"
   },
   {
-    "name": "Pierre-Yves Burgi",
-    "affiliation": "UNIGE"
-  },
-  {
-    "name": "Luca Cervigni",
+    "name": "Andrea Bertino",
     "affiliation": "SWITCH"
+  },
+  {
+    "name": "Spencer Bliven",
+    "affiliation": "PSI"
+  },
+  {
+    "name": "Aleksandar Bobic",
+    "affiliation": "ETHZ"
+  },
+  {
+    "name": "Matthieu Boubat",
+    "affiliation": "ETHZ"
+  },
+  {
+    "name": "Elisabet Capon",
+    "affiliation": "SDSC"
   },
   {
     "name": "Tarun Chadha",
     "affiliation": "ETHZ"
   },
   {
-    "name": "Chaoran Chen",
-    "affiliation": "ETHZ"
-  },
-  {
-    "name": "Peter Daengeli",
-    "affiliation": "UniBe"
-  },
-  {
     "name": "Stuart Dennis",
     "affiliation": "Eawag"
   },
   {
-    "name": "Maciej Dobrzynski",
-    "affiliation": "UniBe"
+    "name": "Fabian Felder",
+    "affiliation": "Lib4RI"
   },
   {
-    "name": "Lilith Feer",
-    "affiliation": "ETHZ"
-  },
-  {
-    "name": "Alexandre Flament",
-    "affiliation": "HES GE"
-  },
-  {
-    "name": "Victor Férat",
-    "affiliation": "UNIGE"
-  },
-  {
-    "name": "Davide Grassano",
-    "affiliation": "EPFL"
-  },
-  {
-    "name": "Achim Gsell",
+    "name": "Julian Geiger",
     "affiliation": "PSI"
+  },
+  {
+    "name": "Sofia Georgakopoulou",
+    "affiliation": "UniBas"
+  },
+  {
+    "name": "Michele Griffa",
+    "affiliation": "Empa"
   },
   {
     "name": "Julia Gustavsen",
@@ -88,64 +80,68 @@
     "affiliation": "UniBe"
   },
   {
-    "name": "John Hennig",
-    "affiliation": "ETHZ"
-  },
-  {
-    "name": "Simon Hettrick",
-    "affiliation": "Software Sustainability Institute, UK"
+    "name": "Stefanie Hauser",
+    "affiliation": "Empa"
   },
   {
     "name": "Agnieszka Ilnicka",
     "affiliation": "ETHZ"
   },
   {
-    "name": "Visho Jesudasan",
-    "affiliation": "SWITCH"
+    "name": "Ionut Iosifescu",
+    "affiliation": "WSL"
   },
   {
     "name": "Alexander Kashev",
     "affiliation": "UniBe"
   },
   {
-    "name": "Irene Keller",
-    "affiliation": "ETHZ"
+    "name": "Laura Kinkead",
+    "affiliation": "SDSC"
   },
   {
     "name": "Viktor Kovtun",
+    "affiliation": "UniBe"
+  },
+  {
+    "name": "Sofya Laskina",
+    "affiliation": "EPFL"
+  },
+  {
+    "name": "Fabio Lopes",
+    "affiliation": "Empa"
+  },
+  {
+    "name": "Henry Lütcke",
     "affiliation": "ETHZ"
   },
   {
-    "name": "Rostyslav Kuzyakiv",
+    "name": "Magali Mari",
+    "affiliation": "SWU"
+  },
+  {
+    "name": "Nadia Marounina",
     "affiliation": "ETHZ"
   },
   {
-    "name": "Niklaus Lang",
-    "affiliation": "FHNW"
-  },
-  {
-    "name": "Henry Luetcke",
-    "affiliation": "ETHZ"
-  },
-  {
-    "name": "Ingo Maindorfer",
-    "affiliation": "Eawag"
+    "name": "Rolf Meile",
+    "affiliation": "WSL"
   },
   {
     "name": "David Meyer",
     "affiliation": "ETHZ"
   },
   {
-    "name": "Enkelejda Miho",
-    "affiliation": "FHNW"
+    "name": "Carlo Minotti",
+    "affiliation": "PSI"
   },
   {
-    "name": "Petra Muller",
-    "affiliation": "UniBe"
+    "name": "Joana Morgado",
+    "affiliation": "Empa"
   },
   {
-    "name": "Sukanya Nath",
-    "affiliation": "UniBe"
+    "name": "Vinzenz Muser",
+    "affiliation": "ETHZ"
   },
   {
     "name": "Michal Okoniewski",
@@ -156,82 +152,80 @@
     "affiliation": "ETHZ"
   },
   {
-    "name": "Andrei Plamada",
-    "affiliation": "UZH"
+    "name": "Jarunan Panyasantisuk",
+    "affiliation": "ETHZ"
   },
   {
-    "name": "Aaron Ponti",
-    "affiliation": "ETHZ"
+    "name": "Giovanni Pizzi",
+    "affiliation": "PSI"
   },
   {
     "name": "Champak Beeravolu Reddy",
     "affiliation": "UNIFR"
   },
   {
-    "name": "Avisek Regmi"
-  },
-  {
-    "name": "Marcel Riedi",
-    "affiliation": "UZH"
-  },
-  {
     "name": "Bernd Rinn",
     "affiliation": "ETHZ"
   },
   {
-    "name": "Daniel Roten",
-    "affiliation": "FMI"
-  },
-  {
-    "name": "Jonas Rudin"
-  },
-  {
-    "name": "Giannis Savva",
-    "affiliation": "EPFL"
+    "name": "Christian Schmid",
+    "affiliation": "Empa"
   },
   {
     "name": "Uwe Schmitt",
     "affiliation": "ETHZ"
   },
   {
-    "name": "Leonardo Schwarz",
-    "affiliation": "ETHZ + UZH"
+    "name": "Philip Shemella",
+    "affiliation": "UZH"
   },
   {
-    "name": "Thierry Sengstag",
-    "affiliation": "UNIBAS + SIB"
-  },
-  {
-    "name": "Anna Sintsova",
+    "name": "Vipin Thankam Sreedharan",
     "affiliation": "ETHZ"
   },
   {
-    "name": "Vipin T Sreedhar",
-    "affiliation": "ETHZ"
+    "name": "Pascal Su",
+    "affiliation": "Empa"
   },
   {
-    "name": "Ana Stojiljkovic",
-    "affiliation": "UniBe"
+    "name": "Renjun Tang",
+    "affiliation": "UZH"
   },
   {
-    "name": "Dillenn Terumalai",
-    "affiliation": "SIB"
+    "name": "Alessandro Tell",
+    "affiliation": "Empa"
   },
   {
     "name": "Federico Grasso Toro",
     "affiliation": "UniBe"
   },
   {
-    "name": "Nora C. Toussaint",
+    "name": "Matthias Töwe",
     "affiliation": "ETHZ"
   },
   {
-    "name": "Mykhailo Vladymyrov",
-    "affiliation": "UniBe"
+    "name": "Diego Tres",
+    "affiliation": "SWITCH"
   },
   {
-    "name": "Christoph Witzig",
-    "affiliation": "SWITCH"
+    "name": "Volodymyr Trotsiuk",
+    "affiliation": "WSL"
+  },
+  {
+    "name": "Nicolas Vetsch",
+    "affiliation": "ETHZ"
+  },
+  {
+    "name": "Noémi Villars",
+    "affiliation": "DaSCH"
+  },
+  {
+    "name": "Nichole Wespe",
+    "affiliation": "UniBas"
+  },
+  {
+    "name": "Mark Wilkinson",
+    "affiliation": "(Keynote)"
   },
   {
     "name": "Thomas Wuest",
@@ -242,7 +236,7 @@
     "affiliation": "Empa"
   },
   {
-    "name": "Solange Zoergiebel",
-    "affiliation": "CHUV"
+    "name": "Jusong Yu",
+    "affiliation": "PSI"
   }
 ]
