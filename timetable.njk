@@ -3,7 +3,7 @@ title: Timetable | EnhanceR Symposium 2024
 layout: layouts/symposium2024
 date: Last Modified
 ---
-<h3 class="enhancer-section">Timetable</h3>
+<h3 class="enhancer-section">Preliminary Timetable</h3>
 
 <p>EnhanceR Symposium 2024 will take place at the Empa-Akademie on <b>Thursday, November 7th, 2024.</b></p>
 
@@ -22,6 +22,18 @@ date: Last Modified
     {% endfor %}
   </tbody>
 </table>
+
+<h3 class="enhancer-section">Preliminary Show-and-tell List</h3>
+
+<p>Specific time slots for presentations coming soon!</p>
+
+<ul>
+  {% for presentation in schedule_full.presentations %}
+  <li>
+    {{presentation.name}} ({{presentation.host}}){% if not presentation.confirmed %} [TBC]{% endif %}
+  </li>
+  {% endfor %}
+</ul>
 
 {#
 <table class="schedule-table-full">

@@ -14,18 +14,19 @@ module.exports = function() {
         {"start": "12:00", "end": "12:30", "name": "Slot 1", "type": "session", "timeslot": 1},
         {"start": "12:30", "end": "13:00", "name": "Slot 2", "type": "session", "timeslot": 2},
         {"start": "13:00", "end": "14:00", "name": "Lunch (restaurant Grosse Schanze)", "type": "lunch", "merged": true},
-        {"start": "14:00", "end": "14:30", "name": "Streamlining Research Data Storage: A user-centric approach (Julia Gustavsen)", "type": "plenary", "merged": true},
-        {"start": "14:30", "end": "15:00", "name": "EnhanceR Seminar announcement + community needs discussion", "type": "announcement", "merged": true},
-        {"start": "15:00", "end": "15:30", "name": "Slot 3", "type": "session", "timeslot": 3},
-        {"start": "15:30", "end": "16:00", "name": "Slot 4", "type": "session", "timeslot": 4},
-        {"start": "16:00", "end": "16:30", "name": "Slot 5", "type": "session", "timeslot": 5},
-        {"start": "16:30", "end": "17:00", "name": "Slot 6", "type": "session", "timeslot": 6},
+        {"start": "14:00", "end": "14:30", "name": "Building FAIR research repositories in practice (Lars Holm Nielsen, virtual talk)", "type": "keynote", "merged": true},
+        {"start": "14:30", "end": "15:00", "name": "Building an RSE community in the ETH domain and steps towards a Swiss wide RSE community (Tarun Chadha + Uwe Schmitt)", "type": "plenary", "merged": true},
+        {"start": "15:00", "end": "15:30", "name": "TBC (Giovanni Pizzi)", "type": "plenary", "merged": true},
+        {"start": "15:30", "end": "16:00", "name": "Slot 3", "type": "session", "timeslot": 3},
+        {"start": "16:00", "end": "16:30", "name": "Slot 4", "type": "session", "timeslot": 4},
+        {"start": "16:30", "end": "17:00", "name": "Slot 5", "type": "session", "timeslot": 5},
         {"start": "17:00", "end": "17:10", "name": "Farewell", "type": "announcement", "merged": true}
     ]
     let presentations = [
         {
-          "name": "AiiDAlab journey: navigating development challenges and community growth",
-          "host": "Aliaksandr Yakutovich",
+          "name": "A Platform for Simplifying and Accelerating Researcher Health Data Requests",
+          "host": "Aleksandar Bobic",
+          "confirmed": true,
           "code": "a",
           "slots": [
             {
@@ -39,8 +40,9 @@ module.exports = function() {
           ]
         },
         {
-          "name": "Automated Lab Data Management - from experiment to report",
-          "host": "David Meyer",
+          "name": "Assisting FAIRness lifecycle: SMART-metrics for FAIR research data lifecycle management",
+          "host": "Federico Grasso Toro",
+          "confirmed": true,
           "code": "b",
           "slots": [
             {
@@ -54,8 +56,9 @@ module.exports = function() {
           ]
         },
         {
-          "name": "Empowering biological data re-use with interactive dashboards",
-          "host": "Anna Sintsova",
+          "name": "Cloud deployments for research projects",
+          "host": "Simone Baffelli",
+          "confirmed": false,
           "code": "c",
           "slots": [
             {
@@ -69,8 +72,9 @@ module.exports = function() {
           ]
         },
         {
-          "name": "GenSpectrum: Database Engine and Dashboards for Genomic Epidemiology",
-          "host": "Chaoran Chen",
+          "name": "Cloud storage and backup for research data",
+          "host": "Jarunan Panyasantisuk",
+          "confirmed": true,
           "code": "d",
           "slots": [
             {
@@ -84,29 +88,25 @@ module.exports = function() {
           ]
         },
         {
-            "name": "inseri.swiss – connecting data repositories, research methods, and researchers",
-            "host": "Andrei Plamada",
+            "name": "Ethical AI in Refugee Support: Aligning ML with FAIR Principles",
+            "host": "Renjun Tang",
+            "confirmed": false,
             "code": "e",
             "slots": [
-                {
+              {
                 "timeslot": 4,
                 "station": "D"
-                },
-                {
+              },
+              {
                 "timeslot": 5,
                 "station": "D"
-                }
-            ],
-            "materials": [
-              {
-                  "name": "Slides PDF",
-                  "url": "/assets/materials/2023-10-18-inseri.swiss-EnhanceR_published.pdf"
               }
             ]
         },
         {
-          "name": "MIDAP: development of an image analysis software for cell segmentation and tracking",
-          "host": "Franziska Oschmann",
+          "name": "OpenEM: Open electron microscopy data in Switzerland",
+          "host": "Spencer Bliven",
+          "confirmed": false,
           "code": "f",
           "slots": [
             {
@@ -120,8 +120,9 @@ module.exports = function() {
           ]
         },
         {
-          "name": "Modern ways of thinking about research data: relations, representations, storage, safety, flow, and impact",
-          "host": "Mykhailo Vladymyrov",
+          "name": "Presentation of Beta Data Services & Outlook on EOSC Data Commons",
+          "host": "Andrea Bertino",
+          "confirmed": false,
           "code": "g",
           "slots": [
             {
@@ -135,8 +136,9 @@ module.exports = function() {
           ]
         },
         {
-          "name": "OpenBIS chef: on-demand custom data entry workflows for ELNs",
-          "host": "Simone Baffelli",
+          "name": "Sharing pre-publication data across institutions via an internal data catalog",
+          "host": "Nichole Wespe",
+          "confirmed": true,
           "code": "h",
           "slots": [
             {
@@ -146,74 +148,6 @@ module.exports = function() {
             {
               "timeslot": 3,
               "station": "C"
-            }
-          ]
-        },
-        {
-          "name": "Personalis: a clinical decision support software for the personalized diagnosis of autoimmune diseases",
-          "host": "Enkelejda Miho",
-          "code": "i",
-          "slots": [
-            {
-              "timeslot": 5,
-              "station": "A"
-            },
-            {
-              "timeslot": 6,
-              "station": "A"
-            }
-          ]
-        },
-        {
-          "name": "Reproducibility in practice: Snakemake with Galaxy containers",
-          "host": "Michal Okoniewski",
-          "code": "j",
-          "slots": [
-            {
-              "timeslot": 1,
-              "station": "C"
-            },
-            {
-              "timeslot": 3,
-              "station": "D"
-            }
-          ]
-        },
-        {
-          "name": "Scalable Lidar data processing pipeline for the generation of 3D fuel models for wildfire simulations",
-          "host": "Daniel Roten",
-          "code": "k",
-          "slots": [
-            {
-              "timeslot": 2,
-              "station": "B"
-            }
-          ],
-          "materials": [
-            {
-                "name": "Slides PDF",
-                "url": "/assets/materials/enhanceR_2023_roten%20Daniel%20Roten.pdf"
-            }
-          ]
-        },
-        {
-          "name": "Usability when building UI, Documentation, Outreach",
-          "host": "Ana Stojiljkovic",
-          "code": "l",
-          "slots": [
-            {
-              "timeslot": 4,
-              "station": "B"
-            },
-            {
-              "timeslot": 6,
-              "station": "B"
-            }
-          ],
-          "materials": [
-            {
-                "name": "Slides PDF",
-                "url": "/assets/materials/EnhanceR%20Symposium-Ana%20Stojiljkovic.pdf"
             }
           ]
         }

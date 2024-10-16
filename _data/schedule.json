@@ -21,9 +21,9 @@
     {
         "start": "11:00",
         "end": "11:30",
-        "name": "TBD",
+        "name": "Renku 2.0: Code, data and compute in the same platform for FAIR research (Elisabet Capon + Laura Kinkead)",
         "type": "plenary",
-        "host": "TBD"
+        "host": "Elisabet Capon + Laura Kinkead"
     },
     {
         "start": "11:30",
@@ -46,20 +46,28 @@
     {
         "start": "14:00",
         "end": "14:30",
-        "name": "Building FAIR research repositories in practice (Lars Holm Nielsen)",
+        "name": "Building FAIR research repositories in practice (Lars Holm Nielsen, virtual talk)",
         "type": "keynote",
-        "host": "TBD"
+        "host": "Lars Holm Nielsen"
     },
     {
         "start": "14:30",
         "end": "15:00",
-        "name": "TBD",
-        "type": "plenary"
+        "name": "Building an RSE community in the ETH domain and steps towards a Swiss wide RSE community (Tarun Chadha + Uwe Schmitt)",
+        "type": "plenary",
+        "host": "Tarun Chadha + Uwe Schmitt"
     },
     {
         "start": "15:00",
+        "end": "15:30",
+        "name": "TBC (Giovanni Pizzi)",
+        "type": "plenary",
+        "host": "Giovanni Pizzi"
+    },
+    {
+        "start": "15:30",
         "end": "17:00",
-        "name": "Show-and-tell parallel sessions 3–6",
+        "name": "Show-and-tell parallel sessions 3–5",
         "type": "session"
     },
     {
