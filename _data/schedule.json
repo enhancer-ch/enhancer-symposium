@@ -14,7 +14,7 @@
     {
         "start": "10:15",
         "end": "11:00",
-        "name": "TBA (Mark Wilkinson)",
+        "name": "Implementing the FAIR Principles: Progress and Problems (Mark Wilkinson)",
         "type": "keynote",
         "host": "Mark Wilkinson"
     },
@@ -46,7 +46,7 @@
     {
         "start": "14:00",
         "end": "14:30",
-        "name": "TBD",
+        "name": "Building FAIR research repositories in practice (Lars Holm Nielsen)",
         "type": "keynote",
         "host": "TBD"
     },
