@@ -104,7 +104,7 @@ module.exports = function() {
           ]
         },
         {
-          "name": "New AiiDA Features Enhancing User Experience",
+          "name": "Reproducible workflows with AiiDA — The power and challenges of full data provenance",
           "host": "Julian Geiger + Marnik Bercx",
           "confirmed": true,
           "code": "f",
