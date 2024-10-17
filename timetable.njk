@@ -28,7 +28,7 @@ date: Last Modified
 <p>Specific time slots for presentations coming soon!</p>
 
 <ul>
-  {% for presentation in schedule_full.presentations %}
+  {% for presentation in schedule_full.presentations|sort(attribute='name') %}
   <li>
     {{presentation.name}} ({{presentation.host}}){% if not presentation.confirmed %} [TBC]{% endif %}
   </li>
