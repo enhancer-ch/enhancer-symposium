@@ -58,7 +58,7 @@ module.exports = function() {
         {
           "name": "Cloud deployments for research projects",
           "host": "Simone Baffelli",
-          "confirmed": false,
+          "confirmed": true,
           "code": "c",
           "slots": [
             {
@@ -88,26 +88,42 @@ module.exports = function() {
           ]
         },
         {
-            "name": "Ethical AI in Refugee Support: Aligning ML with FAIR Principles",
-            "host": "Renjun Tang",
-            "confirmed": false,
-            "code": "e",
-            "slots": [
-              {
-                "timeslot": 4,
-                "station": "D"
-              },
-              {
-                "timeslot": 5,
-                "station": "D"
-              }
-            ]
+          "name": "Ethical AI in Refugee Support: Aligning ML with FAIR Principles",
+          "host": "Renjun Tang",
+          "confirmed": false,
+          "code": "e",
+          "slots": [
+            {
+              "timeslot": 4,
+              "station": "D"
+            },
+            {
+              "timeslot": 5,
+              "station": "D"
+            }
+          ]
+        },
+        {
+          "name": "New AiiDA Features Enhancing User Experience",
+          "host": "Julian Geiger + Marnik Bercx",
+          "confirmed": true,
+          "code": "f",
+          "slots": [
+            {
+              "timeslot": 4,
+              "station": "D"
+            },
+            {
+              "timeslot": 5,
+              "station": "D"
+            }
+          ]
         },
         {
           "name": "OpenEM: Open electron microscopy data in Switzerland",
           "host": "Spencer Bliven",
           "confirmed": false,
-          "code": "f",
+          "code": "g",
           "slots": [
             {
               "timeslot": 1,
@@ -123,7 +139,7 @@ module.exports = function() {
           "name": "Presentation of Beta Data Services & Outlook on EOSC Data Commons",
           "host": "Andrea Bertino",
           "confirmed": false,
-          "code": "g",
+          "code": "h",
           "slots": [
             {
               "timeslot": 3,
@@ -139,7 +155,7 @@ module.exports = function() {
           "name": "Sharing pre-publication data across institutions via an internal data catalog",
           "host": "Nichole Wespe",
           "confirmed": true,
-          "code": "h",
+          "code": "i",
           "slots": [
             {
               "timeslot": 2,

@@ -1,5 +1,9 @@
 [
   {
+    "name": "Sergio Acero",
+    "affiliation": "Empa"
+  },
+  {
     "name": "Despina Adamopoulou",
     "affiliation": "Empa"
   },
@@ -30,6 +34,10 @@
   {
     "name": "Andrea Bertino",
     "affiliation": "SWITCH"
+  },
+  {
+    "name": "Marnik Bercx",
+    "affiliation": "PSI"
   },
   {
     "name": "Spencer Bliven",
