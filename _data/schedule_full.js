@@ -13,7 +13,7 @@ module.exports = function() {
         {"start": "11:30", "end": "12:00", "name": "Collaborative expertise: synergies between multi-disciplinary experts and end users in software development (Aaron Ponti)", "type": "plenary", "merged": true},
         {"start": "12:00", "end": "12:30", "name": "Slot 1", "type": "session", "timeslot": 1},
         {"start": "12:30", "end": "13:00", "name": "Slot 2", "type": "session", "timeslot": 2},
-        {"start": "13:00", "end": "14:00", "name": "Lunch (restaurant Grosse Schanze)", "type": "lunch", "merged": true},
+        {"start": "13:00", "end": "14:00", "name": "Lunch", "type": "lunch", "merged": true},
         {"start": "14:00", "end": "14:30", "name": "Building FAIR research repositories in practice (Lars Holm Nielsen, virtual talk)", "type": "keynote", "merged": true},
         {"start": "14:30", "end": "15:00", "name": "Building an RSE community in the ETH domain and steps towards a Swiss wide RSE community (Tarun Chadha + Uwe Schmitt)", "type": "plenary", "merged": true},
         {"start": "15:00", "end": "15:30", "name": "Beyond FAIR data: FAIR and reproducible workflows with AiiDA, Materials Cloud and AiiDAlab (Giovanni Pizzi)", "type": "plenary", "merged": true},
@@ -63,14 +63,14 @@ module.exports = function() {
           "host": "Julian Geiger + Marnik Bercx",
           "confirmed": true,
           "code": "geiger",
-          "slots_code": "F"
+          "slots_code": "G"
         },
         {
           "name": "OpenEM: Open electron microscopy data in Switzerland",
           "host": "Spencer Bliven",
           "confirmed": false,
           "code": "bliven",
-          "slots_code": "G"
+          "slots_code": "F"
         },
         {
           "name": "Presentation of Beta Data Services & Outlook on EOSC Data Commons",
