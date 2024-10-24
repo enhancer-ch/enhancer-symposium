@@ -4,6 +4,10 @@
     "affiliation": "Empa"
   },
   {
+    "name": "Flavio Ackermann",
+    "affiliation": "UniBas"
+  },
+  {
     "name": "Despina Adamopoulou",
     "affiliation": "Empa"
   },
@@ -28,6 +32,10 @@
     "affiliation": "ETHZ"
   },
   {
+    "name": "Marnik Bercx",
+    "affiliation": "PSI"
+  },
+  {
     "name": "Fabian Bernhard",
     "affiliation": "UniBe"
   },
@@ -36,16 +44,16 @@
     "affiliation": "SWITCH"
   },
   {
-    "name": "Marnik Bercx",
-    "affiliation": "PSI"
-  },
-  {
     "name": "Spencer Bliven",
     "affiliation": "PSI"
   },
   {
     "name": "Aleksandar Bobic",
     "affiliation": "ETHZ"
+  },
+  {
+    "name": "Johannes Boog",
+    "affiliation": "Eawag"
   },
   {
     "name": "Matthieu Boubat",
@@ -68,12 +76,20 @@
     "affiliation": "Lib4RI"
   },
   {
+    "name": "Christian Förster",
+    "affiliation": "Eawag"
+  },
+  {
     "name": "Julian Geiger",
     "affiliation": "PSI"
   },
   {
     "name": "Sofia Georgakopoulou",
     "affiliation": "UniBas"
+  },
+  {
+    "name": "Petra Gerber",
+    "affiliation": "UZH"
   },
   {
     "name": "Michele Griffa",
@@ -84,12 +100,20 @@
     "affiliation": "Agroscope"
   },
   {
+    "name": "Betsy Sandoval Guzman",
+    "affiliation": "Empa"
+  },
+  {
     "name": "Sigve Haug",
     "affiliation": "UniBe"
   },
   {
     "name": "Stefanie Hauser",
     "affiliation": "Empa"
+  },
+  {
+    "name": "John Hennig",
+    "affiliation": "ETHZ"
   },
   {
     "name": "Agnieszka Ilnicka",
@@ -114,6 +138,10 @@
   {
     "name": "Sofya Laskina",
     "affiliation": "EPFL"
+  },
+  {
+    "name": "Michael Locher",
+    "affiliation": "Empa"
   },
   {
     "name": "Fabio Lopes",
@@ -160,12 +188,20 @@
     "affiliation": "ETHZ"
   },
   {
+    "name": "Mikhail Pachkov",
+    "affiliation": "UZH"
+  },
+  {
     "name": "Jarunan Panyasantisuk",
     "affiliation": "ETHZ"
   },
   {
     "name": "Giovanni Pizzi",
     "affiliation": "PSI"
+  },
+  {
+    "name": "Nukorn Plainpan",
+    "affiliation": "Empa"
   },
   {
     "name": "Champak Beeravolu Reddy",
@@ -184,16 +220,16 @@
     "affiliation": "ETHZ"
   },
   {
-    "name": "Philip Shemella",
-    "affiliation": "UZH"
-  },
-  {
     "name": "Vipin Thankam Sreedharan",
     "affiliation": "ETHZ"
   },
   {
     "name": "Pascal Su",
     "affiliation": "Empa"
+  },
+  {
+    "name": "Jan Svoboda",
+    "affiliation": "WSL"
   },
   {
     "name": "Renjun Tang",
@@ -228,12 +264,20 @@
     "affiliation": "DaSCH"
   },
   {
+    "name": "Adrian Wahl",
+    "affiliation": "ETHZ"
+  },
+  {
+    "name": "Xing Wang",
+    "affiliation": "PSI"
+  },
+  {
     "name": "Nichole Wespe",
     "affiliation": "UniBas"
   },
   {
     "name": "Mark Wilkinson",
-    "affiliation": "(Keynote)"
+    "affiliation": "Universidad Politécnica de Madrid"
   },
   {
     "name": "Thomas Wuest",

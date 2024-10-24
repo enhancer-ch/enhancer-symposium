@@ -23,7 +23,7 @@ date: Last Modified
   </tbody>
 </table>
 
-<h3 class="enhancer-section">Preliminary Show-and-tell List</h3>
+{# <h3 class="enhancer-section">Preliminary Show-and-tell List</h3>
 
 <p>Specific time slots for presentations coming soon!</p>
 
@@ -33,9 +33,8 @@ date: Last Modified
     {{presentation.name}} ({{presentation.host}}){% if not presentation.confirmed %} [TBC]{% endif %}
   </li>
   {% endfor %}
-</ul>
+</ul> #}
 
-{#
 <table class="schedule-table-full">
   <thead>
     <tr><th scope="col" colspan="{{ schedule_full.stations.length + 1 }}">Full schedule</th></tr>
@@ -55,11 +54,12 @@ date: Last Modified
       {% else %}
         <td class="timespan">{{scheduleItem.name}}<br><b>{{scheduleItem.start}}–{{scheduleItem.end}}</b></td>
         {% for station in schedule_full.stations %}
+        {% set presentation = scheduleItem.presentations[station.code] %}
         <td class="presentation-name"
-          {% if scheduleItem.presentations[station.code].color %}style="background-color: {{scheduleItem.presentations[station.code].color}}"{% endif %}
+          {% if presentation.bgStyle %}style="{{presentation.bgStyle}}"{% endif %}
           data-timeslot="{{scheduleItem.timeslot}}" data-station="{{station.code}}"
         >
-          {{scheduleItem.presentations[station.code].name}}<br><span class="host">{{scheduleItem.presentations[station.code].host}}</span>
+          {{presentation.name}}{% if not presentation.confirmed %} [TBC]{% endif %}<br><span class="host">{{presentation.host}}</span>
         </td>
         {% endfor %}
       {% endif %}
@@ -84,8 +84,8 @@ date: Last Modified
   <tbody>
     {% for presentation in schedule_full.presentations %}
     {% set outer_loop = loop %}
-    <tr style="background-color: {{presentation.color}}">
-      <td class="event-name">{{presentation.name}}<br><span class="host">{{presentation.host}}</td>
+    <tr style="{{presentation.bgStyle}}">
+      <td class="event-name">{{presentation.name}}{% if not presentation.confirmed %} [TBC]{% endif %}<br><span class="host">{{presentation.host}}</td>
       {% for i in range(0, schedule_full.maxRepeats) %}
       <td class="timespan"
         {% if presentation.slots[i] %}
@@ -107,4 +107,3 @@ date: Last Modified
     {% endfor %}
   </tbody>
 </table>
-#}
