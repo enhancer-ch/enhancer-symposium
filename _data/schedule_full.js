@@ -8,9 +8,9 @@ module.exports = function() {
     let schedule = [
         {"start":  "9:30", "end": "10:00", "name": "Registration / Coffee", "type": "registration", "merged": true},
         {"start": "10:00", "end": "10:15", "name": "Welcome", "type": "announcement", "merged": true},
-        {"start": "10:15", "end": "11:00", "name": "The growth of Research Software Engineering and its vital place in research (Simon Hettrick)", "type": "keynote", "merged": true},
-        {"start": "11:00", "end": "11:30", "name": "SWITCH Cloud – The cloud for education and research (Visho Jesudasan)", "type": "plenary", "merged": true},
-        {"start": "11:30", "end": "12:00", "name": "Collaborative expertise: synergies between multi-disciplinary experts and end users in software development (Aaron Ponti)", "type": "plenary", "merged": true},
+        {"start": "10:15", "end": "11:00", "name": "Implementing the FAIR Principles: Progress and Problems (Mark Wilkinson)", "type": "keynote", "merged": true},
+        {"start": "11:00", "end": "11:30", "name": "Renku 2.0: Code, data and compute in the same platform for FAIR research (Elisabet Capon + Laura Kinkead)", "type": "plenary", "merged": true},
+        {"start": "11:30", "end": "12:00", "name": "Short presentations of show-and-tell topics", "type": "plenary", "merged": true},
         {"start": "12:00", "end": "12:30", "name": "Slot 1", "type": "session", "timeslot": 1},
         {"start": "12:30", "end": "13:00", "name": "Slot 2", "type": "session", "timeslot": 2},
         {"start": "13:00", "end": "14:00", "name": "Lunch", "type": "lunch", "merged": true},
@@ -68,7 +68,7 @@ module.exports = function() {
         {
           "name": "OpenEM: Open electron microscopy data in Switzerland",
           "host": "Spencer Bliven",
-          "confirmed": false,
+          "confirmed": true,
           "code": "bliven",
           "slots_code": "F"
         },
