@@ -26,6 +26,7 @@ module.exports = function() {
         {
           "name": "A Platform for Simplifying and Accelerating Researcher Health Data Requests",
           "host": "Aleksandar Bobic",
+          "affiliation": "ETHZ",
           "confirmed": true,
           "code": "bobic",
           "slots_code": "D"
@@ -33,6 +34,7 @@ module.exports = function() {
         {
           "name": "Assisting FAIRness lifecycle: SMART-metrics for FAIR research data lifecycle management",
           "host": "Federico Grasso Toro",
+          "affiliation": "UniBe",
           "confirmed": true,
           "code": "toro",
           "slots_code": "B"
@@ -40,6 +42,7 @@ module.exports = function() {
         {
           "name": "Cloud deployments for research projects",
           "host": "Simone Baffelli",
+          "affiliation": "Empa",
           "confirmed": true,
           "code": "baffelli",
           "slots_code": "C"
@@ -47,20 +50,23 @@ module.exports = function() {
         {
           "name": "Cloud storage and backup for research data",
           "host": "Jarunan Panyasantisuk",
+          "affiliation": "ETHZ",
           "confirmed": true,
           "code": "panyasantisuk",
           "slots_code": "A"
         },
         {
-          "name": "Ethical AI in Refugee Support: Aligning ML with FAIR Principles",
-          "host": "Renjun Tang",
-          "confirmed": false,
-          "code": "tang",
+          "name": "Data Pipeline for High-Throughput Parallel Electrochemical CO2 Reduction",
+          "host": "Nukorn Plainpan",
+          "affiliation": "Empa",
+          "confirmed": true,
+          "code": "plainpan",
           "slots_code": "E"
         },
         {
           "name": "Reproducible workflows with AiiDA — The power and challenges of full data provenance",
           "host": "Julian Geiger + Marnik Bercx",
+          "affiliation": "PSI",
           "confirmed": true,
           "code": "geiger",
           "slots_code": "G"
@@ -68,6 +74,7 @@ module.exports = function() {
         {
           "name": "OpenEM: Open electron microscopy data in Switzerland",
           "host": "Spencer Bliven",
+          "affiliation": "PSI",
           "confirmed": true,
           "code": "bliven",
           "slots_code": "F"
@@ -75,20 +82,23 @@ module.exports = function() {
         {
           "name": "Presentation of Beta Data Services & Outlook on EOSC Data Commons",
           "host": "Andrea Bertino",
+          "affiliation": "SWITCH",
           "confirmed": true,
           "code": "bertino",
           "slots_code": "H"
         },
         {
-          "name": "Sharing pre-publication data across institutions via an internal data catalog",
+          "name": "Sharing pre-publication data across institutions via a project-specific data catalog",
           "host": "Nichole Wespe",
+          "affiliation": "UniBas",
           "confirmed": true,
           "code": "wespe",
           "slots_code": "I"
         },
         {
-          "name": "AiiDAlab demo server",
+          "name": "Executing Complex Scientific Workflows in the Browser",
           "host": "Jusong Yu + Xing Wang",
+          "affiliation": "PSI",
           "confirmed": true,
           "code": "yu",
           "slots_code": "J"

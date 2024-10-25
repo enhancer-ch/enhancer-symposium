@@ -59,7 +59,7 @@ date: Last Modified
           {% if presentation.bgStyle %}style="{{presentation.bgStyle}}"{% endif %}
           data-timeslot="{{scheduleItem.timeslot}}" data-station="{{station.code}}"
         >
-          {{presentation.name}}{% if not presentation.confirmed %} [TBC]{% endif %}<br><span class="host">{{presentation.host}}</span>
+          {{presentation.name}}{% if not presentation.confirmed %} [TBC]{% endif %}<br><span class="host">{{presentation.host}} ({{presentation.affiliation}})</span>
         </td>
         {% endfor %}
       {% endif %}
@@ -85,7 +85,7 @@ date: Last Modified
     {% for presentation in schedule_full.presentations %}
     {% set outer_loop = loop %}
     <tr style="{{presentation.bgStyle}}">
-      <td class="event-name">{{presentation.name}}{% if not presentation.confirmed %} [TBC]{% endif %}<br><span class="host">{{presentation.host}}</td>
+      <td class="event-name">{{presentation.name}}{% if not presentation.confirmed %} [TBC]{% endif %}<br><span class="host">{{presentation.host}} ({{presentation.affiliation}})</td>
       {% for i in range(0, schedule_full.maxRepeats) %}
       <td class="timespan"
         {% if presentation.slots[i] %}
