@@ -1,0 +1,342 @@
+BEGIN:VCALENDAR
+PRODID:-//Microsoft Corporation//Outlook 16.0 MIMEDIR//EN
+VERSION:2.0
+METHOD:REQUEST
+X-MS-OLK-FORCEINSPECTOROPEN:TRUE
+BEGIN:VTIMEZONE
+TZID:W. Europe Standard Time
+BEGIN:STANDARD
+DTSTART:16011028T030000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:16010325T020000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+ATTENDEE;CN="Mark Wilkinson";RSVP=TRUE:mailto:mark.wilkinson@upm.es
+ATTENDEE;CN="Bachofner, Anusch";RSVP=TRUE:mailto:Anusch.Bachofner@empa.ch
+ATTENDEE;CN="Franziska Oschmann";RSVP=TRUE:mailto:franziska.oschmann@id.eth
+	z.ch
+ATTENDEE;CN="Federico Grasso Toro";RSVP=TRUE:mailto:federico.grasso@unibe.c
+	h
+ATTENDEE;CN="Elisabet Capon";RSVP=TRUE:mailto:ecaponga@ethz.ch
+ATTENDEE;CN="Thomas Wuest";RSVP=TRUE:mailto:twuest@ethz.ch
+ATTENDEE;CN="Sigve Haug";RSVP=TRUE:mailto:sigve.haug@unibe.ch
+ATTENDEE;CN="Henry Lütcke";RSVP=TRUE:mailto:hluetcke@ethz.ch
+ATTENDEE;CN="Nichole Wespe";RSVP=TRUE:mailto:nichole.wespe@unibas.ch
+ATTENDEE;CN="David Meyer";RSVP=TRUE:mailto:meyer@nexus.ethz.ch
+ATTENDEE;CN="Nadia Marounina";RSVP=TRUE:mailto:nmarounina@ethz.ch
+ATTENDEE;CN="Tarun Chadha";RSVP=TRUE:mailto:tarun@ethz.ch
+ATTENDEE;CN="Michal Okoniewski";RSVP=TRUE:mailto:michalo@ethz.ch
+ATTENDEE;CN="Julia Gustavsen";RSVP=TRUE:mailto:julia.gustavsen@agroscope.ad
+	min.ch
+ATTENDEE;CN="Aleksandar Bobic";RSVP=TRUE:mailto:bobic@nexus.ethz.ch
+ATTENDEE;CN="Diego Tres";RSVP=TRUE:mailto:diego.tres@switch.ch
+ATTENDEE;CN="Ionut Iosifescu";RSVP=TRUE:mailto:ionut.iosifescu@wsl.ch
+ATTENDEE;CN="Dennis, Stuart";RSVP=TRUE:mailto:Stuart.Dennis@eawag.ch
+ATTENDEE;CN="Jarunan Panyasantisuk";RSVP=TRUE:mailto:jarunanp@ethz.ch
+ATTENDEE;CN="Adamopoulou, Despoina";RSVP=TRUE:mailto:Despoina.Adamopoulou@e
+	mpa.ch
+ATTENDEE;CN="Griffa, Michele";RSVP=TRUE:mailto:Michele.Griffa@empa.ch
+ATTENDEE;CN="Renjun Tang";RSVP=TRUE:mailto:renjun.tang@uzh.ch
+ATTENDEE;CN="Hauser, Stefanie Beatrice";RSVP=TRUE:mailto:Stefanie.Hauser@em
+	pa.ch
+ATTENDEE;CN="Champak Beeravolu Reddy";RSVP=TRUE:mailto:champak.beeravolured
+	dy@unifr.ch
+ATTENDEE;CN="Sofia Georgakopoulou";RSVP=TRUE:mailto:s.georgakopoulou@unibas
+	.ch
+ATTENDEE;CN="Nicolas Vetsch";RSVP=TRUE:mailto:vetschn@iis.ee.ethz.ch
+ATTENDEE;CN="Rolf Meile";RSVP=TRUE:mailto:rolf.meile@wsl.ch
+ATTENDEE;CN="Baffelli, Simone";RSVP=TRUE:mailto:Simone.Baffelli@empa.ch
+ATTENDEE;CN="Noémi Villars";RSVP=TRUE:mailto:noemi.villars@dasch.swiss
+ATTENDEE;CN="Agnieszka Ilnicka";RSVP=TRUE:mailto:ailnicka@ethz.ch
+ATTENDEE;CN="Caterina Barillari";RSVP=TRUE:mailto:caterina.barillari@id.eth
+	z.ch
+ATTENDEE;CN="Uwe Schmitt";RSVP=TRUE:mailto:uwe.schmitt@id.ethz.ch
+ATTENDEE;CN="Bernd Rinn";RSVP=TRUE:mailto:brinn@ethz.ch
+ATTENDEE;CN="Felder, Fabian";RSVP=TRUE:mailto:Fabian.Felder@lib4ri.ch
+ATTENDEE;CN="Vinzenz Muser";RSVP=TRUE:mailto:muserv@ethz.ch
+ATTENDEE;CN="Laura Kinkead";RSVP=TRUE:mailto:laura.kinkead@sdsc.ethz.ch
+ATTENDEE;CN="Magali Mari";RSVP=TRUE:mailto:magali.mari@swissuniversities.ch
+ATTENDEE;CN="Tell, Alessandro";RSVP=TRUE:mailto:Alessandro.Tell@empa.ch
+ATTENDEE;CN="Jusong Yu";RSVP=TRUE:mailto:jusong.yu@psi.ch
+ATTENDEE;CN="Su, Pascal";RSVP=TRUE:mailto:Pascal.Su@empa.ch
+ATTENDEE;CN="Francisco Morgado, Joana";RSVP=TRUE:mailto:joana.fmorgado@empa
+	.ch
+ATTENDEE;CN="Yakutovich, Aliaksandr";RSVP=TRUE:mailto:Aliaksandr.Yakutovich
+	@empa.ch
+ATTENDEE;CN="Lopes, Fabio";RSVP=TRUE:mailto:Fabio.Lopes@empa.ch
+ATTENDEE;CN="Ahmad Alhineidi";RSVP=TRUE:mailto:ahmad.alhineidi@unibe.ch
+ATTENDEE;CN="Alexander Kashev";RSVP=TRUE:mailto:alexander.kashev@unibe.ch
+ATTENDEE;CN="Matthieu Boubat";RSVP=TRUE:mailto:matthieu.boubat@esc.ethz.ch
+ATTENDEE;CN="Giovanni Pizzi";RSVP=TRUE:mailto:giovanni.pizzi@psi.ch
+ATTENDEE;CN="Julian Geiger";RSVP=TRUE:mailto:julian.geiger@psi.ch
+ATTENDEE;CN="Spencer Bliven";RSVP=TRUE:mailto:spencer.bliven@psi.ch
+ATTENDEE;CN="Amador, Raymond";RSVP=TRUE:mailto:Raymond.Amador@empa.ch
+ATTENDEE;CN="Sofya Laskina";RSVP=TRUE:mailto:sofya.laskina@epfl.ch
+ATTENDEE;CN="Vipin Thankam Sreedharan";RSVP=TRUE:mailto:vipin@ethz.ch
+ATTENDEE;CN="Viktor Kovtun";RSVP=TRUE:mailto:viktor.kovtun@unibe.ch
+ATTENDEE;CN="Fabian Bernhard";RSVP=TRUE:mailto:fabian.bernhard@unibe.ch
+ATTENDEE;CN="Volodymyr Trotsiuk";RSVP=TRUE:mailto:volodymyr.trotsiuk@wsl.ch
+ATTENDEE;CN="Andrea Bertino";RSVP=TRUE:mailto:andrea.bertino@switch.ch
+ATTENDEE;CN="Matthias Töwe";RSVP=TRUE:mailto:matthias.toewe@library.ethz.c
+	h
+ATTENDEE;CN="Carlo Minotti";RSVP=TRUE:mailto:carlo.minotti@psi.ch
+ATTENDEE;CN="Acero Gonzalez, Sergio";RSVP=TRUE:mailto:Sergio.Acero@empa.ch
+ATTENDEE;CN="Schmid, Christian";RSVP=TRUE:mailto:Christian.Schmid@empa.ch
+ATTENDEE;CN="Marnik Bercx";RSVP=TRUE:mailto:marnik.bercx@psi.ch
+ATTENDEE;CN="Xing Wang";RSVP=TRUE:mailto:xing.wang@psi.ch
+ATTENDEE;CN="Flavio Ackermann";RSVP=TRUE:mailto:flavio.ackermann@unibas.ch
+ATTENDEE;CN="Plainpan, Nukorn";RSVP=TRUE:mailto:Nukorn.Plainpan@empa.ch
+ATTENDEE;CN="Förster, Christian";RSVP=TRUE:mailto:Christian.Foerster@eawag
+	.ch
+ATTENDEE;CN="Jan Svoboda";RSVP=TRUE:mailto:jan.svoboda@slf.ch
+ATTENDEE;CN="Petra Gerber";RSVP=TRUE:mailto:petra.gerber@uzh.ch
+ATTENDEE;CN="Mikhail Pachkov";RSVP=TRUE:mailto:mikhail.pachkov@unibas.ch
+ATTENDEE;CN="Boog, Johannes";RSVP=TRUE:mailto:Johannes.Boog@eawag.ch
+ATTENDEE;CN="Locher, Michael";RSVP=TRUE:mailto:Michael.Locher@empa.ch
+ATTENDEE;CN="Sandoval Guzman, Betsy";RSVP=TRUE:mailto:Betsy.SandovalGuzman@
+	empa.ch
+ATTENDEE;CN="John Hennig";RSVP=TRUE:mailto:john.hennig@ethz.ch
+ATTENDEE;CN="Adrian Wahl";RSVP=TRUE:mailto:adrian.wahl@alumni.ethz.ch
+ATTENDEE;CN="Jaime Cardozo";RSVP=TRUE:mailto:jaime.cardozo@library.ethz.ch
+ATTENDEE;CN="Lars Holm Nielsen";RSVP=TRUE:mailto:lars.holm.nielsen@cern.ch
+CLASS:PUBLIC
+CREATED:20241025T141734Z
+DESCRIPTION:Dear all\,\n\n \n\nHere is the meeting invitation to the Enhanc
+	eR symposium. Check our timetable here: Timetable | EnhanceR Symposium 202
+	4 <https://symposium.enhancer.ch/timetable/> \n\nLocation: Empa-Akademie 
+	Überlandstrasse 129\, 8600 Dübendorf (Google Maps <https://maps.app.goo.
+	gl/qaRbAGSypExCBsc17> )\n\n \n\nWe are delighted to see you all on 7th of 
+	November in Dübendorf :).\n\n \n\nBest regards\,\n\nEnhanceR organization
+	 team\n\n
+DTEND;TZID="W. Europe Standard Time":20241107T171000
+DTSTAMP:20241025T141614Z
+DTSTART;TZID="W. Europe Standard Time":20241107T093000
+LAST-MODIFIED:20241025T141734Z
+LOCATION:Empa-Akademie Überlandstrasse 129 Dübendorf
+ORGANIZER;CN="Bachofner, Anusch":mailto:Anusch.Bachofner@empa.ch
+PRIORITY:5
+SEQUENCE:0
+SUMMARY;LANGUAGE=de-ch:EnhanceR symposium
+TRANSP:OPAQUE
+UID:040000008200E00074C5B7101A82E00800000000907B00DFF726DB01000000000000000
+	0100000006BD402BC9D22784DB9A16BF49C2B7003
+X-ALT-DESC;FMTTYPE=text/html:<html xmlns:v="urn:schemas-microsoft-com:vml" 
+	xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-mic
+	rosoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/
+	12/omml" xmlns="http://www.w3.org/TR/REC-html40"><head><meta name=Generato
+	r content="Microsoft Word 15 (filtered medium)"><style><!--\n/* Font Defin
+	itions */\n@font-face\n	{font-family:Wingdings\;\n	panose-1:5 0 0 0 0 0 0 
+	0 0 0\;}\n@font-face\n	{font-family:"Cambria Math"\;\n	panose-1:2 4 5 3 5 
+	4 6 3 2 4\;}\n@font-face\n	{font-family:"Segoe UI"\;\n	panose-1:2 11 5 2 4
+	 2 4 2 2 3\;}\n/* Style Definitions */\np.MsoNormal\, li.MsoNormal\, div.M
+	soNormal\n	{margin:0cm\;\n	margin-bottom:.0001pt\;\n	font-size:10.0pt\;\n	
+	font-family:"Segoe UI"\,sans-serif\;\n	mso-fareast-language:EN-US\;}\nh1\n
+		{mso-style-priority:4\;\n	mso-style-link:"Überschrift 1 Zchn"\;\n	margin
+	-top:12.0pt\;\n	margin-right:0cm\;\n	margin-bottom:12.0pt\;\n	margin-left:
+	0cm\;\n	line-height:120%\;\n	page-break-before:always\;\n	page-break-after
+	:avoid\;\n	font-size:14.0pt\;\n	font-family:"Segoe UI"\,sans-serif\;\n	mso
+	-fareast-language:EN-US\;}\nh2\n	{mso-style-priority:4\;\n	mso-style-link:
+	"Überschrift 2 Zchn"\;\n	margin-top:12.0pt\;\n	margin-right:0cm\;\n	margi
+	n-bottom:12.0pt\;\n	margin-left:42.55pt\;\n	text-indent:-42.55pt\;\n	line-
+	height:120%\;\n	page-break-after:avoid\;\n	font-size:12.0pt\;\n	font-famil
+	y:"Segoe UI"\,sans-serif\;\n	mso-fareast-language:DE\;}\nh3\n	{mso-style-p
+	riority:4\;\n	mso-style-link:"Überschrift 3 Zchn"\;\n	margin-top:12.0pt\;
+	\n	margin-right:0cm\;\n	margin-bottom:12.0pt\;\n	margin-left:42.55pt\;\n	t
+	ext-indent:-42.55pt\;\n	line-height:120%\;\n	page-break-after:avoid\;\n	fo
+	nt-size:11.0pt\;\n	font-family:"Segoe UI"\,sans-serif\;\n	mso-fareast-lang
+	uage:EN-US\;}\np.MsoTitle\, li.MsoTitle\, div.MsoTitle\n	{mso-style-priori
+	ty:5\;\n	mso-style-link:"Titel Zchn"\;\n	margin-top:12.0pt\;\n	margin-righ
+	t:0cm\;\n	margin-bottom:12.0pt\;\n	margin-left:0cm\;\n	line-height:120%\;\
+	n	font-size:16.0pt\;\n	font-family:"Segoe UI"\,sans-serif\;\n	mso-fareast-
+	language:EN-US\;\n	font-weight:bold\;}\np.MsoBodyText\, li.MsoBodyText\, d
+	iv.MsoBodyText\n	{mso-style-priority:99\;\n	mso-style-link:"Textkörper Zc
+	hn"\;\n	margin-top:0cm\;\n	margin-right:0cm\;\n	margin-bottom:6.0pt\;\n	ma
+	rgin-left:0cm\;\n	font-size:10.0pt\;\n	font-family:"Segoe UI"\,sans-serif\
+	;\n	mso-fareast-language:EN-US\;}\np.MsoSubtitle\, li.MsoSubtitle\, div.Ms
+	oSubtitle\n	{mso-style-priority:5\;\n	mso-style-link:"Untertitel Zchn"\;\n
+		margin:0cm\;\n	margin-bottom:.0001pt\;\n	font-size:12.0pt\;\n	font-family
+	:"Segoe UI"\,sans-serif\;\n	mso-fareast-language:EN-US\;\n	font-weight:bol
+	d\;}\na:link\, span.MsoHyperlink\n	{mso-style-priority:99\;\n	color:#475A8
+	D\;\n	text-decoration:underline\;}\na:visited\, span.MsoHyperlinkFollowed\
+	n	{mso-style-priority:99\;\n	color:#C32D2E\;\n	text-decoration:underline\;
+	}\np.MsoAutoSig\, li.MsoAutoSig\, div.MsoAutoSig\n	{mso-style-priority:99\
+	;\n	mso-style-link:"E-Mail-Signatur Zchn"\;\n	margin:0cm\;\n	margin-bottom
+	:.0001pt\;\n	font-size:10.0pt\;\n	font-family:"Segoe UI"\,sans-serif\;\n	m
+	so-fareast-language:EN-US\;}\np.MsoNoSpacing\, li.MsoNoSpacing\, div.MsoNo
+	Spacing\n	{mso-style-priority:1\;\n	margin:0cm\;\n	margin-bottom:.0001pt\;
+	\n	font-size:10.0pt\;\n	font-family:"Segoe UI"\,sans-serif\;\n	mso-fareast
+	-language:EN-US\;}\np.MsoListParagraph\, li.MsoListParagraph\, div.MsoList
+	Paragraph\n	{mso-style-priority:3\;\n	margin-top:0cm\;\n	margin-right:0cm\
+	;\n	margin-bottom:0cm\;\n	margin-left:18.0pt\;\n	margin-bottom:.0001pt\;\n
+		mso-add-space:auto\;\n	text-indent:-18.0pt\;\n	mso-list:l1 level1 lfo2\;\
+	n	font-size:10.0pt\;\n	font-family:"Segoe UI"\,sans-serif\;\n	mso-fareast-
+	language:EN-US\;}\np.MsoListParagraphCxSpFirst\, li.MsoListParagraphCxSpFi
+	rst\, div.MsoListParagraphCxSpFirst\n	{mso-style-priority:3\;\n	mso-style-
+	type:export-only\;\n	margin-top:0cm\;\n	margin-right:0cm\;\n	margin-bottom
+	:0cm\;\n	margin-left:18.0pt\;\n	margin-bottom:.0001pt\;\n	mso-add-space:au
+	to\;\n	text-indent:-18.0pt\;\n	mso-list:l1 level1 lfo2\;\n	font-size:10.0p
+	t\;\n	font-family:"Segoe UI"\,sans-serif\;\n	mso-fareast-language:EN-US\;}
+	\np.MsoListParagraphCxSpMiddle\, li.MsoListParagraphCxSpMiddle\, div.MsoLi
+	stParagraphCxSpMiddle\n	{mso-style-priority:3\;\n	mso-style-type:export-on
+	ly\;\n	margin-top:0cm\;\n	margin-right:0cm\;\n	margin-bottom:0cm\;\n	margi
+	n-left:18.0pt\;\n	margin-bottom:.0001pt\;\n	mso-add-space:auto\;\n	text-in
+	dent:-18.0pt\;\n	mso-list:l1 level1 lfo2\;\n	font-size:10.0pt\;\n	font-fam
+	ily:"Segoe UI"\,sans-serif\;\n	mso-fareast-language:EN-US\;}\np.MsoListPar
+	agraphCxSpLast\, li.MsoListParagraphCxSpLast\, div.MsoListParagraphCxSpLas
+	t\n	{mso-style-priority:3\;\n	mso-style-type:export-only\;\n	margin-top:0c
+	m\;\n	margin-right:0cm\;\n	margin-bottom:0cm\;\n	margin-left:18.0pt\;\n	ma
+	rgin-bottom:.0001pt\;\n	mso-add-space:auto\;\n	text-indent:-18.0pt\;\n	mso
+	-list:l1 level1 lfo2\;\n	font-size:10.0pt\;\n	font-family:"Segoe UI"\,sans
+	-serif\;\n	mso-fareast-language:EN-US\;}\np.Aufzhlung\, li.Aufzhlung\, div
+	.Aufzhlung\n	{mso-style-name:Aufzählung\;\n	mso-style-priority:2\;\n	marg
+	in-top:0cm\;\n	margin-right:0cm\;\n	margin-bottom:0cm\;\n	margin-left:17.0
+	5pt\;\n	margin-bottom:.0001pt\;\n	mso-add-space:auto\;\n	text-indent:-17.0
+	5pt\;\n	mso-list:l0 level1 lfo3\;\n	font-size:10.0pt\;\n	font-family:"Sego
+	e UI"\,sans-serif\;\n	mso-fareast-language:EN-US\;}\np.AufzhlungCxSpFirst\
+	, li.AufzhlungCxSpFirst\, div.AufzhlungCxSpFirst\n	{mso-style-name:Aufzäh
+	lungCxSpFirst\;\n	mso-style-priority:2\;\n	mso-style-type:export-only\;\n	
+	margin-top:0cm\;\n	margin-right:0cm\;\n	margin-bottom:0cm\;\n	margin-left:
+	17.05pt\;\n	margin-bottom:.0001pt\;\n	mso-add-space:auto\;\n	text-indent:-
+	17.05pt\;\n	mso-list:l0 level1 lfo3\;\n	font-size:10.0pt\;\n	font-family:"
+	Segoe UI"\,sans-serif\;\n	mso-fareast-language:EN-US\;}\np.AufzhlungCxSpMi
+	ddle\, li.AufzhlungCxSpMiddle\, div.AufzhlungCxSpMiddle\n	{mso-style-name:
+	AufzählungCxSpMiddle\;\n	mso-style-priority:2\;\n	mso-style-type:export-o
+	nly\;\n	margin-top:0cm\;\n	margin-right:0cm\;\n	margin-bottom:0cm\;\n	marg
+	in-left:17.05pt\;\n	margin-bottom:.0001pt\;\n	mso-add-space:auto\;\n	text-
+	indent:-17.05pt\;\n	mso-list:l0 level1 lfo3\;\n	font-size:10.0pt\;\n	font-
+	family:"Segoe UI"\,sans-serif\;\n	mso-fareast-language:EN-US\;}\np.Aufzhlu
+	ngCxSpLast\, li.AufzhlungCxSpLast\, div.AufzhlungCxSpLast\n	{mso-style-nam
+	e:AufzählungCxSpLast\;\n	mso-style-priority:2\;\n	mso-style-type:export-o
+	nly\;\n	margin-top:0cm\;\n	margin-right:0cm\;\n	margin-bottom:0cm\;\n	marg
+	in-left:17.05pt\;\n	margin-bottom:.0001pt\;\n	mso-add-space:auto\;\n	text-
+	indent:-17.05pt\;\n	mso-list:l0 level1 lfo3\;\n	font-size:10.0pt\;\n	font-
+	family:"Segoe UI"\,sans-serif\;\n	mso-fareast-language:EN-US\;}\nspan.bers
+	chrift1Zchn\n	{mso-style-name:"Überschrift 1 Zchn"\;\n	mso-style-priority
+	:4\;\n	mso-style-link:"Überschrift 1"\;\n	font-family:"Arial"\,sans-serif
+	\;\n	font-weight:bold\;}\nspan.TextkrperZchn\n	{mso-style-name:"Textkörpe
+	r Zchn"\;\n	mso-style-priority:99\;\n	mso-style-link:Textkörper\;}\nspan.
+	berschrift2Zchn\n	{mso-style-name:"Überschrift 2 Zchn"\;\n	mso-style-prio
+	rity:4\;\n	mso-style-link:"Überschrift 2"\;\n	font-family:"Arial"\,sans-s
+	erif\;\n	mso-fareast-language:DE\;\n	font-weight:bold\;}\nspan.berschrift3
+	Zchn\n	{mso-style-name:"Überschrift 3 Zchn"\;\n	mso-style-priority:4\;\n	
+	mso-style-link:"Überschrift 3"\;\n	font-family:"Arial"\,sans-serif\;\n	fo
+	nt-weight:bold\;}\nspan.TitelZchn\n	{mso-style-name:"Titel Zchn"\;\n	mso-s
+	tyle-priority:5\;\n	mso-style-link:Titel\;\n	font-family:"Arial"\,sans-ser
+	if\;\n	font-weight:bold\;}\nspan.UntertitelZchn\n	{mso-style-name:"Unterti
+	tel Zchn"\;\n	mso-style-priority:5\;\n	mso-style-link:Untertitel\;\n	font-
+	family:"Times New Roman"\,serif\;\n	font-weight:bold\;}\nspan.E-Mail-Signa
+	turZchn\n	{mso-style-name:"E-Mail-Signatur Zchn"\;\n	mso-style-priority:99
+	\;\n	mso-style-link:E-Mail-Signatur\;}\nspan.E-MailFormatvorlage31\n	{mso-
+	style-type:personal-compose\;\n	font-family:"Segoe UI"\,sans-serif\;\n	col
+	or:windowtext\;}\n.MsoChpDefault\n	{mso-style-type:export-only\;\n	font-si
+	ze:10.0pt\;\n	font-family:"Segoe UI"\,sans-serif\;\n	mso-fareast-language:
+	EN-US\;}\n@page WordSection1\n	{size:612.0pt 792.0pt\;\n	margin:70.85pt 70
+	.85pt 2.0cm 70.85pt\;}\ndiv.WordSection1\n	{page:WordSection1\;}\n/* List 
+	Definitions */\n@list l0\n	{mso-list-id:1095396785\;\n	mso-list-template-i
+	ds:-239936086\;}\n@list l0:level1\n	{mso-level-number-format:bullet\;\n	ms
+	o-level-style-link:Aufzählung\;\n	mso-level-text:\\25CF\;\n	mso-level-tab
+	-stop:17.05pt\;\n	mso-level-number-position:left\;\n	margin-left:17.05pt\;
+	\n	text-indent:-17.05pt\;\n	font-family:"Times New Roman"\,serif\;\n	color
+	:windowtext\;}\n@list l0:level2\n	{mso-level-number-format:bullet\;\n	mso-
+	level-text:\\25CB\;\n	mso-level-tab-stop:34.05pt\;\n	mso-level-number-posi
+	tion:left\;\n	margin-left:34.05pt\;\n	text-indent:-17.0pt\;\n	font-family:
+	"Times New Roman"\,serif\;\n	color:windowtext\;}\n@list l0:level3\n	{mso-l
+	evel-number-format:bullet\;\n	mso-level-text:\\25AA\;\n	mso-level-tab-stop
+	:51.05pt\;\n	mso-level-number-position:left\;\n	margin-left:51.05pt\;\n	te
+	xt-indent:-17.0pt\;\n	font-family:"Times New Roman"\,serif\;}\n@list l0:le
+	vel4\n	{mso-level-number-format:bullet\;\n	mso-level-text:\\25AB\;\n	mso-l
+	evel-tab-stop:68.05pt\;\n	mso-level-number-position:left\;\n	margin-left:6
+	8.05pt\;\n	text-indent:-17.0pt\;\n	font-family:"Times New Roman"\,serif\;}
+	\n@list l0:level5\n	{mso-level-number-format:bullet\;\n	mso-level-text:\\F
+	0A8\;\n	mso-level-tab-stop:64.5pt\;\n	mso-level-number-position:left\;\n	m
+	argin-left:64.5pt\;\n	text-indent:-18.0pt\;\n	font-family:Symbol\;}\n@list
+	 l0:level6\n	{mso-level-number-format:bullet\;\n	mso-level-text:\\F0D8\;\n
+		mso-level-tab-stop:82.5pt\;\n	mso-level-number-position:left\;\n	margin-l
+	eft:82.5pt\;\n	text-indent:-18.0pt\;\n	font-family:Wingdings\;}\n@list l0:
+	level7\n	{mso-level-number-format:bullet\;\n	mso-level-text:\\F0A7\;\n	mso
+	-level-tab-stop:100.5pt\;\n	mso-level-number-position:left\;\n	margin-left
+	:100.5pt\;\n	text-indent:-18.0pt\;\n	font-family:Wingdings\;}\n@list l0:le
+	vel8\n	{mso-level-number-format:bullet\;\n	mso-level-text:\\F0B7\;\n	mso-l
+	evel-tab-stop:118.5pt\;\n	mso-level-number-position:left\;\n	margin-left:1
+	18.5pt\;\n	text-indent:-18.0pt\;\n	font-family:Symbol\;}\n@list l0:level9\
+	n	{mso-level-number-format:bullet\;\n	mso-level-text:\\F0A8\;\n	mso-level-
+	tab-stop:136.5pt\;\n	mso-level-number-position:left\;\n	margin-left:136.5p
+	t\;\n	text-indent:-18.0pt\;\n	font-family:Symbol\;}\n@list l1\n	{mso-list-
+	id:1565944447\;\n	mso-list-type:hybrid\;\n	mso-list-template-ids:-17476937
+	52 1020820960 134676483 134676485 134676481 134676483 134676485 134676481 
+	134676483 134676485\;}\n@list l1:level1\n	{mso-level-style-link:Listenabsa
+	tz\;\n	mso-level-tab-stop:none\;\n	mso-level-number-position:left\;\n	marg
+	in-left:18.0pt\;\n	text-indent:-18.0pt\;}\n@list l1:level2\n	{mso-level-nu
+	mber-format:bullet\;\n	mso-level-text:o\;\n	mso-level-tab-stop:none\;\n	ms
+	o-level-number-position:left\;\n	margin-left:54.0pt\;\n	text-indent:-18.0p
+	t\;\n	font-family:"Courier New"\;}\n@list l1:level3\n	{mso-level-number-fo
+	rmat:bullet\;\n	mso-level-text:\\F0A7\;\n	mso-level-tab-stop:none\;\n	mso-
+	level-number-position:left\;\n	margin-left:90.0pt\;\n	text-indent:-18.0pt\
+	;\n	font-family:Wingdings\;}\n@list l1:level4\n	{mso-level-number-format:b
+	ullet\;\n	mso-level-text:\\F0B7\;\n	mso-level-tab-stop:none\;\n	mso-level-
+	number-position:left\;\n	margin-left:126.0pt\;\n	text-indent:-18.0pt\;\n	f
+	ont-family:Symbol\;}\n@list l1:level5\n	{mso-level-number-format:bullet\;\
+	n	mso-level-text:o\;\n	mso-level-tab-stop:none\;\n	mso-level-number-positi
+	on:left\;\n	margin-left:162.0pt\;\n	text-indent:-18.0pt\;\n	font-family:"C
+	ourier New"\;}\n@list l1:level6\n	{mso-level-number-format:bullet\;\n	mso-
+	level-text:\\F0A7\;\n	mso-level-tab-stop:none\;\n	mso-level-number-positio
+	n:left\;\n	margin-left:198.0pt\;\n	text-indent:-18.0pt\;\n	font-family:Win
+	gdings\;}\n@list l1:level7\n	{mso-level-number-format:bullet\;\n	mso-level
+	-text:\\F0B7\;\n	mso-level-tab-stop:none\;\n	mso-level-number-position:lef
+	t\;\n	margin-left:234.0pt\;\n	text-indent:-18.0pt\;\n	font-family:Symbol\;
+	}\n@list l1:level8\n	{mso-level-number-format:bullet\;\n	mso-level-text:o\
+	;\n	mso-level-tab-stop:none\;\n	mso-level-number-position:left\;\n	margin-
+	left:270.0pt\;\n	text-indent:-18.0pt\;\n	font-family:"Courier New"\;}\n@li
+	st l1:level9\n	{mso-level-number-format:bullet\;\n	mso-level-text:\\F0A7\;
+	\n	mso-level-tab-stop:none\;\n	mso-level-number-position:left\;\n	margin-l
+	eft:306.0pt\;\n	text-indent:-18.0pt\;\n	font-family:Wingdings\;}\nol\n	{ma
+	rgin-bottom:0cm\;}\nul\n	{margin-bottom:0cm\;}\n--></style><!--[if gte mso
+	 9]><xml>\n<o:shapedefaults v:ext="edit" spidmax="1026" />\n</xml><![endif
+	]--><!--[if gte mso 9]><xml>\n<o:shapelayout v:ext="edit">\n<o:idmap v:ext
+	="edit" data="1" />\n</o:shapelayout></xml><![endif]--></head><body lang=D
+	E-CH link="#475A8D" vlink="#C32D2E"><div class=WordSection1><p class=MsoNo
+	rmal><span style='font-size:11.0pt'>Dear all\,<o:p></o:p></span></p><p cla
+	ss=MsoNormal><span style='font-size:11.0pt'><o:p>&nbsp\;</o:p></span></p><
+	p class=MsoNormal><span lang=EN-US style='font-size:11.0pt'>Here is the me
+	eting invitation to the EnhanceR symposium. Check our <b>timetable</b> her
+	e: </span><a href="https://symposium.enhancer.ch/timetable/"><span lang=EN
+	-US>Timetable | EnhanceR Symposium 2024</span></a><span lang=EN-US style='
+	font-size:11.0pt'><o:p></o:p></span></p><p class=MsoNormal><b><span style=
+	'font-size:11.0pt'>Location</span></b><span style='font-size:11.0pt'>: </s
+	pan><span style='font-size:11.0pt\;color:#212529\;background:white'>Empa-A
+	kademie Überlandstrasse 129</span><span style='font-size:11.0pt\;color:#2
+	12529'>\, <span style='background:white'>8600 Dübendorf (</span></span><s
+	pan style='font-size:11.0pt'><a href="https://maps.app.goo.gl/qaRbAGSypExC
+	Bsc17"><span style='background:white'>Google Maps</span></a></span><span s
+	tyle='font-size:11.0pt\;color:#212529\;background:white'>)</span><span sty
+	le='font-size:11.0pt'><o:p></o:p></span></p><p class=MsoNormal><span style
+	='color:#212529\;background:white'><o:p>&nbsp\;</o:p></span></p><p class=M
+	soNormal><span lang=EN-US style='font-size:11.0pt'>We are delighted to see
+	 you all on 7th of November in Dübendorf </span><span lang=EN-US style='f
+	ont-size:11.0pt\;font-family:Wingdings'>J</span><span lang=EN-US style='fo
+	nt-size:11.0pt'>.<o:p></o:p></span></p><p class=MsoNormal><span lang=EN-US
+	 style='font-size:11.0pt'><o:p>&nbsp\;</o:p></span></p><p class=MsoNormal>
+	<span lang=EN-US style='font-size:11.0pt'>Best regards\,<o:p></o:p></span>
+	</p><p class=MsoNormal><span lang=EN-US style='font-size:11.0pt'>EnhanceR 
+	organization team<o:p></o:p></span></p></div></body></html>
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MS-OLK-APPTSEQTIME:20241025T141614Z
+X-MS-OLK-AUTOFILLLOCATION:FALSE
+X-MS-OLK-CONFTYPE:0
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+END:VCALENDAR
