@@ -15,8 +15,8 @@ module.exports = function() {
         {"start": "12:30", "end": "13:00", "name": "Slot 2", "type": "session", "timeslot": 2},
         {"start": "13:00", "end": "14:00", "name": "Lunch", "type": "lunch", "merged": true},
         {"start": "14:00", "end": "14:30", "name": "Building FAIR research repositories in practice (Lars Holm Nielsen, virtual talk)", "type": "keynote", "merged": true},
-        {"start": "14:30", "end": "15:00", "name": "Building an RSE community in the ETH domain and steps towards a Swiss wide RSE community (Tarun Chadha + Uwe Schmitt)", "type": "plenary", "merged": true},
-        {"start": "15:00", "end": "15:30", "name": "Beyond FAIR data: FAIR and reproducible workflows with AiiDA, Materials Cloud and AiiDAlab (Giovanni Pizzi)", "type": "plenary", "merged": true},
+        {"start": "14:30", "end": "15:00", "name": "Beyond FAIR data: FAIR and reproducible workflows with AiiDA, Materials Cloud and AiiDAlab (Giovanni Pizzi)", "type": "plenary", "merged": true},
+        {"start": "15:00", "end": "15:30", "name": "Building an RSE community in the ETH domain and steps towards a Swiss wide RSE community (Tarun Chadha + Uwe Schmitt)", "type": "plenary", "merged": true},
         {"start": "15:30", "end": "16:00", "name": "Slot 3", "type": "session", "timeslot": 3},
         {"start": "16:00", "end": "16:30", "name": "Slot 4", "type": "session", "timeslot": 4},
         {"start": "16:30", "end": "17:00", "name": "Slot 5", "type": "session", "timeslot": 5},
@@ -48,7 +48,7 @@ module.exports = function() {
           "slots_code": "C"
         },
         {
-          "name": "Cloud storage and backup for research data",
+          "name": "Research Data in the Public Cloud",
           "host": "Jarunan Panyasantisuk",
           "affiliation": "ETHZ",
           "confirmed": true,

@@ -53,16 +53,16 @@
     {
         "start": "14:30",
         "end": "15:00",
-        "name": "Building an RSE community in the ETH domain and steps towards a Swiss wide RSE community (Tarun Chadha + Uwe Schmitt)",
+        "name": "Beyond FAIR data: FAIR and reproducible workflows with AiiDA, Materials Cloud and AiiDAlab (Giovanni Pizzi)",
         "type": "plenary",
-        "host": "Tarun Chadha + Uwe Schmitt"
+        "host": "Giovanni Pizzi"
     },
     {
         "start": "15:00",
         "end": "15:30",
-        "name": "Beyond FAIR data: FAIR and reproducible workflows with AiiDA, Materials Cloud and AiiDAlab (Giovanni Pizzi)",
+        "name": "Building an RSE community in the ETH domain and steps towards a Swiss wide RSE community (Tarun Chadha + Uwe Schmitt)",
         "type": "plenary",
-        "host": "Giovanni Pizzi"
+        "host": "Tarun Chadha + Uwe Schmitt"
     },
     {
         "start": "15:30",
