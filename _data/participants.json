@@ -100,6 +100,10 @@
     "affiliation": "Empa"
   },
   {
+    "name": "Achim Gsell",
+    "affiliation": "PSI"
+  },
+  {
     "name": "Julia Gustavsen",
     "affiliation": "Agroscope"
   },
@@ -214,6 +218,10 @@
   {
     "name": "Bernd Rinn",
     "affiliation": "ETHZ"
+  },
+  {
+    "name": "Rok Roskar",
+    "affiliation": "SDSC"
   },
   {
     "name": "Daniel Roten",
