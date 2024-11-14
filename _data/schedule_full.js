@@ -16,11 +16,11 @@ module.exports = function() {
         {"start": "13:00", "end": "14:00", "name": "Lunch", "type": "lunch", "merged": true},
         {"start": "14:00", "end": "14:30", "name": "Building FAIR research repositories in practice (Lars Holm Nielsen, virtual talk)", "type": "keynote", "merged": true},
         {"start": "14:30", "end": "15:00", "name": "Beyond FAIR data: FAIR and reproducible workflows with AiiDA, Materials Cloud and AiiDAlab (Giovanni Pizzi)", "type": "plenary", "merged": true},
-        {"start": "15:00", "end": "15:30", "name": "Building an RSE community in the ETH domain and steps towards a Swiss wide RSE community (Tarun Chadha + Uwe Schmitt)", "type": "plenary", "merged": true},
-        {"start": "15:30", "end": "16:00", "name": "Slot 3", "type": "session", "timeslot": 3},
-        {"start": "16:00", "end": "16:30", "name": "Slot 4", "type": "session", "timeslot": 4},
-        {"start": "16:30", "end": "17:00", "name": "Slot 5", "type": "session", "timeslot": 5},
-        {"start": "17:00", "end": "17:10", "name": "Farewell", "type": "announcement", "merged": true}
+        {"start": "15:00", "end": "15:45", "name": "Building an RSE community in the ETH domain and steps towards a Swiss wide RSE community (Tarun Chadha + Uwe Schmitt)", "type": "plenary", "merged": true},
+        {"start": "15:45", "end": "16:15", "name": "Slot 3", "type": "session", "timeslot": 3},
+        {"start": "16:15", "end": "16:45", "name": "Slot 4", "type": "session", "timeslot": 4},
+        {"start": "16:45", "end": "17:15", "name": "Slot 5", "type": "session", "timeslot": 5},
+        {"start": "17:15", "end": "17:30", "name": "Farewell", "type": "announcement", "merged": true}
     ]
     let presentations = [
         {
