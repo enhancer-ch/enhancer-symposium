@@ -84,7 +84,11 @@ export default function () {
           "affiliation": "PSI",
           "confirmed": true,
           "code": "geiger",
-          "slots_code": "G"
+          "slots_code": "G",
+          "materials": [{
+            "url": "/assets/materials/2024/Reproducible_workflows_with_Aiida.pptx",
+            "name": "Slides PPTX"
+          }]
         },
         {
           "name": "OpenEM: Open electron microscopy data in Switzerland",
