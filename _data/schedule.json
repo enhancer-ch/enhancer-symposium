@@ -16,7 +16,15 @@
         "end": "11:00",
         "name": "Implementing the FAIR Principles: Progress and Problems (Mark Wilkinson)",
         "type": "keynote",
-        "host": "Mark Wilkinson"
+        "host": "Mark Wilkinson",
+        "materials": [{
+            "name": "https://doi.org/10.5281/zenodo.14161672",
+            "url": "https://doi.org/10.5281/zenodo.14161672",
+            "aria_label": "DOI for Implementing the FAIR Principles: Progress and Problems",
+            "doi": "10.5281/zenodo.14161671",
+            "image": "https://zenodo.org/badge/DOI/10.5281/zenodo.14161672.svg",
+            "alt": "DOI badge for 10.5281/zenodo.14161671"
+        }]
     },
     {
         "start": "11:00",
@@ -48,21 +56,34 @@
         "end": "14:30",
         "name": "Building FAIR research repositories in practice (Lars Holm Nielsen, virtual talk)",
         "type": "keynote",
-        "host": "Lars Holm Nielsen"
+        "host": "Lars Holm Nielsen",
+        "materials": [{
+            "name": "Slides PDF",
+            "url": "/assets/materials/2024/2024-11-07-building-fair-data-repositories-in-practice.pdf",
+            "aria_label": "PDF for Building FAIR research repositories in practice"
+        }]
     },
     {
         "start": "14:30",
         "end": "15:00",
         "name": "Beyond FAIR data: FAIR and reproducible workflows with AiiDA, Materials Cloud and AiiDAlab (Giovanni Pizzi)",
         "type": "plenary",
-        "host": "Giovanni Pizzi"
+        "host": "Giovanni Pizzi",
+        "materials": [{
+            "name": "Slides PDF",
+            "url": "/assets/materials/2024/2024-11-07-PIZZI-EnhanceR.pdf"
+        }]
     },
     {
         "start": "15:00",
         "end": "15:30",
         "name": "Building an RSE community in the ETH domain and steps towards a Swiss wide RSE community (Tarun Chadha + Uwe Schmitt)",
         "type": "plenary",
-        "host": "Tarun Chadha + Uwe Schmitt"
+        "host": "Tarun Chadha + Uwe Schmitt",
+        "materials": [{
+            "name": "Slides PPTX",
+            "url": "/assets/materials/2024/enhancer_symposium_2024_RSE_community.pptx"
+        }]
     },
     {
         "start": "15:45",

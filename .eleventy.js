@@ -7,4 +7,8 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addFilter("toJson", arr => {
     return JSON.stringify(arr);
   });
+
+  eleventyConfig.addWatchTarget("./_data/**/*.js", {
+		resetConfig: true
+	});
 }

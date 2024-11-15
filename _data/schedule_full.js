@@ -1,4 +1,4 @@
-module.exports = function() {
+export default function () {
     let stations = [
         {code: "A", name: "Track A"},
         {code: "B", name: "Track B"},
@@ -29,7 +29,11 @@ module.exports = function() {
           "affiliation": "ETHZ",
           "confirmed": true,
           "code": "bobic",
-          "slots_code": "D"
+          "slots_code": "D",
+          "materials": [{
+            "url": "/assets/materials/2024/A%20Platform%20for%20Simplifying%20and%20Accelerating%20Researcher%20Health%20Data%20Requests.pdf",
+            "name": "Slides PDF"
+          }]
         },
         {
           "name": "Assisting FAIRness lifecycle: SMART-metrics for FAIR research data lifecycle management",
@@ -37,7 +41,14 @@ module.exports = function() {
           "affiliation": "UniBe",
           "confirmed": true,
           "code": "toro",
-          "slots_code": "B"
+          "slots_code": "B",
+          "materials": [{
+            "url": "/assets/materials/2024/20241107_SMART4FAIR_v9_FGT.pptx.pdf",
+            "name": "Slides PDF"
+          }, {
+            "url": "/assets/materials/2024/DS4DS-Podcast.mp3",
+            "name": "Human + Machine generated DS4DS-PODCAST"
+          }]
         },
         {
           "name": "Cloud deployments for research projects",
@@ -45,7 +56,11 @@ module.exports = function() {
           "affiliation": "Empa",
           "confirmed": true,
           "code": "baffelli",
-          "slots_code": "C"
+          "slots_code": "C",
+          "materials": [{
+            "url": "/assets/materials/2024/Cloud%20computing%20for%20science_Simone_Baffelli.pptx",
+            "name": "Slides PPTX"
+          }]
         },
         {
           "name": "Research Data in the Public Cloud",
@@ -101,7 +116,11 @@ module.exports = function() {
           "affiliation": "PSI",
           "confirmed": true,
           "code": "yu",
-          "slots_code": "J"
+          "slots_code": "J",
+          "materials": [{
+            "url": "/assets/materials/2024/EnhanceR%20symposium-QeApp.pdf",
+            "name": "Slides PDF"
+          }]
         }
       ];
     
