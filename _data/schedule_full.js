@@ -68,7 +68,11 @@ export default function () {
           "affiliation": "ETHZ",
           "confirmed": true,
           "code": "panyasantisuk",
-          "slots_code": "A"
+          "slots_code": "A",
+          "materials": [{
+            "url": "/assets/materials/2024/ETHZ_ID_CSC_Research_Data_in_the_Public_Cloud.pdf",
+            "name": "Slides PDF"
+          }]
         },
         {
           "name": "Data Pipeline for High-Throughput Parallel Electrochemical CO2 Reduction",
