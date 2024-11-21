@@ -31,7 +31,12 @@
         "end": "11:30",
         "name": "Renku 2.0: Code, data and compute in the same platform for FAIR research (Elisabet Capon + Laura Kinkead)",
         "type": "plenary",
-        "host": "Elisabet Capon + Laura Kinkead"
+        "host": "Elisabet Capon + Laura Kinkead",
+        "materials": [{
+            "name": "Slides PPTX",
+            "url": "/assets/materials/2024/2024-11-07%20EnhanceR%20-%20Renku.pptx",
+            "aria_label": "PPTX for Renku 2.0: Code, data and compute in the same platform for FAIR research"
+        }]
     },
     {
         "start": "11:30",
