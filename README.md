@@ -1,4 +1,4 @@
-# Static website for EnhanceR Symposium 2024
+# Static website for EnhanceR Symposium 2025
 
 To generate, use 11ty:
 
