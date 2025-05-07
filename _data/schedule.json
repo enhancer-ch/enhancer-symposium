@@ -14,87 +14,59 @@
     {
         "start": "10:15",
         "end": "11:00",
-        "name": "Implementing the FAIR Principles: Progress and Problems (Mark Wilkinson)",
+        "name": "TBA",
         "type": "keynote",
-        "host": "Mark Wilkinson",
-        "materials": [{
-            "name": "https://doi.org/10.5281/zenodo.14161672",
-            "url": "https://doi.org/10.5281/zenodo.14161672",
-            "aria_label": "DOI for Implementing the FAIR Principles: Progress and Problems",
-            "doi": "10.5281/zenodo.14161671",
-            "image": "https://zenodo.org/badge/DOI/10.5281/zenodo.14161672.svg",
-            "alt": "DOI badge for 10.5281/zenodo.14161671"
-        }]
+        "host": "TBA"
     },
     {
         "start": "11:00",
-        "end": "11:30",
-        "name": "Renku 2.0: Code, data and compute in the same platform for FAIR research (Elisabet Capon + Laura Kinkead)",
-        "type": "plenary",
-        "host": "Elisabet Capon + Laura Kinkead",
-        "materials": [{
-            "name": "Slides PPTX",
-            "url": "/assets/materials/2024/2024-11-07%20EnhanceR%20-%20Renku.pptx",
-            "aria_label": "PPTX for Renku 2.0: Code, data and compute in the same platform for FAIR research"
-        }]
+        "end": "11:15",
+        "name": "Break",
+        "type": "lunch"
     },
     {
-        "start": "11:30",
-        "end": "12:00",
-        "name": "Short presentations of show-and-tell topics",
-        "type": "teaser"
-    },
-    {
-        "start": "12:00",
-        "end": "13:00",
-        "name": "Show-and-tell parallel sessions 1–2",
+        "start": "11:15",
+        "end": "12:15",
+        "name": "Show-and-tell parallel sessions",
         "type": "session"
     },
     {
-        "start": "13:00",
-        "end": "14:00",
+        "start": "12:15",
+        "end": "13:30",
         "name": "Lunch",
         "type": "lunch"
     },
     {
-        "start": "14:00",
-        "end": "14:30",
-        "name": "Building FAIR research repositories in practice (Lars Holm Nielsen, virtual talk)",
+        "start": "13:30",
+        "end": "14:15",
+        "name": "TBA",
         "type": "keynote",
-        "host": "Lars Holm Nielsen",
-        "materials": [{
-            "name": "Slides PDF",
-            "url": "/assets/materials/2024/2024-11-07-building-fair-data-repositories-in-practice.pdf",
-            "aria_label": "PDF for Building FAIR research repositories in practice"
-        }]
+        "host": "TBA"
+    },
+    {
+        "start": "14:15",
+        "end": "14:30",
+        "name": "Break",
+        "type": "lunch"
     },
     {
         "start": "14:30",
-        "end": "15:00",
-        "name": "Beyond FAIR data: FAIR and reproducible workflows with AiiDA, Materials Cloud and AiiDAlab (Giovanni Pizzi)",
-        "type": "plenary",
-        "host": "Giovanni Pizzi",
-        "materials": [{
-            "name": "Slides PDF",
-            "url": "/assets/materials/2024/2024-11-07-PIZZI-EnhanceR.pdf"
-        }]
-    },
-    {
-        "start": "15:00",
-        "end": "15:30",
-        "name": "Building an RSE community in the ETH domain and steps towards a Swiss wide RSE community (Tarun Chadha + Uwe Schmitt)",
-        "type": "plenary",
-        "host": "Tarun Chadha + Uwe Schmitt",
-        "materials": [{
-            "name": "Slides PPTX",
-            "url": "/assets/materials/2024/enhancer_symposium_2024_RSE_community.pptx"
-        }]
-    },
-    {
-        "start": "15:45",
-        "end": "17:15",
-        "name": "Show-and-tell parallel sessions 3–5",
+        "end": "15:15",
+        "name": "Workshop parallel sessions",
         "type": "session"
+    },
+    {
+        "start": "15:15",
+        "end": "16:00",
+        "name": "Workshop parallel sessions",
+        "type": "session"
+    },
+    {
+        "start": "16:00",
+        "end": "17:00",
+        "name": "RSE Job Opportunities panel",
+        "type": "plenary",
+        "host": "Tarun Chadha + Uwe Schmitt"
     },
     {
         "start": "17:15",
