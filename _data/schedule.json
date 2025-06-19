@@ -8,7 +8,7 @@
     {
         "start": "10:00",
         "end": "10:15",
-        "name": "Welcome",
+        "name": "Welcome, EnhanceR and RSE in 2025",
         "type": "announcement"
     },
     {
@@ -21,7 +21,7 @@
     {
         "start": "11:00",
         "end": "11:15",
-        "name": "Break",
+        "name": "Coffee Break",
         "type": "lunch"
     },
     {
@@ -38,40 +38,33 @@
     },
     {
         "start": "13:30",
-        "end": "14:15",
+        "end": "15:00",
+        "name": "Workshop parallel sessions",
+        "type": "session"
+    },
+    {
+        "start": "15:00",
+        "end": "15:30",
+        "name": "Break",
+        "type": "lunch"
+    },
+    {
+        "start": "15:30",
+        "end": "16:15",
         "name": "Scaling Jupyter to millions of users",
         "type": "keynote",
         "host": "Sylvain Corlay"
     },
     {
-        "start": "14:15",
-        "end": "14:30",
-        "name": "Break",
-        "type": "lunch"
-    },
-    {
-        "start": "14:30",
-        "end": "15:15",
-        "name": "Workshop parallel sessions",
+        "start": "16:15",
+        "end": "17:15",
+        "name": "Show-and-tell parallel sessions",
         "type": "session"
-    },
-    {
-        "start": "15:15",
-        "end": "16:00",
-        "name": "Workshop parallel sessions",
-        "type": "session"
-    },
-    {
-        "start": "16:00",
-        "end": "17:00",
-        "name": "RSE Job Opportunities panel",
-        "type": "plenary",
-        "host": "Tarun Chadha + Uwe Schmitt"
     },
     {
         "start": "17:15",
         "end": "17:30",
-        "name": "Farewell",
+        "name": "Final Remarks, Farewell",
         "type": "announcement"
     }
 ]

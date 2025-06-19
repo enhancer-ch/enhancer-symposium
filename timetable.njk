@@ -20,9 +20,9 @@ date: Last Modified
     <tr>
       <td class="timespan">{{event.start}}–{{event.end}}</td>
       <td class="event-name">
-        {% if event.type == "keynote" %}<b>Keynote:</b> {% elif event.type == "plenary" %}<b>Plenary:</b> {% elif event.type == "teaser" %}<b>Teaser Talks:</b> {% endif %}
+        {% if event.type == "keynote" %}<b>Keynote:</b> {% elif event.type == "plenary" or event.type == "announcement" %}<b>Plenary:</b> {% elif event.type == "teaser" %}<b>Teaser Talks:</b> {% endif %}
         {{event.name}}
-        {%if event.host %}({{event.host}}){% endif %}
+        {%if event.host %}<i>({{event.host}})</i>{% endif %}
       </td>
     </tr>
     {% endfor %}
