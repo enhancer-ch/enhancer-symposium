@@ -7,7 +7,7 @@ date: Last Modified
 
 <p>EnhanceR Symposium 2025 will take place at HEG-FR on <b>Thursday, September 4th, 2025.</b></p>
 
-<p>The timetable of the event is still subject to change, but the current plan is presented below.</p>
+<p>The timetable of the event is <b>still subject to change</b>, but the current plan is presented below.</p>
 
 {# <p><a href="/materials/">Materials</a> of some talks are available.</p> #}
 
@@ -19,7 +19,11 @@ date: Last Modified
     {% for event in schedule %}
     <tr>
       <td class="timespan">{{event.start}}–{{event.end}}</td>
-      <td class="event-name">{% if event.type == "keynote" %}<b>Keynote:</b> {% elif event.type == "plenary" %}<b>Plenary:</b> {% elif event.type == "teaser" %}<b>Teaser Talks:</b> {% endif %}{{event.name}}</td>
+      <td class="event-name">
+        {% if event.type == "keynote" %}<b>Keynote:</b> {% elif event.type == "plenary" %}<b>Plenary:</b> {% elif event.type == "teaser" %}<b>Teaser Talks:</b> {% endif %}
+        {{event.name}}
+        {%if event.host %}({{event.host}}){% endif %}
+      </td>
     </tr>
     {% endfor %}
   </tbody>

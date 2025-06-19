@@ -14,9 +14,9 @@
     {
         "start": "10:15",
         "end": "11:00",
-        "name": "TBA",
+        "name": "Building Open-Source, Transparent, and Multilingual Large Language Models in Switzerland",
         "type": "keynote",
-        "host": "TBA"
+        "host": "Imanol Schlag"
     },
     {
         "start": "11:00",
@@ -39,9 +39,9 @@
     {
         "start": "13:30",
         "end": "14:15",
-        "name": "TBA",
+        "name": "Scaling Jupyter to millions of users",
         "type": "keynote",
-        "host": "TBA"
+        "host": "Sylvain Corlay"
     },
     {
         "start": "14:15",
