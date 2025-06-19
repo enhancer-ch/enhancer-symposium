@@ -2,28 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     
         <url>
-            <loc>https://symposium.enhancer.ch/</loc>
-            <lastmod>2025-06-16T15:00:17.863Z</lastmod>
-        </url>
-    
-        <url>
-            <loc>https://symposium.enhancer.ch/contributing/</loc>
-            <lastmod>2025-06-16T15:00:36.362Z</lastmod>
-        </url>
-    
-        <url>
             <loc>https://symposium.enhancer.ch/materials/</loc>
-            <lastmod>2025-06-16T15:00:36.363Z</lastmod>
+            <lastmod>2025-04-15T19:02:52.112Z</lastmod>
         </url>
     
         <url>
             <loc>https://symposium.enhancer.ch/registration/</loc>
-            <lastmod>2025-06-16T15:00:36.364Z</lastmod>
+            <lastmod>2025-04-15T19:46:43.018Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>https://symposium.enhancer.ch/contributing/</loc>
+            <lastmod>2025-05-07T14:28:32.408Z</lastmod>
         </url>
     
         <url>
             <loc>https://symposium.enhancer.ch/timetable/</loc>
-            <lastmod>2025-06-16T15:00:36.364Z</lastmod>
+            <lastmod>2025-06-16T16:56:36.729Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>https://symposium.enhancer.ch/</loc>
+            <lastmod>2025-06-16T16:56:36.734Z</lastmod>
         </url>
     
 </urlset>
