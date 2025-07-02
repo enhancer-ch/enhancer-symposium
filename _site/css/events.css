@@ -59,11 +59,11 @@ body {
 
 .two-columns {
   display: grid;
-  grid-template-columns: 50% 50%;
-  column-gap: 2em;
+  grid-template-columns: 48.5% 48.5%;
+  column-gap: 3%
 }
 
-@media (max-width: 640px) {
+@media (max-width: 900px) {
   .two-columns {
     display: block;
   }
