@@ -210,3 +210,8 @@ body {
 .material-image {
   vertical-align: text-bottom;
 }
+
+.talk-details {
+  font-style: italic;
+  color: darkblue;
+}

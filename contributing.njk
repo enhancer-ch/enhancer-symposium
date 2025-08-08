@@ -4,9 +4,43 @@ layout: layouts/symposium2025
 date: Last Modified
 ---
 
-<h3 class="enhancer-section">Call for contributions</h3>
+<h3 class="enhancer-section">Selected contributions</h3>
 
-<p>Would you like to help shape the EnhanceR Symposium? We are looking for contributions from a range of areas relevant to our community:</p>
+<p>We are very grateful for all the participants who submitted their contribution pitches. A lot of good submissions were received, and we're trying to accommodate as many as possible this year, eliminating the usual repetition of the talks.</p>
+
+<p>The organizing committee has selected the following contributions for the Symposium:</p>
+
+<h4>Workshops</h4>
+
+<ul>
+  {% for presentation in schedule_full.presentations | sort(false, false, "name") %}
+    {% if presentation.type == "workshop" %}
+      <li>
+        <b>{{ presentation.name }}</b>{% if not presentation.confirmed %} <span class="talk-not-confirmed">[TBC]</span>{% endif %}
+        <br>by {{ presentation.host }} ({{ presentation.affiliation }})
+        <a href="#{{ presentation.code }}Details" role="button" data-bs-target="#{{ presentation.code }}Details" data-bs-toggle="collapse">[details]</a>
+        <div id="{{ presentation.code }}Details" class="collapse talk-details">{{ presentation.summary | safe }}</div>
+      </li>
+    {% endif %}
+  {% endfor %}
+</ul>
+
+<h4>Show-and-tell sessions</h4>
+
+<ul>
+  {% for presentation in schedule_full.presentations | sort(false, false, "name") %}
+    {% if presentation.type == "show-and-tell" %}
+      <li>
+        <b>{{ presentation.name }}</b>{% if not presentation.confirmed %} <span class="talk-not-confirmed">[TBC]</span>{% endif %}
+        <br>by {{ presentation.host }} ({{ presentation.affiliation }})
+        <a href="#{{ presentation.code }}Details" role="button" data-bs-target="#{{ presentation.code }}Details" data-bs-toggle="collapse">[details]</a>
+        <div id="{{ presentation.code }}Details" class="collapse talk-details">{{ presentation.summary | safe }}</div>
+      </li>
+    {% endif %}
+  {% endfor %}
+</ul>
+
+{# <p>Would you like to help shape the EnhanceR Symposium? We are looking for contributions from a range of areas relevant to our community:</p>
 
 <ul>
   <li><b>Show-and-tell sessions:</b> Share software you developed, a specific project, tool or technique. These are 20 minute sessions, plus 10 minutes for set-up and discussions.</li>
@@ -27,4 +61,4 @@ date: Last Modified
 
 <p>Idea submission deadline has been extended to <b>July 11th, 2025</b>.</p>
 
-<p>Please submit your idea as part of your <a href="https://forms.enhancer.ch/forms/symposium-2025-registration">registration</a>.</p>
+<p>Please submit your idea as part of your <a href="https://forms.enhancer.ch/forms/symposium-2025-registration">registration</a>.</p> #}
