@@ -7,7 +7,7 @@ date: Last Modified
 
 <p>EnhanceR Symposium 2025 will take place at HEG-FR on <b>Thursday, September 4th, 2025.</b></p>
 
-<p>The timetable of the event is <b>still subject to change</b>, but the current plan is presented below.</p>
+{# <p>The timetable of the event is <b>still subject to change</b>, but the current plan is presented below.</p> #}
 
 {# <p><a href="/materials/">Materials</a> of some talks are available.</p> #}
 
@@ -47,13 +47,13 @@ date: Last Modified
   {% endfor %}
 </ul> #}
 
-{# <table class="schedule-table-full">
+<table class="schedule-table-full">
   <thead>
     <tr><th scope="col" colspan="{{ schedule_full.stations.length + 1 }}">Full schedule</th></tr>
     <tr>
       <th class="blank-corner"></th>
       {% for station in schedule_full.stations %}
-      <th scope="col">{{station.name}}</th>
+      <th scope="col"><b>{{station.name}}</b></th>
       {% endfor %}
     </tr>
   </thead>
@@ -62,17 +62,25 @@ date: Last Modified
     <tr>
       {% if scheduleItem.merged %}
       <td class="timespan"><b>{{scheduleItem.start}}–{{scheduleItem.end}}</b></td>
-      <td class="event-name" colspan="{{ schedule_full.stations.length }}">{{scheduleItem.name}}</td>
+      <td class="event-name event-{{ scheduleItem.type }}" colspan="{{ schedule_full.stations.length }}">
+        {% if scheduleItem.type == "keynote" %}Keynote:{% endif %}
+        {{scheduleItem.name}}
+      </td>
       {% else %}
         <td class="timespan">{{scheduleItem.name}}<br><b>{{scheduleItem.start}}–{{scheduleItem.end}}</b></td>
         {% for station in schedule_full.stations %}
         {% set presentation = scheduleItem.presentations[station.code] %}
+        {% if presentation.type != "blank" %}
         <td class="presentation-name"
           {% if presentation.bgStyle %}style="{{presentation.bgStyle}}"{% endif %}
           data-timeslot="{{scheduleItem.timeslot}}" data-station="{{station.code}}"
+          {% if presentation.slot_span %}rowspan="{{presentation.slot_span}}"{% endif %}
         >
-          {{presentation.name}}{% if not presentation.confirmed %} [TBC]{% endif %}<br><span class="host">{{presentation.host}} ({{presentation.affiliation}})</span>
+          {% if presentation.name %}
+            {{presentation.name}}{% if not presentation.confirmed %} [TBC]{% endif %}<br><span class="host">{{presentation.host}} ({{presentation.affiliation}})</span>
+          {% endif %}
         </td>
+        {% endif %}
         {% endfor %}
       {% endif %}
     </tr>
@@ -84,38 +92,40 @@ date: Last Modified
 
 <table class="sessions-table">
   <thead>
-    <tr><th id="sessions-header" scope="col" colspan="{{ schedule_full.maxRepeats + 1 }}">Show-and-tell sessions</th></tr>
+    <tr><th id="sessions-header" scope="col" colspan="{{ schedule_full.maxRepeats + 1 }}">Sessions picker</th></tr>
     <tr>
       <th>Topic and host</th>
       {% for i in range(0, schedule_full.maxRepeats) %}
-      <th>Session {{i + 1}}</th>
+      <th>Session{% if schedule_full.maxRepeats > 1 %} {{i + 1}}{% endif %}</th>
       {% endfor %}
       <th hidden class="want-to-see">Want to see</th>
     </tr>
   </thead>
   <tbody>
-    {% for presentation in schedule_full.presentations %}
+    {% for presentation in schedule_full.valid_presentations %}
     {% set outer_loop = loop %}
     <tr style="{{presentation.bgStyle}}">
       <td class="event-name">{{presentation.name}}{% if not presentation.confirmed %} [TBC]{% endif %}<br><span class="host">{{presentation.host}} ({{presentation.affiliation}})</td>
       {% for i in range(0, schedule_full.maxRepeats) %}
       <td class="timespan"
         {% if presentation.slots[i] %}
-        data-timeslot="{{presentation.slots[i].timeslot}}"
+        data-timeslot="{{presentation.slots[i].timeslots[0]}}"
+        data-timeslots="{{presentation.slots[i].timeslots}}"
         data-station="{{presentation.slots[i].station}}"
         {% endif %}
         data-code="{{presentation.code}}"
       >
         {% if presentation.slots[i] %}
-        <b>{{presentation.slots[i].timeslot}}{{presentation.slots[i].station}}</b><br>
+        <b>{% if presentation.slots[i].name %}{{presentation.slots[i].name}}{% else %}{{presentation.slots[i].timeslot}}{{presentation.slots[i].station}}{% endif %}</b><br>
+        {% if presentation.slots[i].locator %}{{presentation.slots[i].locator}}<br>{% endif %}
         {{presentation.slots[i].start}}–{{presentation.slots[i].end}}
         {% else %}
         <b>N/A</b>
         {% endif %}
       </td>
       {% endfor %}
-      <td hidden class="want-to-see"><input type="checkbox" data-code="{{presentation.code}}"></td>
+      <td hidden class="want-to-see"><input type="checkbox" data-code="{{presentation.code}}" id="want-{{presentation.code}}"></td>
     </tr>
     {% endfor %}
   </tbody>
-</table> #}
+</table>

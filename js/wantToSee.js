@@ -49,12 +49,12 @@ function calculateSessions() {
     timeslots.filter(
       slot => slot.dataset.code == want
     ).map(
-      slot => slot.dataset.timeslot
+      slot => slot.dataset.timeslots.split(",")
     ).map(
-      timeslot =>
+      timeslots =>
         acc.filter(
-          solution => !Object.values(solution).includes(timeslot)
-        ).map(solution => ({...solution, [want]: timeslot}))
+          solution => !timeslots.some(timeslot => Object.values(solution).includes(timeslot))
+        ).map(solution => ({...solution, [want]: timeslots[0]}))
     ).reduce((acc2, solutions) => [...acc2, ...solutions], []),
     [{}]
   );
@@ -74,7 +74,7 @@ function calculateSessions() {
     });
   }
 
-  console.log(solutions);
+  console.debug(solutions);
 }
 
 function wantChange() {
