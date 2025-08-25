@@ -67,11 +67,22 @@ export default function () {
           "name": "CeDA's developement of a web app for interactively exploring the data on brain mechanisms related to the regulation of sleep",
           "host": "Rodrigo C. G. Pena",
           "affiliation": "UniBas",
-          "confirmed": true,
+          "confirmed": false,
+          "cancelled": true,
           "type": "show-and-tell",
           "code": "pena",
           "slots_code": "E",
           "summary": "At the Center for Data Analytics (CeDA) of the University of Basel, we partner up with research groups to share our expertise on data science and machine learning. One such project was with a team of neuroscientists investigating brain mechanisms related to the regulation of sleep. Among CeDA's contributions, I have developed for them a web app for interactively exploring the data and the results of our analysis. The user can draw, select, query and retrieve much more information than would fit a singe paper. Hopefully it inspires new scientific questions in the domain. I plan to show the app's development from prototyping in Jupyter notebooks, to a locally hosted Plotly Dash app, all the way to automatic release and deployment via Docker containers and GitLab CI."
+        },
+        {
+          "name": "From Paper to Digital Tools: An Overview of the Transition at Empa",
+          "host": "Stefanie Hauser",
+          "affiliation": "Empa",
+          "confirmed": true,
+          "type": "show-and-tell",
+          "code": "hauser",
+          "slots_code": "E",
+          "summary": "The transformation from paper to digital tools at Empa brings several challenges: limited time due to shorter project cycles, a lack of clear incentives, and insufficient capabilities as staff are overwhelmed by numerous parallel topics. These constraints hinder the adoption of new digital solutions, despite their potential to improve efficiency and collaboration in the long term."
         },
         {
           "name": "Take up the torch of an existing project",
@@ -117,7 +128,7 @@ export default function () {
           "name": "iLog: a digital inventory logbook integrated with openBIS",
           "host": "Simone Baffelli",
           "affiliation": "Empa",
-          "confirmed": false,
+          "confirmed": true,
           "type": "show-and-tell",
           "code": "baffelli",
           "slots_code": "K",
@@ -134,7 +145,7 @@ export default function () {
           "summary": " In collaboration with the HFR (hôpital fribourgeois) we developed a web application to display all relevant information on a screen in a Tumor Board (a session where oncologists decide on the treatment of cancer patients). HFR provides different treatment plans based on experience and published evidences. During such a treatment plan different bio samples are produced (i.e. blood, biopsy) and stored in a central biobank inside the hospital. Our database aims to connect the patient information with the treatment decisions and the bio samples in one database. This information is afterwards shareable with researchers. We will show and tell the concept and the application we built to support cancer treatment at HFR."
         },
         {
-          "name": "AFFORD, a workflow for data stewards to make the data FAIRer",
+          "name": "AFFORD: a workflow for data stewards to make the data FAIRer",
           "host": "Gorka Fraga Gonzalez",
           "affiliation": "UZH",
           "confirmed": true,
@@ -148,16 +159,27 @@ export default function () {
           "host": "Luca Marin",
           "affiliation": "ETHZ",
           "confirmed": false,
+          "cancelled": true,
           "type": "show-and-tell",
           "code": "marin",
           "slots_code": "N",
           "summary": "I would like to present a small project which I am currently carrying out with 2 other master students of ETH about the topic of ''Style Transfer of unparallel text data''. The context is Natural Language Processing, and we are combining existing techniques to transfer the rhetorical styles of political discourses while preserving their content (for example, mapping Obama's to Trump's styles). We are running the models on GPUs on a small cluster and, perhaps, one didactical goal of my presentation could also be what best practices/difficulties/typical pitfalls one can experience while running LLMs on supercomputing clusters (of course, from the perspective of a non-expert like me)."
         },
         {
+          "name": "How EUROfusion Advanced Computing Hubs Leverage HPC to Accelerate Research and Engineering in Nuclear Fusion",
+          "host": "Gilles Fourestey",
+          "affiliation": "EPFL",
+          "confirmed": true,
+          "type": "show-and-tell",
+          "code": "fourestey",
+          "slots_code": "N",
+          "summary": "Within the framework of the EUROfusion consortium, the Advanced Computing Hub HPC centers of excellence actively engage in enhancing existing European fusion simulation codes. This effort is geared towards enabling researchers to fully harness the enhanced capabilities offered by the latest generations of supercomputers. These simulation codes are specifically designed for modeling plasmas within tokamaks and stellarators in order to accelerate the design of fusion experiments, such as ITER and JT-60SA, as well as the DEMO demonstration power plant."
+        },
+        {
           "name": "Box-Framework: web application generator for Postgres databases",
           "host": "Andrea Minetti",
           "affiliation": "WSL",
-          "confirmed": false,
+          "confirmed": true,
           "type": "show-and-tell",
           "code": "minetti",
           "slots_code": "O",
@@ -207,7 +229,7 @@ export default function () {
           "name": "RSEs and Data Stewards synergies finding",
           "host": "Moushumi Ulrich-Nath",
           "affiliation": "Lib4RI",
-          "confirmed": false,
+          "confirmed": true,
           "type": "workshop",
           "code": "ulrich",
           "slots_code": "T",
@@ -221,7 +243,7 @@ export default function () {
           "type": "workshop",
           "code": "nuetzi",
           "slots_code": "U",
-          "summary": "Create a Flake and a Nix DevShell with Nix. See <a href=\"https://sdsc-ordes.github.io/technical-presentation/gh-pages/nix-workshop/part-1/\" rel=\"nofollow\" target=\"_blank\">previous iteration</a> of this workshop."
+          "summary": "We will explore how the Nix package manager can give you stable developer environments, packages and improve your development experience. Please make sure you have the <a href=\"https://github.com/sdsc-ordes/nix-workshop#requirements\" rel=\"nofollow\" target=\"_blank\">requirements</a> ready before the workshop."
         },
         {
           "name": "Renku workshop",

@@ -29,12 +29,31 @@ date: Last Modified
 
 <ul>
   {% for presentation in schedule_full.presentations | sort(false, false, "name") %}
-    {% if presentation.type == "show-and-tell" %}
+    {% if presentation.type == "show-and-tell" and not presentation.cancelled %}
       <li>
         <b>{{ presentation.name }}</b>{% if not presentation.confirmed %} <span class="talk-not-confirmed">[TBC]</span>{% endif %}
         <br>by {{ presentation.host }} ({{ presentation.affiliation }})
         <a href="#{{ presentation.code }}Details" role="button" data-bs-target="#{{ presentation.code }}Details" data-bs-toggle="collapse">[details]</a>
         <div id="{{ presentation.code }}Details" class="collapse talk-details">{{ presentation.summary | safe }}</div>
+      </li>
+    {% endif %}
+  {% endfor %}
+</ul>
+
+<h5>Cancelled sessions</h4>
+
+<p>
+  The following show-and-tell sessions have been tentatively announced, but the speakers had to withdraw.
+  They are included here for completeness.
+  These talks may appear later in <a href="https://www.enhancer.ch/seminar">EnhanceR Seminar</a> sessions.
+</p>
+
+<ul>
+  {% for presentation in schedule_full.presentations | sort(false, false, "name") %}
+    {% if presentation.type == "show-and-tell" and presentation.cancelled %}
+      <li>
+        <del><b>{{ presentation.name }}</b>{% if not presentation.confirmed %}{% endif %}
+        <br>by {{ presentation.host }} ({{ presentation.affiliation }})</li></del>
       </li>
     {% endif %}
   {% endfor %}
