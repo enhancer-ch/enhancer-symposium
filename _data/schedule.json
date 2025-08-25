@@ -8,7 +8,7 @@
     {
         "start": "10:00",
         "end": "10:15",
-        "name": "Welcome, EnhanceR and RSE in 2025",
+        "name": "Welcome",
         "type": "announcement"
     },
     {
@@ -64,7 +64,7 @@
     {
         "start": "17:15",
         "end": "17:30",
-        "name": "Final Remarks, Farewell",
+        "name": "Final Remarks & Farewell",
         "type": "announcement"
     }
 ]
