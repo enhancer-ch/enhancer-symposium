@@ -7,16 +7,6 @@
         </url>
     
         <url>
-            <loc>https://symposium.enhancer.ch/registration/</loc>
-            <lastmod>2025-06-19T17:17:48.625Z</lastmod>
-        </url>
-    
-        <url>
-            <loc>https://symposium.enhancer.ch/</loc>
-            <lastmod>2025-08-08T18:09:05.032Z</lastmod>
-        </url>
-    
-        <url>
             <loc>https://symposium.enhancer.ch/contributing/</loc>
             <lastmod>2025-08-25T16:14:49.336Z</lastmod>
         </url>
@@ -24,6 +14,16 @@
         <url>
             <loc>https://symposium.enhancer.ch/timetable/</loc>
             <lastmod>2025-08-25T20:49:08.130Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>https://symposium.enhancer.ch/registration/</loc>
+            <lastmod>2025-08-27T15:42:03.184Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>https://symposium.enhancer.ch/</loc>
+            <lastmod>2025-08-27T15:43:04.195Z</lastmod>
         </url>
     
 </urlset>
