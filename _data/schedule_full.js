@@ -160,7 +160,7 @@ export default function () {
         },
         {
           "name": "Building Secure, GPU-Accelerated Applications on HPC Infrastructure",
-          "host": "Ahmad Alhineidi",
+          "host": "Ahmad Alhineidi and Viktor Kovtun",
           "affiliation": "UniBE",
           "confirmed": true,
           "type": "show-and-tell",
@@ -300,14 +300,14 @@ export default function () {
           "summary": "We will explore how the Nix package manager can give you stable developer environments, packages and improve your development experience. Please make sure you have the <a href=\"https://github.com/sdsc-ordes/nix-workshop#requirements\" rel=\"nofollow\" target=\"_blank\">requirements</a> ready before the workshop."
         },
         {
-          "name": "Renku workshop",
+          "name": "Connecting code, data & compute for collaborative research with Renku",
           "host": "Laura Kinkead",
           "affiliation": "SDSC",
           "confirmed": true,
           "type": "workshop",
           "code": "kinkead",
           "slots_code": "Q",
-          "summary": "We would be happy to host a hands-on workshop to introduce people to Renku. Researchers can use Renku to facilitate collaborative research, showcase research outputs, and run courses and events."
+          "summary": "Data science projects combine code and data from diverse locations, such as git repositories, cloud storage platforms, specialized data repositories, and more. Coordinating these resources requires technical knowledge and represents time-consuming overhead that diverts time from core analytical work. Even more critically, this fragmentation presents a barrier to collaboration. When resources are not brought together in a repeatable, structured manner, team members struggle to replicate software environments or access necessary datasets, ultimately slowing project progress and hindering knowledge sharing. Renku is an open source collaboration platform built by the Swiss Data Science Center that empowers teams to focus on analytical insights rather than resource management. Renku is used nationwide to create collaborative and reproducible data science projects in research and teaching. Join our workshop to learn how you can use Renku to connect your data, code, compute in a unified and shareable workspace."
         },
         {
           "name": "Building Communities That Work: A Hands-On Workshop on Fighting Noise in Developer Forums",
