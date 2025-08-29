@@ -150,8 +150,8 @@ export default function () {
         },
         {
           "name": "PoC or Prod: What makes AI projects successful?",
-          "host": "Roman Wixinger",
-          "affiliation": "Ergon Informatik AG",
+          "host": "Roman Wixinger and Hannes Stählin",
+          "affiliation": "Ergon Informatik AG, ETHZ",
           "confirmed": true,
           "type": "show-and-tell",
           "code": "wixinger",
