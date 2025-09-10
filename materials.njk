@@ -4,19 +4,11 @@ layout: layouts/symposium2025
 date: Last Modified
 ---
 
-<p>
-  Looking for materials from previous years?
-  Visit the <a href="https://symposium2022.enhancer.ch/materials/">2022</a>,
-  <a href="https://symposium2023.enhancer.ch/materials/">2023</a> or
-  <a href="https://symposium2024.enhancer.ch/materials/">2024</a> edition website.
-</p>
-
-{#
 <h3 class="enhancer-section">Plenary session materials</h3>
 {% for schedule_item in schedule %}
 {% if schedule_item.materials %}
 <p>
-  <b>{{schedule_item.name}}</b><br>by {{schedule_item.host}}
+  <b>{{schedule_item.name}}</b>{% if schedule_item.host %}<br>by {{schedule_item.host}}{% endif %}
   <ul>
     {% for material in schedule_item.materials %}
     <li>
@@ -29,7 +21,7 @@ date: Last Modified
 {% endif %}
 {% endfor %}
 
-<h3 class="enhancer-section">Show-and-tell session materials</h3>
+<h3 class="enhancer-section">Show-and-tell / workshop session materials</h3>
 
 {% for presentation in schedule_full.presentations %}
 {% if presentation.materials %}
@@ -43,4 +35,10 @@ date: Last Modified
 </p>
 {% endif %}
 {% endfor %}
-#}
+
+<p>
+  Looking for materials from previous years?
+  Visit the <a href="https://symposium2022.enhancer.ch/materials/">2022</a>,
+  <a href="https://symposium2023.enhancer.ch/materials/">2023</a> or
+  <a href="https://symposium2024.enhancer.ch/materials/">2024</a> edition website.
+</p>

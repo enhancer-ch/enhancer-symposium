@@ -9,14 +9,22 @@
         "start": "10:00",
         "end": "10:15",
         "name": "Welcome",
-        "type": "announcement"
+        "type": "announcement",
+        "materials": [{
+            "url": "/assets/materials/2025/EnhanceR_Symposium_welcome_slides_final.pdf",
+            "name": "Slides PDF"
+        }]
     },
     {
         "start": "10:15",
         "end": "11:00",
         "name": "Building Open-Source, Transparent, and Multilingual Large Language Models in Switzerland",
         "type": "keynote",
-        "host": "Imanol Schlag"
+        "host": "Imanol Schlag",
+        "materials": [{
+            "url": "/assets/materials/2025/EnhanceR%20Talk%20Imanol%20Schlag%2004.09.2025.pdf",
+            "name": "Slides PDF"
+        }]
     },
     {
         "start": "11:00",

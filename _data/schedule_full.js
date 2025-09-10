@@ -86,7 +86,11 @@ export default function () {
           "type": "show-and-tell",
           "code": "kammer",
           "slots_code": "I",
-          "summary": "I would like to present NTSuisse, a web platform being developed here at eawag for the analysis and management of high-resolution mass spectrometry (HRMS) data. It is accessible to participating cantons, Swiss water suppliers, expert bodies, and the Swiss Federal Office for the Environment. Key features of the NTSuisse platform include user-friendly data upload and storage capabilities, centralized automatic processing, target and suspect screening and quantification. The platform allows stakeholders to manage and analyze their own data independently and offers batch-wise data processing. It has been in development since 2023 with a planned release beginning of 2026. My colleague, Johannes Boog, will also attend and be able to answer questions. The show and tell would showcase the software and explain design decisions regarding frontend and backend."
+          "summary": "I would like to present NTSuisse, a web platform being developed here at eawag for the analysis and management of high-resolution mass spectrometry (HRMS) data. It is accessible to participating cantons, Swiss water suppliers, expert bodies, and the Swiss Federal Office for the Environment. Key features of the NTSuisse platform include user-friendly data upload and storage capabilities, centralized automatic processing, target and suspect screening and quantification. The platform allows stakeholders to manage and analyze their own data independently and offers batch-wise data processing. It has been in development since 2023 with a planned release beginning of 2026. My colleague, Johannes Boog, will also attend and be able to answer questions. The show and tell would showcase the software and explain design decisions regarding frontend and backend.",
+          "materials": [{
+            "url": "/assets/materials/2025/2025_09_ntsuisse_enhancer_fribourg_pres_Kammer.pdf",
+            "name": "Slides PDF"
+          }]
         },
         {
           "name": "Midap-tools: a python package for post-processing and visualization of midap results",
@@ -96,7 +100,11 @@ export default function () {
           "type": "show-and-tell",
           "code": "ziegler",
           "slots_code": "P",
-          "summary": "Midap-tools is a python package that allows post-processing and visualization of midap results. Midap is a machine vision powered imaging analysis pipeline developed by the SIS that: 1. segments fluorescent microscopy images from fluidic experiments to detect individual cells (i.e e.coli bacteria) at each frame 2. tracks and measures these individual cells over time While midap performs these functions very well and creates invaluable data for the researchers, its output data contains alot of complexity and can be challenging for the experimentalists to work with. midap-tools is a new tool that provide easy to use high level functions to process, analyze and visualize outputs from entire microfluicid experiments across many samples and color channels. Its goal is to further bridge the gap between the researcher and the complexity of microfluidic data."
+          "summary": "Midap-tools is a python package that allows post-processing and visualization of midap results. Midap is a machine vision powered imaging analysis pipeline developed by the SIS that: 1. segments fluorescent microscopy images from fluidic experiments to detect individual cells (i.e e.coli bacteria) at each frame 2. tracks and measures these individual cells over time While midap performs these functions very well and creates invaluable data for the researchers, its output data contains alot of complexity and can be challenging for the experimentalists to work with. midap-tools is a new tool that provide easy to use high level functions to process, analyze and visualize outputs from entire microfluicid experiments across many samples and color channels. Its goal is to further bridge the gap between the researcher and the complexity of microfluidic data.",
+          "materials": [{
+            "url": "/assets/materials/2025/2025-09-04_Enhancer_ShowandTell_nogif_LukasvonZiegler.pptx",
+            "name": "Slides PPTX"
+          }],
         },
         {
           "name": "Buildpacks as reproducibilty enabler",
@@ -106,7 +114,11 @@ export default function () {
           "type": "show-and-tell",
           "code": "gaist",
           "slots_code": "G",
-          "summary": "Creating a reusable and reproducible environment for other people to use can be quite challenging especially for young researchers some of who may not have a computer science background as RSE have. Docker images are the simplest way to do that but they can be hard to build correctly and requires additional non-trivial knowledge that makes it a complicated tool to add to, often overwhelmed PhD students, tool belt. This presentation shows how using buildpacks can help achieve that goal in a simple fashion so people can concentrate on the code for their research."
+          "summary": "Creating a reusable and reproducible environment for other people to use can be quite challenging especially for young researchers some of who may not have a computer science background as RSE have. Docker images are the simplest way to do that but they can be hard to build correctly and requires additional non-trivial knowledge that makes it a complicated tool to add to, often overwhelmed PhD students, tool belt. This presentation shows how using buildpacks can help achieve that goal in a simple fashion so people can concentrate on the code for their research.",
+          "materials": [{
+            "url": "/assets/materials/2025/EnhanceR%20Symposium%202025_%20Samuel_Gaist.pdf",
+            "name": "Slides PDF"
+          }]
         },
         {
           "name": "Sustaining Scientific Workflows: The Case for Stable RSE Roles in AiiDA Development",
@@ -116,7 +128,7 @@ export default function () {
           "type": "show-and-tell",
           "code": "bainglass",
           "slots_code": "H",
-          "summary": "We’ll share our experience developing AiiDA, a workflow management tool that helps scientists run and reproduce complex computational workflows. Over the past 10 years, AiiDA has grown a lot — and so has the challenge of keeping it running smoothly. With PhDs and postdocs constantly rotating in and out, passing on knowledge and maintaining the software has become a real struggle. We’ll talk about why stable, long-term RSE positions are essential to avoid burnout, lost expertise, and stalled progress. Using real examples from our recent work, we’ll show how RSEs can make a big difference — not just in keeping the software alive, but in pushing it forward and helping researchers do better science."
+          "summary": "We'll share our experience developing AiiDA, a workflow management tool that helps scientists run and reproduce complex computational workflows. Over the past 10 years, AiiDA has grown a lot — and so has the challenge of keeping it running smoothly. With PhDs and postdocs constantly rotating in and out, passing on knowledge and maintaining the software has become a real struggle. We'll talk about why stable, long-term RSE positions are essential to avoid burnout, lost expertise, and stalled progress. Using real examples from our recent work, we'll show how RSEs can make a big difference — not just in keeping the software alive, but in pushing it forward and helping researchers do better science."
         },
         {
           "name": "CeDA's developement of a web app for interactively exploring the data on brain mechanisms related to the regulation of sleep",
@@ -136,7 +148,11 @@ export default function () {
           "type": "show-and-tell",
           "code": "hauser",
           "slots_code": "N",
-          "summary": "The transformation from paper to digital tools at Empa brings several challenges: limited time due to shorter project cycles, a lack of clear incentives, and insufficient capabilities as staff are overwhelmed by numerous parallel topics. These constraints hinder the adoption of new digital solutions, despite their potential to improve efficiency and collaboration in the long term."
+          "summary": "The transformation from paper to digital tools at Empa brings several challenges: limited time due to shorter project cycles, a lack of clear incentives, and insufficient capabilities as staff are overwhelmed by numerous parallel topics. These constraints hinder the adoption of new digital solutions, despite their potential to improve efficiency and collaboration in the long term.",
+          "materials": [{
+            "url": "/assets/materials/2025/From%20Paper%20to%20Digital%20Tools_EnhanceR_Hauser.pptx",
+            "name": "Slides PPTX"
+          }]
         },
         {
           "name": "Take up the torch of an existing project",
@@ -146,7 +162,11 @@ export default function () {
           "type": "show-and-tell",
           "code": "antolinos",
           "slots_code": "A",
-          "summary": "Being recruited on a project that's already started brings a special challenge. I intend to speak around 15 minutes about the Panda project (NPR80 Pandemic Data) and try to bring forward some of the lessons I learned when joining a project of 3 years in journalism studies in the middle, as a temporary contracted research engineer. What does it mean to analyse data that's been collected by someone else? Navigating a research protocol that's been decided without you, yet trying to have a say in the project? Align your practices with the existing code base? Etc."
+          "summary": "Being recruited on a project that's already started brings a special challenge. I intend to speak around 15 minutes about the Panda project (NPR80 Pandemic Data) and try to bring forward some of the lessons I learned when joining a project of 3 years in journalism studies in the middle, as a temporary contracted research engineer. What does it mean to analyse data that's been collected by someone else? Navigating a research protocol that's been decided without you, yet trying to have a say in the project? Align your practices with the existing code base? Etc.",
+          "materials": [{
+            "url": "/assets/materials/2025/rse_enhancer25_DAB_Diego.pdf",
+            "name": "Slides PDF"
+          }]
         },
         {
           "name": "PoC or Prod: What makes AI projects successful?",
@@ -166,7 +186,11 @@ export default function () {
           "type": "show-and-tell",
           "code": "alhineidi",
           "slots_code": "B",
-          "summary": "This show-and-tell would present a project that demonstrates how High-Performance Computing (HPC) infrastructure can be leveraged to deploy secure, GPU-accelerated AI applications using the Open OnDemand web platform. By integrating language and speech models within an interactive, user-friendly interface, This enables researchers and students to run advanced NLP and text analysis tasks directly on the HPC cluster without needing deep technical expertise and with zero code."
+          "summary": "This show-and-tell would present a project that demonstrates how High-Performance Computing (HPC) infrastructure can be leveraged to deploy secure, GPU-accelerated AI applications using the Open OnDemand web platform. By integrating language and speech models within an interactive, user-friendly interface, This enables researchers and students to run advanced NLP and text analysis tasks directly on the HPC cluster without needing deep technical expertise and with zero code.",
+          "materials": [{
+            "url": "/assets/materials/2025/TextLab_EnhanceR1_Ahmad.pdf",
+            "name": "Slides PDF"
+          }]
         },
         {
           "name": "From research code to impact: 5 Years of RSE services for EPFL-ENAC",
@@ -186,7 +210,11 @@ export default function () {
           "type": "show-and-tell",
           "code": "baffelli",
           "slots_code": "M",
-          "summary": "During the ORD M1 project, we have developed a prototype of a digital inventory logbook integrated with the openBIS ELN-LIMS. This logbook allows users to easily define complex setups composed of multiple sub-objects, edit their state, and track their modifications over time in an user friendly and general manner. In this talk we present the design philosophy and the technical choices behind iLog and provide a short live demo of the tool in use."
+          "summary": "During the ORD M1 project, we have developed a prototype of a digital inventory logbook integrated with the openBIS ELN-LIMS. This logbook allows users to easily define complex setups composed of multiple sub-objects, edit their state, and track their modifications over time in an user friendly and general manner. In this talk we present the design philosophy and the technical choices behind iLog and provide a short live demo of the tool in use.",
+          "materials": [{
+            "url": "/assets/materials/2025/ilog_enhancer.pptx",
+            "name": "Slides PPTX"
+          }]
         },
         {
           "name": "Web app for a Tumor Board",
@@ -206,7 +234,11 @@ export default function () {
           "type": "show-and-tell",
           "code": "gonzalez",
           "slots_code": "F",
-          "summary": "For many researchers it may not be affordable to produce FAIR data. We propose a workflow to create a data index that will help data stewards and researchers curating the necessary metadata and documentation to facilitate finding and sharing their research data; making them effectively FAIRer. Developed by scientists without a software development background, the AFFORD workflow utilizes generalist open-source tools broadly used for scientific research (R, Quarto) as well as Git. It is intended to be maintainable by data stewards or researchers interested in data management, without requiring advanced programming skills. For this, we provide a demo website and a skeleton repository with the necessary materials ready for reuse (see <a href=\"https://osf.io/preprints/metaarxiv/64fch_v1\" rel=\"nofollow\" target=\"_blank\">our preprint</a>) . Our goal is to help researchers produce FAIRer data and, as a bonus, to help them adopt a set of tools that are important for scientific reproducibility in general."
+          "summary": "For many researchers it may not be affordable to produce FAIR data. We propose a workflow to create a data index that will help data stewards and researchers curating the necessary metadata and documentation to facilitate finding and sharing their research data; making them effectively FAIRer. Developed by scientists without a software development background, the AFFORD workflow utilizes generalist open-source tools broadly used for scientific research (R, Quarto) as well as Git. It is intended to be maintainable by data stewards or researchers interested in data management, without requiring advanced programming skills. For this, we provide a demo website and a skeleton repository with the necessary materials ready for reuse (see <a href=\"https://osf.io/preprints/metaarxiv/64fch_v1\" rel=\"nofollow\" target=\"_blank\">our preprint</a>) . Our goal is to help researchers produce FAIRer data and, as a bonus, to help them adopt a set of tools that are important for scientific reproducibility in general.",
+          "materials": [{
+            "url": "/assets/materials/2025/2025-09-24_enhanceR_AFFORD%20workflow.pdf",
+            "name": "Slides PDF"
+          }]
         },
         {
           "name": "Style Transfer of unparallel text data",
@@ -236,7 +268,11 @@ export default function () {
           "type": "show-and-tell",
           "code": "minetti",
           "slots_code": "J",
-          "summary": "We are developing an open-source tool called <a href=\"https://www.boxframework.com/\" rel=\"nofollow\" target=\"_blank\">Box-Framework</a> that enables rapid creation of web interfaces for PostgreSQL databases. The tool is currently under active development and is already being used in approximately 15 applications. The two main use cases are: - Field Campaigns: Entering data directly into the database from the field. - Management Applications: Used for databases such as the national forest fire database and the Swiss forest protection database. The advantage of the tool is that it enables people with database knowledge but limited frontend expertise to quickly develop a productive web application."
+          "summary": "We are developing an open-source tool called <a href=\"https://www.boxframework.com/\" rel=\"nofollow\" target=\"_blank\">Box-Framework</a> that enables rapid creation of web interfaces for PostgreSQL databases. The tool is currently under active development and is already being used in approximately 15 applications. The two main use cases are: - Field Campaigns: Entering data directly into the database from the field. - Management Applications: Used for databases such as the national forest fire database and the Swiss forest protection database. The advantage of the tool is that it enables people with database knowledge but limited frontend expertise to quickly develop a productive web application.",
+          "materials": [{
+            "url": "https://git-pages.wsl.ch/minettia/box-presentation-enhancer-2025/",
+            "name": "Slides deck"
+          }]
         },
         {
           "name": "How Rust enables you to create a domain specific language",
@@ -246,7 +282,11 @@ export default function () {
           "type": "show-and-tell",
           "code": "yu",
           "slots_code": "E",
-          "summary": "We use rust to develop a domain specific language for workflow orchestrating. Rust ecosystem make building such thing fairly easy with a lot modern language features enabled. In the show-and-tell, I'll give an overview how this small language looks like and how rust make it easy to build it."
+          "summary": "We use rust to develop a domain specific language for workflow orchestrating. Rust ecosystem make building such thing fairly easy with a lot modern language features enabled. In the show-and-tell, I'll give an overview how this small language looks like and how rust make it easy to build it.",
+          "materials": [{
+            "url": "/assets/materials/2025/2025-09-04-rust-enhancer_Yu.tar.gz",
+            "name": "File archive"
+          }],
         },
         {
           "name": "Navigating through Research Software Engineering as an undergraduate",
@@ -267,7 +307,11 @@ export default function () {
           "type": "workshop",
           "code": "duerr",
           "slots_code": "R",
-          "summary": "This workshop will introduce the differences between various frameworks to build UIs using Python such as Streamlit, Marimo or Gradio. It will introduce various features of Gradio that make it ideal to deploy FAIR web applications quickly that are useable anywhere, packaged conveniently using Docker, extensible, expose a REST API and have little overhead over the actual research code."
+          "summary": "This workshop will introduce the differences between various frameworks to build UIs using Python such as Streamlit, Marimo or Gradio. It will introduce various features of Gradio that make it ideal to deploy FAIR web applications quickly that are useable anywhere, packaged conveniently using Docker, extensible, expose a REST API and have little overhead over the actual research code.",
+          "materials": [{
+            "url": "https://duerrsimon.github.io/enhancer_workshop_2025/",
+            "name": "Slides deck"
+          }]
         },
         {
           "name": "Exploring Drug Repurposing for Autoimmune Diseases with DeepLife's Cell Blueprint",
@@ -277,7 +321,11 @@ export default function () {
           "type": "workshop",
           "code": "beyer",
           "slots_code": "U",
-          "summary": "This workshop will provide participants with hands-on experience using DeepLife's Cell Blueprint software. The session will combine a live demo of the platform's features with a guided, interactive use case focusing on drug repurposing for autoimmune diseases. Participants will gain practical insights into leveraging cutting-edge tools for cellular network analysis and therapeutic discovery."
+          "summary": "This workshop will provide participants with hands-on experience using DeepLife's Cell Blueprint software. The session will combine a live demo of the platform's features with a guided, interactive use case focusing on drug repurposing for autoimmune diseases. Participants will gain practical insights into leveraging cutting-edge tools for cellular network analysis and therapeutic discovery.",
+          "materials": [{
+            "url": "/assets/materials/2025/DeepLife-EnhanceR.pdf",
+            "name": "Slides PDF"
+          }]
         },
         {
           "name": "RSEs and Data Stewards synergies finding",
@@ -298,7 +346,11 @@ export default function () {
           "code": "nuetzi",
           "slots_code": "V",
           "slot_span": 2,
-          "summary": "We will explore how the Nix package manager can give you stable developer environments, packages and improve your development experience. Please make sure you have the <a href=\"https://github.com/sdsc-ordes/nix-workshop#requirements\" rel=\"nofollow\" target=\"_blank\">requirements</a> ready before the workshop."
+          "summary": "We will explore how the Nix package manager can give you stable developer environments, packages and improve your development experience. Please make sure you have the <a href=\"https://github.com/sdsc-ordes/nix-workshop#requirements\" rel=\"nofollow\" target=\"_blank\">requirements</a> ready before the workshop.",
+          "materials": [{
+            "url": "https://sdsc-ordes.github.io/technical-presentation/gh-pages/nix-workshop/part-1/",
+            "name": "Slides deck"
+          }]
         },
         {
           "name": "Connecting code, data & compute for collaborative research with Renku",
@@ -308,7 +360,11 @@ export default function () {
           "type": "workshop",
           "code": "kinkead",
           "slots_code": "Q",
-          "summary": "Data science projects combine code and data from diverse locations, such as git repositories, cloud storage platforms, specialized data repositories, and more. Coordinating these resources requires technical knowledge and represents time-consuming overhead that diverts time from core analytical work. Even more critically, this fragmentation presents a barrier to collaboration. When resources are not brought together in a repeatable, structured manner, team members struggle to replicate software environments or access necessary datasets, ultimately slowing project progress and hindering knowledge sharing. Renku is an open source collaboration platform built by the Swiss Data Science Center that empowers teams to focus on analytical insights rather than resource management. Renku is used nationwide to create collaborative and reproducible data science projects in research and teaching. Join our workshop to learn how you can use Renku to connect your data, code, compute in a unified and shareable workspace."
+          "summary": "Data science projects combine code and data from diverse locations, such as git repositories, cloud storage platforms, specialized data repositories, and more. Coordinating these resources requires technical knowledge and represents time-consuming overhead that diverts time from core analytical work. Even more critically, this fragmentation presents a barrier to collaboration. When resources are not brought together in a repeatable, structured manner, team members struggle to replicate software environments or access necessary datasets, ultimately slowing project progress and hindering knowledge sharing. Renku is an open source collaboration platform built by the Swiss Data Science Center that empowers teams to focus on analytical insights rather than resource management. Renku is used nationwide to create collaborative and reproducible data science projects in research and teaching. Join our workshop to learn how you can use Renku to connect your data, code, compute in a unified and shareable workspace.",
+          "materials": [{
+            "url": "/assets/materials/2025/2025-09-04%20EnhanceR%202025%20shared_Kinkead.pdf",
+            "name": "Slides PDF"
+          }]
         },
         {
           "name": "Building Communities That Work: A Hands-On Workshop on Fighting Noise in Developer Forums",
@@ -318,7 +374,11 @@ export default function () {
           "type": "workshop",
           "code": "gasser",
           "slots_code": "S",
-          "summary": "As research software engineers, we've all seen promising online communities deteriorate under waves of low-effort posts and automated spam - but what actually makes a community worth participating in? In this interactive workshop we want to explore what we're really trying to achieve when we build technical communities. Then, we'll dive into the trade-offs of different approaches: proof-of-personhood systems, web-of-trust networks, reputation scoring, and human curation. We'll report actionable insights you can apply to your own projects and collaborations. Come ready to share your own community horror and success stories!"
+          "summary": "As research software engineers, we've all seen promising online communities deteriorate under waves of low-effort posts and automated spam - but what actually makes a community worth participating in? In this interactive workshop we want to explore what we're really trying to achieve when we build technical communities. Then, we'll dive into the trade-offs of different approaches: proof-of-personhood systems, web-of-trust networks, reputation scoring, and human curation. We'll report actionable insights you can apply to your own projects and collaborations. Come ready to share your own community horror and success stories!",
+          "materials": [{
+            "url": "/assets/materials/2025/EnhanceR25%20-%20Linus%20Gasser%20-%20Building%20Communities%20That%20Work.pdf",
+            "name": "Slides PDF"
+          }]
         },
         {
           "type": "blank",
