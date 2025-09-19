@@ -335,7 +335,11 @@ export default function () {
           "type": "workshop",
           "code": "ulrich",
           "slots_code": "T",
-          "summary": "Research software engineers (RSEs) and data stewards (DS) share overlapping goals in advancing data-centric research, yet they often operate in silos, missing critical opportunities for collaboration that could significantly enhance both data and software practices. This workshop will bring these communities together to identify targeted project areas that leverage their combined expertise to address shared challenges. Participants will leave with actionable project concepts, new connections across communities, and clear next steps for further development through RSE and DS project teams. This workshop is ideal for those seeking to address specific data and software challenges through concrete, cross-disciplinary collaboration."
+          "summary": "Research software engineers (RSEs) and data stewards (DS) share overlapping goals in advancing data-centric research, yet they often operate in silos, missing critical opportunities for collaboration that could significantly enhance both data and software practices. This workshop will bring these communities together to identify targeted project areas that leverage their combined expertise to address shared challenges. Participants will leave with actionable project concepts, new connections across communities, and clear next steps for further development through RSE and DS project teams. This workshop is ideal for those seeking to address specific data and software challenges through concrete, cross-disciplinary collaboration.",
+          "materials": [{
+            "url": "/assets/materials/2025/Synergies%20between%20Research%20Software%20Engineers%20and%20Data%20Stewards_EnhanceR_2025.pdf",
+            "name": "Summary PDF"
+          }]
         },
         {
           "name": "Understand the value of Nix for stable development - The Fun Way",
