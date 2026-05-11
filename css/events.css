@@ -14,7 +14,7 @@ body {
 }
 
 .enhancer-blue-bg {
-  background-color: #7e336f;
+  background-color: #21588b;
   color: #ffffff;
 }
 
@@ -34,11 +34,11 @@ body {
 }
 
 .enhancer-nav {
-  background-color: #e6c1de;
+  background-color: #e8f1ff;
 }
 
 .enhancer-nav .active {
-  background-color: #cf8fc1;
+  background-color: #aeceff;
 }
 
 .enhancer-nav .nav-link {
@@ -46,12 +46,12 @@ body {
 }
 
 .enhancer-nav .nav-link:hover {
-  background-color: #c771b4;
+  background-color: #80b3ff;
   color: black;
 }
 
 .enhancer-section {
-  color: #661e58;
+  color: #21588b;
   font-size: 1.5rem;
   font-weight: normal;
   font-style: italic;
