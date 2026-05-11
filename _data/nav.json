@@ -9,7 +9,8 @@
   },
   {
     "name": "Contributing",
-    "url": "/contributing/"
+    "url": "/contributing/",
+    "hide": true
   },
   {
     "name": "Registration",
@@ -17,7 +18,8 @@
   },
   {
     "name": "Materials",
-    "url": "/materials/"
+    "url": "/materials/",
+    "hide": true
   },
   {
     "name": "EnhanceR Seminar",

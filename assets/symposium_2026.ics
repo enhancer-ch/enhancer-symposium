@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ical.marudot.com//iCal Event Maker
+X-WR-CALNAME:EnhanceR Symposium
+NAME:EnhanceR Symposium
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+DTSTAMP:20260511T162400Z
+UID:35e70dce-9c0e-465d-90bb-0af93905a563
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261130
+SUMMARY:EnhanceR Symposium 2026
+URL:https://symposium.enhancer.ch/
+DESCRIPTION:An in-person event for members of the Swiss research IT and RSE community\, the EnhanceR Symposium provides a platform for professionals to meet\, network\, and exchange knowledge. Focus topic for 2026 is "AI in Scientific Coding Workflows". Further details coming later this year.
+LOCATION:PSI Auditorium\, WHGA/001\, Forschungsstrasse 111\, 5232 Villigen PSI\, Switzerland
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:EnhanceR Symposium 2026
+TRIGGER:-P1W
+END:VALARM
+END:VEVENT
+END:VCALENDAR
