@@ -18,13 +18,9 @@
     {
         "start": "10:15",
         "end": "11:00",
-        "name": "Building Open-Source, Transparent, and Multilingual Large Language Models in Switzerland",
+        "name": "Keynote 1",
         "type": "keynote",
-        "host": "Imanol Schlag",
-        "materials": [{
-            "url": "/assets/materials/2025/EnhanceR%20Talk%20Imanol%20Schlag%2004.09.2025.pdf",
-            "name": "Slides PDF"
-        }]
+        "host": "TBC"
     },
     {
         "start": "11:00",
@@ -40,14 +36,21 @@
     },
     {
         "start": "12:15",
-        "end": "13:30",
+        "end": "13:00",
+        "name": "Keynote 2",
+        "type": "keynote",
+        "host": "TBC"
+    },
+    {
+        "start": "13:00",
+        "end": "14:00",
         "name": "Lunch",
         "type": "lunch"
     },
     {
-        "start": "13:30",
+        "start": "14:00",
         "end": "15:00",
-        "name": "Workshop parallel sessions",
+        "name": "Show-and-tell parallel sessions",
         "type": "session"
     },
     {
@@ -59,9 +62,9 @@
     {
         "start": "15:30",
         "end": "16:15",
-        "name": "Scaling Jupyter to millions of users",
+        "name": "Keynote 3",
         "type": "keynote",
-        "host": "Sylvain Corlay"
+        "host": "TBC"
     },
     {
         "start": "16:15",
