@@ -209,12 +209,13 @@ export default function () {
         },
         {
           "name": "Towards Collaborative Agentic Data Science",
-          "host": "Johannes Kirchner",
-          "affiliation": "ETHZ",
+          "host": "Johannes Kirschner / Rok Roškar",
+          "affiliation": "ETHZ/SDSC",
           "confirmed": true,
           "type": "show-and-tell",
-          "code": "kirchner",
-          "slots_code": "N"
+          "code": "kirschner",
+          "slots_code": "N",
+          "summary": "We will present agentic tools and workflows that we are actively developing and testing in our data science projects. We plan to present two parts (~10 min each), which will include demonstrations, examples and experiences from our projects.<br /><strong>1. Renku as a platform for AI-assisted data science</strong><br />The Renku platform provides data scientists and researchers with a space for projects throughout their entire lifecycle: from ideation and data exploration in interactive cloud-based compute sessions, to bulk model training or data processing with non-interactive jobs, and finally to presentation and dissemination of models or dashboards via standalone apps. Users can now also take advantage of AI tools and agents to enhance their work within the platform. For example, when Renku builds images with project dependencies, users can choose to also automatically add agent harnesses such as Pi, Claude or Codex to their environment. When configuring their sessions, users can then choose what type of access the agents should have to the data and to their secrets, to safeguard against unintentionally leaking sensitive data or credentials. Similarly, users can take advantage of Renku's MCP server to use AI assistants to create and configure Renku projects such that the work done through a coding assistant can easily be shared with others.<br /><strong>2. Hiraku: A toolkit for AI-assisted data science research</strong><br />Hiraku is a framework for AI-assisted research in data science and machine learning. It introduces a lightweight, hierarchical record structure that connects research goals and experiments with source commits, executable entrypoints, tracked runs, and results. Hiraku integrates with existing tools: Runs and metrics remain owned by user-managed tracking backends such as Weights &amp; Biases, MLflow, or CSV files, and are queried through a common backend interface. Entrypoints and project-defined dispatch scripts enable reproducible execution across local and remote compute environments while preserving attribution to records and source commits.<br />Data scientists manage this workflow through the CLI and inspect results via dashboards, while coding agents operate on the same workflow through a project-local skill or a customized harness. This framework is explicitly designed to support both interactive, human-in-the-loop experimentation and autonomous research workflows. We are actively exploring Hiraku's capabilities in on-going SDSC projects."
         }
       ];
     
