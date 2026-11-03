@@ -1,9 +1,10 @@
 export default function () {
     let stations = [
-        {code: "A", name: "Track A (room 001)", locator: "Room 001"},
-        {code: "B", name: "Track B (room 012)", locator: "Room 012"},
-        {code: "C", name: "Track C (room 015)", locator: "Room 015"},
-        {code: "D", name: "Track D (room 205)", locator: "Room 205"}
+        {code: "A", name: "Track A (WHGA/001)", locator: "WHGA/001"},
+        {code: "B", name: "Track B (WHGA/121)", locator: "WHGA/121"},
+        {code: "C", name: "Track C (WHGA/021)", locator: "WHGA/021"},
+        {code: "D", name: "Track D (WBBC/111)", locator: "WBBC/111"},
+        {code: "E", name: "Track E (WHGA/U129)", locator: "WHGA/U129"}
     ];
     let schedule = [
         {
@@ -18,402 +19,220 @@ export default function () {
         },
         {
           "start": "10:15", "end": "11:00",
-          "name": "Building Open-Source, Transparent, and Multilingual LLMs in Switzerland (Imanol Schlag)",
+          "name": "Coding Agents and Software Variability: Threats and Opportunities for Replicability in Science (Mathieu Acher)",
           "type": "keynote", "merged": true
         },
         {
           "start": "11:00", "end": "11:15",
+          "name": "Community Announcements",
+          "type": "announcement", "merged": true
+        },
+        {
+          "start": "11:00", "end": "11:45",
           "name": "Coffee Break",
           "type": "lunch", "merged": true
         },
         {
-          "start": "11:15", "end": "11:45",
+          "start": "11:45", "end": "12:20",
           "name": "Show & Tell session 1",
           "type": "session", "timeslot": 1
         },
         {
-          "start": "11:45", "end": "12:15",
-          "name": "Show & Tell session 2",
-          "type": "session", "timeslot": 2
+          "start": "12:20", "end": "13:00",
+          "name": "From Junior to Senior in the Age of AI (April Yi Wang)",
+          "type": "keynote", "merged": true
         },
         {
-          "start": "12:15", "end": "13:30",
+          "start": "13:00", "end": "14:00",
           "name": "Lunch",
           "type": "lunch", "merged": true
         },
         {
-          "start": "13:30", "end": "14:15",
-          "name": "Workshop session 1",
+          "start": "14:00", "end": "14:35",
+          "name": "Show & Tell session 2",
+          "type": "session", "timeslot": 2
+        },
+        {
+          "start": "14:35", "end": "15:10",
+          "name": "Show & Tell session 3",
           "type": "session", "timeslot": 3
         },
         {
-          "start": "14:15", "end": "15:00",
-          "name": "Workshop session 2",
-          "type": "session", "timeslot": 4
-        },
-        {
-          "start": "15:00", "end": "15:30",
+          "start": "15:10", "end": "15:40",
           "name": "Coffee Break & Networking",
           "type": "lunch", "merged": true
         },
         {
-          "start": "15:30", "end": "16:15",
-          "name": "Scaling Jupyter to millions of users (Sylvain Corlay)",
+          "start": "15:40", "end": "16:25",
+          "name": "Quantum computing and Artificial Intelligence - where we stand and who benefits whom (Cornelius Hempel)",
           "type": "keynote", "merged": true
         },
         {
-          "start": "16:15", "end": "16:45",
-          "name": "Show & Tell session 3",
-          "type": "session", "timeslot": 5
-        },
-        {
-          "start": "16:45", "end": "17:15",
+          "start": "16:25", "end": "17:00",
           "name": "Show & Tell session 4",
-          "type": "session", "timeslot": 6
+          "type": "session", "timeslot": 4
         },
         {
-          "start": "17:15", "end": "17:30",
+          "start": "17:00", "end": "17:15",
           "name": "Final Remarks & Farewell",
           "type": "announcement", "merged": true
         }
     ]
     let presentations = [
         {
-          "name": "NTSuisse: a web platform for high-resolution mass spectrometry (HRMS) data",
-          "host": "Kai-Michael Kammer",
+          "name": "Teaching Git, GitHub, and AI coding agents to researchers who do not come from IT",
+          "host": "Lars Schöbitz",
+          "affiliation": "ETHZ",
+          "confirmed": true,
+          "type": "show-and-tell",
+          "code": "schoebitz",
+          "slots_code": "A",
+          "summary": "Global Health Engineering (GHE) is an interdisciplinary research group of 15 people at ETH Zurich. We work with partners in resource-constrained countries, and most of us come from disciplines with little computing tradition. Digital skills in our sector are low, and it shows in the output. Little data is published following FAIR sharing principles, and almost no work is computationally reproducible. GHE responded by hiring an Open Science Specialist who comes from research in the sector rather than from IT. I am that specialist, and I am not a research IT expert.<br />The talk makes that missing expertise its starting point. Experts carry mental models they no longer notice, e.g., an expert treats reading an error message as a normal step, while a novice reads it as proof they did something wrong. Material built on expert mental models fails novices, who often stay quiet because they fear being judged for how they use technology. I will show how we design against that fear in our two-part workshop series, Agents for Scientists. The foundation workshop, Git &amp; GitHub for Scientists, teaches seven Git commands, the branch-and-PR cycle, and GitHub Issues and Project boards through participatory live coding, and spends explicit time on the aspects where beginners give up: authentication, merge conflicts, and committing on the wrong branch. The follow-up workshop, Agentic Coding for Collaboration and Scientific Work, teaches risk assessment, the handling of personal and sensitive data, and working with Claude Code as a versioned, reviewable collaborator. The foundation workshop materials are published as Open Educational Resources and will continue to evolve with each iteration.\nFor years we battled to establish our coding, data, and writing workflows on Git version control, and the struggle was rooted in our non-IT backgrounds. AI tools, and coding agents in particular, have lowered that barrier, and we are using the gain to invest further in rigorous, transparent, and reproducible research. We teach Git first because version control makes agent use traceable and disclosable, and that record is what lets a novice work with an agent confidently. I will close with what our non-restrictive approach to agent access has changed in the group, and with the blind spots I would ask this expert audience to check for in their own teaching material."
+        },
+        {
+          "name": "Using AI to map complex physical state machines and improve failure recovery",
+          "host": "Alvin Acerbo",
+          "affiliation": "PSI",
+          "confirmed": true,
+          "type": "show-and-tell",
+          "code": "acerbo",
+          "slots_code": "B",
+          "summary": "Automating the handling of delicate scientific instrumentation requires robust state management and a constant, precise read on physical parameters. This is especially true at the XIL beamline, one of the beamlines at the Swiss Light Source (SLS), where highly automated mask and wafer loading procedures are key to daily operations. These complex procedures are implemented by finite state machines that govern the transitions through several distinct states. To accurately track what the hardware is doing at any given moment, the control software constantly tracks a range of signals. Device state determination relies on everything from encoded linear positioners, binary switches, force sensors, temperature readouts, and voltage readbacks from clamping mechanisms.<br />Currently, when an unexpected hardware state occurs, the system defaults to a hard stop. Safely extracting the hardware and resetting the system is a largely manual process left to the operator.\nFor this show-and-tell, I will share some ongoing work exploring how we can transition to an intelligent, human-in-the-loop recovery model. Rather than handing execution over to an automated black box, I am looking at how AI can be used offline to analyze the existing state machine architecture, spot logical vulnerabilities, and help draft structured, guided recovery workflows for the operator. I plan to outline our current challenges with this sensor-dense environment and open up a discussion on how others might be leveraging AI tools to untangle and improve physical control logic."
+        },
+        {
+          "name": "NTSuisse: how AI is used in the development of a web platform for Swiss surface water data",
+          "host": "Kai Kammer",
           "affiliation": "Eawag",
           "confirmed": true,
           "type": "show-and-tell",
           "code": "kammer",
-          "slots_code": "I",
-          "summary": "I would like to present NTSuisse, a web platform being developed here at eawag for the analysis and management of high-resolution mass spectrometry (HRMS) data. It is accessible to participating cantons, Swiss water suppliers, expert bodies, and the Swiss Federal Office for the Environment. Key features of the NTSuisse platform include user-friendly data upload and storage capabilities, centralized automatic processing, target and suspect screening and quantification. The platform allows stakeholders to manage and analyze their own data independently and offers batch-wise data processing. It has been in development since 2023 with a planned release beginning of 2026. My colleague, Johannes Boog, will also attend and be able to answer questions. The show and tell would showcase the software and explain design decisions regarding frontend and backend.",
-          "materials": [{
-            "url": "/assets/materials/2025/2025_09_ntsuisse_enhancer_fribourg_pres_Kammer.pdf",
-            "name": "Slides PDF"
-          }]
-        },
-        {
-          "name": "Midap-tools: a python package for post-processing and visualization of midap results",
-          "host": "Lukas von Ziegler",
-          "affiliation": "ETHZ",
-          "confirmed": true,
-          "type": "show-and-tell",
-          "code": "ziegler",
-          "slots_code": "P",
-          "summary": "Midap-tools is a python package that allows post-processing and visualization of midap results. Midap is a machine vision powered imaging analysis pipeline developed by the SIS that: 1. segments fluorescent microscopy images from fluidic experiments to detect individual cells (i.e e.coli bacteria) at each frame 2. tracks and measures these individual cells over time While midap performs these functions very well and creates invaluable data for the researchers, its output data contains alot of complexity and can be challenging for the experimentalists to work with. midap-tools is a new tool that provide easy to use high level functions to process, analyze and visualize outputs from entire microfluicid experiments across many samples and color channels. Its goal is to further bridge the gap between the researcher and the complexity of microfluidic data.",
-          "materials": [{
-            "url": "/assets/materials/2025/2025-09-04_Enhancer_ShowandTell_nogif_LukasvonZiegler.pptx",
-            "name": "Slides PPTX"
-          }],
-        },
-        {
-          "name": "Buildpacks as reproducibilty enabler",
-          "host": "Samuel Gaist",
-          "affiliation": "Idiap",
-          "confirmed": true,
-          "type": "show-and-tell",
-          "code": "gaist",
-          "slots_code": "G",
-          "summary": "Creating a reusable and reproducible environment for other people to use can be quite challenging especially for young researchers some of who may not have a computer science background as RSE have. Docker images are the simplest way to do that but they can be hard to build correctly and requires additional non-trivial knowledge that makes it a complicated tool to add to, often overwhelmed PhD students, tool belt. This presentation shows how using buildpacks can help achieve that goal in a simple fashion so people can concentrate on the code for their research.",
-          "materials": [{
-            "url": "/assets/materials/2025/EnhanceR%20Symposium%202025_%20Samuel_Gaist.pdf",
-            "name": "Slides PDF"
-          }]
-        },
-        {
-          "name": "Sustaining Scientific Workflows: The Case for Stable RSE Roles in AiiDA Development",
-          "host": "Edan Bainglass and Ali Khosravi",
-          "affiliation": "PSI",
-          "confirmed": true,
-          "type": "show-and-tell",
-          "code": "bainglass",
-          "slots_code": "H",
-          "summary": "We'll share our experience developing AiiDA, a workflow management tool that helps scientists run and reproduce complex computational workflows. Over the past 10 years, AiiDA has grown a lot — and so has the challenge of keeping it running smoothly. With PhDs and postdocs constantly rotating in and out, passing on knowledge and maintaining the software has become a real struggle. We'll talk about why stable, long-term RSE positions are essential to avoid burnout, lost expertise, and stalled progress. Using real examples from our recent work, we'll show how RSEs can make a big difference — not just in keeping the software alive, but in pushing it forward and helping researchers do better science."
-        },
-        {
-          "name": "CeDA's developement of a web app for interactively exploring the data on brain mechanisms related to the regulation of sleep",
-          "host": "Rodrigo C. G. Pena",
-          "affiliation": "UniBas",
-          "confirmed": false,
-          "cancelled": true,
-          "type": "show-and-tell",
-          "code": "pena",
-          "summary": "At the Center for Data Analytics (CeDA) of the University of Basel, we partner up with research groups to share our expertise on data science and machine learning. One such project was with a team of neuroscientists investigating brain mechanisms related to the regulation of sleep. Among CeDA's contributions, I have developed for them a web app for interactively exploring the data and the results of our analysis. The user can draw, select, query and retrieve much more information than would fit a singe paper. Hopefully it inspires new scientific questions in the domain. I plan to show the app's development from prototyping in Jupyter notebooks, to a locally hosted Plotly Dash app, all the way to automatic release and deployment via Docker containers and GitLab CI."
-        },
-        {
-          "name": "From Paper to Digital Tools: An Overview of the Transition at Empa",
-          "host": "Stefanie Hauser",
-          "affiliation": "Empa",
-          "confirmed": true,
-          "type": "show-and-tell",
-          "code": "hauser",
-          "slots_code": "N",
-          "summary": "The transformation from paper to digital tools at Empa brings several challenges: limited time due to shorter project cycles, a lack of clear incentives, and insufficient capabilities as staff are overwhelmed by numerous parallel topics. These constraints hinder the adoption of new digital solutions, despite their potential to improve efficiency and collaboration in the long term.",
-          "materials": [{
-            "url": "/assets/materials/2025/From%20Paper%20to%20Digital%20Tools_EnhanceR_Hauser.pptx",
-            "name": "Slides PPTX"
-          }]
-        },
-        {
-          "name": "Take up the torch of an existing project",
-          "host": "Diego Antolinos",
-          "affiliation": "UniNE",
-          "confirmed": true,
-          "type": "show-and-tell",
-          "code": "antolinos",
-          "slots_code": "A",
-          "summary": "Being recruited on a project that's already started brings a special challenge. I intend to speak around 15 minutes about the Panda project (NPR80 Pandemic Data) and try to bring forward some of the lessons I learned when joining a project of 3 years in journalism studies in the middle, as a temporary contracted research engineer. What does it mean to analyse data that's been collected by someone else? Navigating a research protocol that's been decided without you, yet trying to have a say in the project? Align your practices with the existing code base? Etc.",
-          "materials": [{
-            "url": "/assets/materials/2025/rse_enhancer25_DAB_Diego.pdf",
-            "name": "Slides PDF"
-          }]
-        },
-        {
-          "name": "PoC or Prod: What makes AI projects successful?",
-          "host": "Roman Wixinger and Hannes Stählin",
-          "affiliation": "Ergon Informatik AG, ETHZ",
-          "confirmed": true,
-          "type": "show-and-tell",
-          "code": "wixinger",
           "slots_code": "C",
-          "summary": "AI prototypes are easy, reliable AI systems are rare. In this show-and-tell we share three fast checks that helped our teams turn proof of concepts into production services.Business impact: An AI project needs to solve an actual problem, so there is a need for it beyond technical curiosity. DevOps and reproducibility: Software engineering practices are key for ensuring security and sustainable development and operations. Systematic evaluation: Data collection apps and synthetic benchmarks turn \"looks good\" into numbers and reveal how an AI solution actually performs.Throughout the talk, we draw on lessons from our own projects in industry and academia and leave participants with a practical checklist for their next AI project."
+          "summary": "NTSuisse is a national Swiss water-quality monitoring platform for high-resolution mass spectrometry (HRMS) data, used by cantonal environmental agencies, water suppliers, and the Swiss Federal Office for the Environment. The platform centralises data upload, automated processing, target and suspect screening, semi-quantification, and visualisation. It runs on Azure (with a separate staging instance), while the architecture supports local deployment equally well, which is how the development team iterates day-to-day.<br />The platform is built and maintained by a teamof three which is atypically large for a science project, but still small byany software-engineering standard. The stack is polyglot: React + TypeScript frontend, Python/Airflow orchestration, PostgreSQL + LabKey for data and auth, and Docker throughout. The backend enforces a strict layered architecture, separating pure functional logic separated from I/O, which keeps the offline test suite fast and refactoring safe. CI enforces linting, formatting, and the offline test suite at every merge request<br />We use AI tooling in many parts of the project: day-to-day coding, project-specific instruction files, domain-knowledge skill files, agent-callable planning workflows, code reviews.<br />Optimizing these AI-powered workflows has become an integral part of our work routine. My show-and-tell would include a general overview of the platform, the technologies used and how and where AI is used in development."
         },
         {
-          "name": "Building Secure, GPU-Accelerated Applications on HPC Infrastructure",
-          "host": "Ahmad Alhineidi and Viktor Kovtun",
-          "affiliation": "UniBE",
+          "name": "Where was the Soviet Ambassador to India this day, 60 years ago?",
+          "host": "Piotr Jacobsson",
+          "affiliation": "UniFr",
           "confirmed": true,
           "type": "show-and-tell",
-          "code": "alhineidi",
-          "slots_code": "B",
-          "summary": "This show-and-tell would present a project that demonstrates how High-Performance Computing (HPC) infrastructure can be leveraged to deploy secure, GPU-accelerated AI applications using the Open OnDemand web platform. By integrating language and speech models within an interactive, user-friendly interface, This enables researchers and students to run advanced NLP and text analysis tasks directly on the HPC cluster without needing deep technical expertise and with zero code.",
-          "materials": [{
-            "url": "/assets/materials/2025/TextLab_EnhanceR1_Ahmad.pdf",
-            "name": "Slides PDF"
-          }]
-        },
-        {
-          "name": "From research code to impact: 5 Years of RSE services for EPFL-ENAC",
-          "host": "Charlie Weil",
-          "affiliation": "EPFL",
-          "confirmed": true,
-          "type": "show-and-tell",
-          "code": "weil",
+          "code": "jacobsson",
           "slots_code": "D",
-          "summary": "A short version of my EnhanceR Seminar series talk of June 25th, which is a presentation of our EPFL team of RSEs. ENAC-IT4R: A Technical Research Service to Foster a Collaborative, FAIR, and Open Research Data & Code Ecosystem — and Strengthen Scientific Valorization."
+          "summary": "The talk covers ongoing development of humanities-oriented AI-assisted data extraction and management processes. Cannot guarantee that we can answer the title in the quesiton."
         },
         {
-          "name": "iLog: a digital inventory logbook integrated with openBIS",
-          "host": "Simone Baffelli",
-          "affiliation": "Empa",
-          "confirmed": true,
-          "type": "show-and-tell",
-          "code": "baffelli",
-          "slots_code": "M",
-          "summary": "During the ORD M1 project, we have developed a prototype of a digital inventory logbook integrated with the openBIS ELN-LIMS. This logbook allows users to easily define complex setups composed of multiple sub-objects, edit their state, and track their modifications over time in an user friendly and general manner. In this talk we present the design philosophy and the technical choices behind iLog and provide a short live demo of the tool in use.",
-          "materials": [{
-            "url": "/assets/materials/2025/ilog_enhancer.pptx",
-            "name": "Slides PPTX"
-          }]
-        },
-        {
-          "name": "Web app for a Tumor Board",
-          "host": "Boris Simic",
+          "name": "Agent capabilities for SQL access via the Model Context Protocol",
+          "host": "Audrius Meskauskas",
           "affiliation": "ETHZ",
           "confirmed": true,
           "type": "show-and-tell",
-          "code": "simic",
-          "slots_code": "L",
-          "summary": " In collaboration with the HFR (hôpital fribourgeois) we developed a web application to display all relevant information on a screen in a Tumor Board (a session where oncologists decide on the treatment of cancer patients). HFR provides different treatment plans based on experience and published evidences. During such a treatment plan different bio samples are produced (i.e. blood, biopsy) and stored in a central biobank inside the hospital. Our database aims to connect the patient information with the treatment decisions and the bio samples in one database. This information is afterwards shareable with researchers. We will show and tell the concept and the application we built to support cancer treatment at HFR."
+          "code": "meskauskas",
+          "slots_code": "E",
+          "summary": "Using data from two different projects, we investigated whether an AI agent could effectively use controlled SQL access to domain-specific databases exposed through a Model Context Protocol (MCP) server. The two case studies were a database of protein structural changes in response to perturbations (DSPAtlas) and the Environmental Policy Atlas for Germany.<br />The AI was restricted to read-only access (SELECT statements) on human-curated database views. Security measures included whitelisting permitted SQL constructs and functions, and deploying both the MCP server and the database in a confined container with a read-only filesystem. The AI was also provided with documentation (\"skills\") describing the database schema and recommended querying practices. A few additional helper tools were also provided.<br />In both case studies, the AI successfully understood the database schema and the imposed restrictions. I response to every single question from researcher, it generated multiple and efficient SQL queries, itself processing the results. The agent was able to answer a wide range of questions by constructing multi-table joins and using statistical and spatial functions where appropriate. Furthermore, the AI explained the reasoning and intermediate steps leading to its conclusions, enabling subsequent human verification.<br />MCP allows to supply data and algorithms to widely known AI agents, allowing to use domain specific data rather than relying on their unknow and likely incomplete training datasets. We found that interactions between researchers and the AI / MCP system greatly increased their ability to investigate their own data using only natural language. Researchers were able to ask very specific questions that would have previously taken in-depth data science support and a much longer time to answer thanks to the decreased barrier."
         },
         {
-          "name": "AFFORD: a workflow for data stewards to make the data FAIRer",
-          "host": "Gorka Fraga Gonzalez",
-          "affiliation": "UZH",
+          "name": "Local vs. Frontier Foundation Models: Secure, Automated Data Pre-Labeling for Complex Engineering Workflows",
+          "host": "Danuta Paraficz",
+          "affiliation": "Fernfachhochschule",
           "confirmed": true,
           "type": "show-and-tell",
-          "code": "gonzalez",
+          "code": "paraficz",
           "slots_code": "F",
-          "summary": "For many researchers it may not be affordable to produce FAIR data. We propose a workflow to create a data index that will help data stewards and researchers curating the necessary metadata and documentation to facilitate finding and sharing their research data; making them effectively FAIRer. Developed by scientists without a software development background, the AFFORD workflow utilizes generalist open-source tools broadly used for scientific research (R, Quarto) as well as Git. It is intended to be maintainable by data stewards or researchers interested in data management, without requiring advanced programming skills. For this, we provide a demo website and a skeleton repository with the necessary materials ready for reuse (see <a href=\"https://osf.io/preprints/metaarxiv/64fch_v1\" rel=\"nofollow\" target=\"_blank\">our preprint</a>) . Our goal is to help researchers produce FAIRer data and, as a bonus, to help them adopt a set of tools that are important for scientific reproducibility in general.",
-          "materials": [{
-            "url": "/assets/materials/2025/2025-09-24_enhanceR_AFFORD%20workflow.pdf",
-            "name": "Slides PDF"
-          }]
+          "summary": "Training specialized deep learning architectures like Channel Vision Transformers (ChannelViT) requires vast quantities of annotated training data. For the EAGLE photovoltaics project, manually tracking complex, concurrent cell failures (cracks, corrosion, and polymer discoloration) across thousands of multi-spectral images created a massive operational bottleneck. While frontier Vision-Language Models (VLMs) via external APIs offer a high-throughput solution for automated pre-labeling, uploading proprietary or sensitive engineering data to cloud servers introduces critical data privacy and security risks.<br />This 20-minute show-and-tell session demonstrates a practical data-engineering pipeline that evaluates the efficiency-versus-privacy trade-offs of using downloadable, open-weight foundation models locally. Rather than focusing on software deployment code, this interactive session directly benchmarks the annotation accuracy and processing speeds of local open-source architectures against frontier cloud models. We will run our automated labeling workflow live on screen using a secure, fully local environment, showing how structured prompts guide the vision model to isolate overlapping multi-spectral defects. Finally, we will present concrete validation data comparing the zero-shot classifications of local open models against a verified expert dataset, showing attendees how to maintain absolute data privacy without compromising labeling throughput and precision."
         },
         {
-          "name": "Style Transfer of unparallel text data",
-          "host": "Luca Marin",
+          "name": "Beyond the Chatbot: LLM-Powered Learning for Process Engineering",
+          "host": "Aris Marcolongo",
+          "affiliation": "FFHS",
+          "confirmed": true,
+          "type": "show-and-tell",
+          "code": "marcolongo",
+          "slots_code": "G",
+          "summary": "We showcase an LLM-powered educational application developed within the Innosuisse project “GenAI P&amp;ID-Design: Efficiency in Process Engineering”, a collaboration between FFHS, FHNW, Swiss Smart Factory, and the startup Aitexa.<br />Process and Instrumentation Diagrams (P&amp;IDs) are fundamental to the design and operation of industrial plants. Learning to read and interpret them is essential for future engineers. The project explores two applications of generative AI: a web application supporting the creation of new P&amp;IDs, and an interactive learning tool in which students learn how to operate a plant and achieve a selected goal (e.g. the production of a compound).<br />During the show-and-tell session, we will focus on the educational tool. Students are presented with a plant and a target and must determine the next operational step. They formulate their instruction and receive immediate, LLM-generated feedback, allowing them to test their understanding of the process and practice expressing precise operational instructions.<br />The LLM is not used as a standalone chatbot or tutor. Instead, its capabilities are embedded in a structured, domain-specific learning workflow designed to guide students through the learning process. The demo will illustrate how LLMs can become an integrated component of interactive learning environments rather than simply a conversational interface. We will also share insights and lessons learned from student feedback collected during the development and testing of the application."
+        },
+        {
+          "name": "AI usage patterns among researchers and RSE's, a sociological study",
+          "host": "Michal Okoniewski",
           "affiliation": "ETHZ",
-          "confirmed": false,
-          "cancelled": true,
-          "type": "show-and-tell",
-          "code": "marin",
-          "summary": "I would like to present a small project which I am currently carrying out with 2 other master students of ETH about the topic of ''Style Transfer of unparallel text data''. The context is Natural Language Processing, and we are combining existing techniques to transfer the rhetorical styles of political discourses while preserving their content (for example, mapping Obama's to Trump's styles). We are running the models on GPUs on a small cluster and, perhaps, one didactical goal of my presentation could also be what best practices/difficulties/typical pitfalls one can experience while running LLMs on supercomputing clusters (of course, from the perspective of a non-expert like me)."
-        },
-        {
-          "name": "How EUROfusion Advanced Computing Hubs Leverage HPC to Accelerate Research and Engineering in Nuclear Fusion",
-          "host": "Gilles Fourestey",
-          "affiliation": "EPFL",
           "confirmed": true,
           "type": "show-and-tell",
-          "code": "fourestey",
-          "slots_code": "K",
-          "summary": "Within the framework of the EUROfusion consortium, the Advanced Computing Hub HPC centers of excellence actively engage in enhancing existing European fusion simulation codes. This effort is geared towards enabling researchers to fully harness the enhanced capabilities offered by the latest generations of supercomputers. These simulation codes are specifically designed for modeling plasmas within tokamaks and stellarators in order to accelerate the design of fusion experiments, such as ITER and JT-60SA, as well as the DEMO demonstration power plant."
+          "code": "okoniewski",
+          "slots_code": "H"
         },
         {
-          "name": "Box-Framework: web application generator for Postgres databases",
-          "host": "Andrea Minetti",
-          "affiliation": "WSL",
-          "confirmed": true,
-          "type": "show-and-tell",
-          "code": "minetti",
-          "slots_code": "J",
-          "summary": "We are developing an open-source tool called <a href=\"https://www.boxframework.com/\" rel=\"nofollow\" target=\"_blank\">Box-Framework</a> that enables rapid creation of web interfaces for PostgreSQL databases. The tool is currently under active development and is already being used in approximately 15 applications. The two main use cases are: - Field Campaigns: Entering data directly into the database from the field. - Management Applications: Used for databases such as the national forest fire database and the Swiss forest protection database. The advantage of the tool is that it enables people with database knowledge but limited frontend expertise to quickly develop a productive web application.",
-          "materials": [{
-            "url": "https://git-pages.wsl.ch/minettia/box-presentation-enhancer-2025/",
-            "name": "Slides deck"
-          }]
-        },
-        {
-          "name": "How Rust enables you to create a domain specific language",
-          "host": "Jusong Yu",
+          "name": "LLM in analytics of small molecules",
+          "host": "Sasa Bjelic",
           "affiliation": "PSI",
           "confirmed": true,
           "type": "show-and-tell",
-          "code": "yu",
-          "slots_code": "E",
-          "summary": "We use rust to develop a domain specific language for workflow orchestrating. Rust ecosystem make building such thing fairly easy with a lot modern language features enabled. In the show-and-tell, I'll give an overview how this small language looks like and how rust make it easy to build it.",
-          "materials": [{
-            "url": "/assets/materials/2025/2025-09-04-rust-enhancer_Yu.tar.gz",
-            "name": "File archive"
-          }],
+          "code": "bjelic",
+          "slots_code": "I"
         },
         {
-          "name": "Navigating through Research Software Engineering as an undergraduate",
-          "host": "Sarans Chopra",
-          "affiliation": "EPFL",
-          "confirmed": false,
-          "cancelled": true,
+          "name": "An MCP server for agent-driven symbolic computation",
+          "host": "Sudeepan Datta",
+          "affiliation": "PSI",
+          "confirmed": true,
           "type": "show-and-tell",
-          "code": "chopra",
-          "slots_code": "O",
-          "summary": "Research Software Engineering is primarily dominated by employees who hold a PhD, but this narrative is slowly changing, as even though a PhD teaches one essential research skills, programming skills can be learned without any formal education. Being a Research Software Engineer with just an undergraduate degree, I will be sharing the challenges I faced while navigating this relatively new field and how the experience has shaped my view of Research Software Engineering. Moreover, I will share my experience of working at UK's largest RSE group and how the Swiss RSE movement can take positive inspirations from our ways of working. Finally, I will be joining graduate school after working as an RSE for more than a year, which raises the question and the theme for my talk - should graduate-level education be an essential criteria for hiring an RSE?"
+          "code": "datta",
+          "slots_code": "J",
+          "summary": "Symbolic calculations in theoretical particle physics often involve extensive use of Mathematica notebooks, specialised Wolfram Language packages, and intermediate results within a running kernel. Integrating AI agents into these workflows raises practical questions regarding kernel state management, calculation logging, and the reproducibility of results.<br />I present an open-source Model Context Protocol (MCP) server developed to help with these tasks. The server connects an agent to a persistent Wolfram kernel through the Wolfram Symbolic Transfer Protocol (WSTP), and provides tools for notebook interaction, execution recording, and recovery following interrupted client sessions. Calculations can be recorded in Mathematica notebooks for inspection, providing an auditable record of the agent's work. Replay in a fresh kernel and explicit checkpoints help identify missing dependencies and changed results.<br />A small physics example will be used to illustrate the workflow, from working with an existing notebook to reviewing and rerunning the agent's calculations. The talk will cover key implementation choices, experience from development and testing, and current limitations, including the distinction between reproducing an execution and establishing the correctness of a scientific result."
         },
         {
-          "name": "Deploy a FAIR Python application in 30 minutes using Gradio",
-          "host": "Simon Duerr",
-          "affiliation": "HES-SO Valais-Wallis",
-          "confirmed": true,
-          "type": "workshop",
-          "code": "duerr",
-          "slots_code": "R",
-          "summary": "This workshop will introduce the differences between various frameworks to build UIs using Python such as Streamlit, Marimo or Gradio. It will introduce various features of Gradio that make it ideal to deploy FAIR web applications quickly that are useable anywhere, packaged conveniently using Docker, extensible, expose a REST API and have little overhead over the actual research code.",
-          "materials": [{
-            "url": "https://duerrsimon.github.io/enhancer_workshop_2025/",
-            "name": "Slides deck"
-          }]
-        },
-        {
-          "name": "Exploring Drug Repurposing for Autoimmune Diseases with DeepLife's Cell Blueprint",
-          "host": "Constance Beyer",
-          "affiliation": "DeepLife",
-          "confirmed": true,
-          "type": "workshop",
-          "code": "beyer",
-          "slots_code": "U",
-          "summary": "This workshop will provide participants with hands-on experience using DeepLife's Cell Blueprint software. The session will combine a live demo of the platform's features with a guided, interactive use case focusing on drug repurposing for autoimmune diseases. Participants will gain practical insights into leveraging cutting-edge tools for cellular network analysis and therapeutic discovery.",
-          "materials": [{
-            "url": "/assets/materials/2025/DeepLife-EnhanceR.pdf",
-            "name": "Slides PDF"
-          }]
-        },
-        {
-          "name": "RSEs and Data Stewards synergies finding",
-          "host": "Moushumi Ulrich-Nath",
-          "affiliation": "Lib4RI",
-          "confirmed": true,
-          "type": "workshop",
-          "code": "ulrich",
-          "slots_code": "T",
-          "summary": "Research software engineers (RSEs) and data stewards (DS) share overlapping goals in advancing data-centric research, yet they often operate in silos, missing critical opportunities for collaboration that could significantly enhance both data and software practices. This workshop will bring these communities together to identify targeted project areas that leverage their combined expertise to address shared challenges. Participants will leave with actionable project concepts, new connections across communities, and clear next steps for further development through RSE and DS project teams. This workshop is ideal for those seeking to address specific data and software challenges through concrete, cross-disciplinary collaboration.",
-          "materials": [{
-            "url": "/assets/materials/2025/Synergies%20between%20Research%20Software%20Engineers%20and%20Data%20Stewards_EnhanceR_2025.pdf",
-            "name": "Summary PDF"
-          }]
-        },
-        {
-          "name": "Understand the value of Nix for stable development - The Fun Way",
-          "host": "Gabriel Nuetzi",
-          "affiliation": "SDSC",
-          "confirmed": true,
-          "type": "workshop",
-          "code": "nuetzi",
-          "slots_code": "V",
-          "slot_span": 2,
-          "summary": "We will explore how the Nix package manager can give you stable developer environments, packages and improve your development experience. Please make sure you have the <a href=\"https://github.com/sdsc-ordes/nix-workshop#requirements\" rel=\"nofollow\" target=\"_blank\">requirements</a> ready before the workshop.",
-          "materials": [{
-            "url": "https://sdsc-ordes.github.io/technical-presentation/gh-pages/nix-workshop/part-1/",
-            "name": "Slides deck"
-          }]
-        },
-        {
-          "name": "Connecting code, data & compute for collaborative research with Renku",
-          "host": "Laura Kinkead",
-          "affiliation": "SDSC",
-          "confirmed": true,
-          "type": "workshop",
-          "code": "kinkead",
-          "slots_code": "Q",
-          "summary": "Data science projects combine code and data from diverse locations, such as git repositories, cloud storage platforms, specialized data repositories, and more. Coordinating these resources requires technical knowledge and represents time-consuming overhead that diverts time from core analytical work. Even more critically, this fragmentation presents a barrier to collaboration. When resources are not brought together in a repeatable, structured manner, team members struggle to replicate software environments or access necessary datasets, ultimately slowing project progress and hindering knowledge sharing. Renku is an open source collaboration platform built by the Swiss Data Science Center that empowers teams to focus on analytical insights rather than resource management. Renku is used nationwide to create collaborative and reproducible data science projects in research and teaching. Join our workshop to learn how you can use Renku to connect your data, code, compute in a unified and shareable workspace.",
-          "materials": [{
-            "url": "/assets/materials/2025/2025-09-04%20EnhanceR%202025%20shared_Kinkead.pdf",
-            "name": "Slides PDF"
-          }]
-        },
-        {
-          "name": "Building Communities That Work: A Hands-On Workshop on Fighting Noise in Developer Forums",
+          "name": "To vibe or not to vibe, that is the question",
           "host": "Linus Gasser",
           "affiliation": "EPFL",
           "confirmed": true,
-          "type": "workshop",
+          "type": "show-and-tell",
           "code": "gasser",
-          "slots_code": "S",
-          "summary": "As research software engineers, we've all seen promising online communities deteriorate under waves of low-effort posts and automated spam - but what actually makes a community worth participating in? In this interactive workshop we want to explore what we're really trying to achieve when we build technical communities. Then, we'll dive into the trade-offs of different approaches: proof-of-personhood systems, web-of-trust networks, reputation scoring, and human curation. We'll report actionable insights you can apply to your own projects and collaborations. Come ready to share your own community horror and success stories!",
-          "materials": [{
-            "url": "/assets/materials/2025/EnhanceR25%20-%20Linus%20Gasser%20-%20Building%20Communities%20That%20Work.pdf",
-            "name": "Slides PDF"
-          }]
+          "slots_code": "K",
+          "summary": "There is anecdotical evidence of vibe coding being the next big thing, right after personal computers. Other anecdotical evidence points to it being the downfall of IT by adding more bugs it can ever fix.<br />I'll give some anecdotes for both, drawn from working in a scientific environment and in Open Source projects. Then I'll show some paths forward and what currently works for us."
         },
         {
-          "type": "blank",
-          "slots_code": "W"
+          "name": "From Satellite Archives to Training Data: An Automated Pipeline for Multimodal Earth Observation Data Cubes",
+          "host": "Bryant Weber-Hansen",
+          "affiliation": "FHNW",
+          "confirmed": true,
+          "type": "show-and-tell",
+          "code": "hansen",
+          "slots_code": "L",
+          "summary": "The presentation will focus on certain aspects of my recent master's thesis work (FHNW, MSc Data Science), which involved using Deep Learning for Earth Observation analysis, specifically for the purpose of identifying forest disturbances in the Amazon. I built an automated, open-data pipeline which transforms Sentinel-1 radar and Sentinel-2 multispectral time series, a digital elevation model, and Brazil's PRODES deforestation maps into co-registered, multimodal spatiotemporal data cubes for training models. The current dataset is 833 versioned NetCDF data cubes covering five 110 x 110 km tiles (about 60,000 km^2). This same workflow could scale much further; the limits are primarily storage and processing time, not code.<br />In this show-and-tell, I'll walk through the workflow from catalogue query (STAC) to training-ready data cubes, focusing on the research-software side rather than model performance. Topics: aligning sources with different geometries and revisit schedules into one format, versioning the data format, and keeping such a pipeline reproducible and maintainable. The application context is the EU Deforestation Regulations (EUDR), which requires companies to show that products are not linked to recent deforestation. Along the way, I'll touch on my interactions integrating coding assistants into a traditional workflows, carefully and within explicit limits, using it to facilitate development rather than to replace engineering judgement."
+        },
+        {
+          "name": "Wô les moteurs - Slow down, in the time of speeding up",
+          "host": "Dawn Duan",
+          "affiliation": "PSI",
+          "confirmed": true,
+          "type": "show-and-tell",
+          "code": "duan",
+          "slots_code": "M",
+          "summary": "\"Wô les moteurs\" is a quebec expression meaning \"slow down, calm down\"<br />I find it fitting because my brain constantly overheat if I don't mindfully stop the context switching and decision making because the AI is feeding me back way more information I can handle. Plus I want to really learn something instead of just sit aside and see it fly...<br />I could demonstrate how I use AI in developing software and workflow in the MX group, could also touch basis on how I use AI to develop my own skill in various aspects: as software engineer, scientist, and as language learner."
+        },
+        {
+          "name": "Towards Collaborative Agentic Data Science",
+          "host": "Johannes Kirchner",
+          "affiliation": "ETHZ",
+          "confirmed": true,
+          "type": "show-and-tell",
+          "code": "kirchner",
+          "slots_code": "N"
         }
       ];
     
     let slots = {
-      "A": [{"station": "A", "timeslots": [1], "name": "A1"}],
-      "B": [{"station": "A", "timeslots": [2], "name": "A2"}],
-      "C": [{"station": "A", "timeslots": [5], "name": "A3"}],
-      "D": [{"station": "A", "timeslots": [6], "name": "A4"}],
-      "E": [{"station": "B", "timeslots": [1], "name": "B1"}],
+      "A": [{"station": "A", "timeslots": [1], "name": "A1"}, {"station": "B", "timeslots": [3], "name": "B3"}],
+      "B": [{"station": "B", "timeslots": [1], "name": "B1"}],
+      "C": [{"station": "C", "timeslots": [1], "name": "C1"}],
+      "D": [{"station": "D", "timeslots": [1], "name": "D1"}],
+      "E": [{"station": "A", "timeslots": [2], "name": "A2"}, {"station": "E", "timeslots": [4], "name": "E4"}],
       "F": [{"station": "B", "timeslots": [2], "name": "B2"}],
-      "G": [{"station": "B", "timeslots": [5], "name": "B3"}],
-      "H": [{"station": "B", "timeslots": [6], "name": "B4"}],
-      "I": [{"station": "C", "timeslots": [1], "name": "C1"}],
-      "J": [{"station": "C", "timeslots": [2], "name": "C2"}],
-      "K": [{"station": "C", "timeslots": [5], "name": "C3"}],
-      "L": [{"station": "C", "timeslots": [6], "name": "C4"}],
-      "M": [{"station": "D", "timeslots": [1], "name": "D1"}],
-      "N": [{"station": "D", "timeslots": [2], "name": "D2"}],
-      "O": [],
-      "P": [{"station": "D", "timeslots": [6], "name": "D4"}],
-      "Q": [{"station": "A", "timeslots": [3], "name": "WA1"}],
-      "R": [{"station": "A", "timeslots": [4], "name": "WA2"}],
-      "S": [{"station": "B", "timeslots": [3], "name": "WB1"}],
-      "T": [{"station": "B", "timeslots": [4], "name": "WB2"}],
-      "U": [{"station": "C", "timeslots": [3], "name": "WC1"}],
-      "V": [{"station": "D", "timeslots": [3, 4], "name": "WD"}],
-      "W": [{"station": "D", "timeslots": [4]}]
+      "G": [{"station": "C", "timeslots": [2], "name": "C2"}],
+      "H": [{"station": "D", "timeslots": [2], "name": "D2"}],
+      "I": [{"station": "E", "timeslots": [2], "name": "E2"}, {"station": "C", "timeslots": [3], "name": "C3"}],
+      "J": [{"station": "A", "timeslots": [3], "name": "A3"}],
+      "K": [{"station": "D", "timeslots": [3], "name": "D3"}, {"station": "A", "timeslots": [4], "name": "A4"}],
+      "L": [{"station": "E", "timeslots": [3], "name": "E3"}, {"station": "C", "timeslots": [4], "name": "C4"}],
+      "M": [{"station": "B", "timeslots": [4], "name": "B4"}],
+      "N": [{"station": "D", "timeslots": [4], "name": "D4"}]
     };
 
     presentations.forEach((presentation) => {

@@ -9,37 +9,39 @@
         "start": "10:00",
         "end": "10:15",
         "name": "Welcome",
-        "type": "announcement",
-        "materials": [{
-            "url": "/assets/materials/2025/EnhanceR_Symposium_welcome_slides_final.pdf",
-            "name": "Slides PDF"
-        }]
+        "type": "announcement"
     },
     {
         "start": "10:15",
         "end": "11:00",
-        "name": "Keynote 1",
+        "name": "Coding Agents and Software Variability: Threats and Opportunities for Replicability in Science",
         "type": "keynote",
-        "host": "TBC"
+        "host": "Mathieu Acher"
     },
     {
         "start": "11:00",
         "end": "11:15",
+        "name": "Community Announcements",
+        "type": "announcement"
+    },
+    {
+        "start": "11:15",
+        "end": "11:45",
         "name": "Coffee Break",
         "type": "lunch"
     },
     {
-        "start": "11:15",
-        "end": "12:15",
+        "start": "11:45",
+        "end": "12:20",
         "name": "Show-and-tell parallel sessions",
         "type": "session"
     },
     {
-        "start": "12:15",
+        "start": "12:20",
         "end": "13:00",
-        "name": "Keynote 2",
+        "name": "From Junior to Senior in the Age of AI",
         "type": "keynote",
-        "host": "TBC"
+        "host": "April Yi Wang"
     },
     {
         "start": "13:00",
@@ -49,32 +51,32 @@
     },
     {
         "start": "14:00",
-        "end": "15:00",
+        "end": "15:10",
         "name": "Show-and-tell parallel sessions",
         "type": "session"
     },
     {
-        "start": "15:00",
-        "end": "15:30",
-        "name": "Coffee Break / Networking",
+        "start": "15:10",
+        "end": "15:40",
+        "name": "Coffee Break",
         "type": "lunch"
     },
     {
-        "start": "15:30",
-        "end": "16:15",
-        "name": "Keynote 3",
+        "start": "15:40",
+        "end": "16:25",
+        "name": "Quantum computing and Artificial Intelligence - where we stand and who benefits whom",
         "type": "keynote",
-        "host": "TBC"
+        "host": "Cornelius Hempel"
     },
     {
-        "start": "16:15",
-        "end": "17:15",
+        "start": "16:25",
+        "end": "17:00",
         "name": "Show-and-tell parallel sessions",
         "type": "session"
     },
     {
-        "start": "17:15",
-        "end": "17:30",
+        "start": "17:00",
+        "end": "17:15",
         "name": "Final Remarks & Farewell",
         "type": "announcement"
     }

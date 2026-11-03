@@ -6,24 +6,9 @@ date: Last Modified
 
 <h3 class="enhancer-section">Selected contributions</h3>
 
-<p>We are very grateful for all the participants who submitted their contribution pitches. A lot of good submissions were received, and we're trying to accommodate as many as possible this year, eliminating the usual repetition of the talks.</p>
+<p>We are very grateful for all the participants who submitted their show-and-tell pitches.</p>
 
 <p>The organizing committee has selected the following contributions for the Symposium:</p>
-
-<h4>Workshops</h4>
-
-<ul>
-  {% for presentation in schedule_full.presentations | sort(false, false, "name") %}
-    {% if presentation.type == "workshop" %}
-      <li>
-        <b>{{ presentation.name }}</b>{% if not presentation.confirmed %} <span class="talk-not-confirmed">[TBC]</span>{% endif %}
-        <br>by {{ presentation.host }} ({{ presentation.affiliation }})
-        <a href="#{{ presentation.code }}Details" role="button" data-bs-target="#{{ presentation.code }}Details" data-bs-toggle="collapse">[details]</a>
-        <div id="{{ presentation.code }}Details" class="collapse talk-details">{{ presentation.summary | safe }}</div>
-      </li>
-    {% endif %}
-  {% endfor %}
-</ul>
 
 <h4>Show-and-tell sessions</h4>
 
@@ -33,14 +18,14 @@ date: Last Modified
       <li>
         <b>{{ presentation.name }}</b>{% if not presentation.confirmed %} <span class="talk-not-confirmed">[TBC]</span>{% endif %}
         <br>by {{ presentation.host }} ({{ presentation.affiliation }})
-        <a href="#{{ presentation.code }}Details" role="button" data-bs-target="#{{ presentation.code }}Details" data-bs-toggle="collapse">[details]</a>
-        <div id="{{ presentation.code }}Details" class="collapse talk-details">{{ presentation.summary | safe }}</div>
+        {% if presentation.summary %}<a href="#{{ presentation.code }}Details" role="button" data-bs-target="#{{ presentation.code }}Details" data-bs-toggle="collapse">[details]</a>
+        <div id="{{ presentation.code }}Details" class="collapse talk-details">{{ presentation.summary | safe }}</div>{% endif %}
       </li>
     {% endif %}
   {% endfor %}
 </ul>
 
-<h5>Cancelled sessions</h4>
+{# <h5>Cancelled sessions</h4>
 
 <p>
   The following show-and-tell sessions have been tentatively announced, but the speakers had to withdraw.
@@ -57,7 +42,7 @@ date: Last Modified
       </li>
     {% endif %}
   {% endfor %}
-</ul>
+</ul> #}
 
 {# <p>Would you like to help shape the EnhanceR Symposium? We are looking for contributions from a range of areas relevant to our community:</p>
 
