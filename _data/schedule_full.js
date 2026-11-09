@@ -190,12 +190,12 @@ export default function () {
         {
           "name": "From Satellite Archives to Training Data: An Automated Pipeline for Multimodal Earth Observation Data Cubes",
           "host": "Bryant Weber-Hansen",
-          "affiliation": "FHNW",
+          "affiliation": "FHNW Graduate",
           "confirmed": true,
           "type": "show-and-tell",
           "code": "hansen",
           "slots_code": "L",
-          "summary": "The presentation will focus on certain aspects of my recent master's thesis work (FHNW, MSc Data Science), which involved using Deep Learning for Earth Observation analysis, specifically for the purpose of identifying forest disturbances in the Amazon. I built an automated, open-data pipeline which transforms Sentinel-1 radar and Sentinel-2 multispectral time series, a digital elevation model, and Brazil's PRODES deforestation maps into co-registered, multimodal spatiotemporal data cubes for training models. The current dataset is 833 versioned NetCDF data cubes covering five 110 x 110 km tiles (about 60,000 km^2). This same workflow could scale much further; the limits are primarily storage and processing time, not code.<br />In this show-and-tell, I'll walk through the workflow from catalogue query (STAC) to training-ready data cubes, focusing on the research-software side rather than model performance. Topics: aligning sources with different geometries and revisit schedules into one format, versioning the data format, and keeping such a pipeline reproducible and maintainable. The application context is the EU Deforestation Regulations (EUDR), which requires companies to show that products are not linked to recent deforestation. Along the way, I'll touch on my interactions integrating coding assistants into a traditional workflows, carefully and within explicit limits, using it to facilitate development rather than to replace engineering judgement."
+          "summary": "The presentation will focus on certain aspects of my recent master's thesis work (FHNW, MSc Data Science), which involved using Deep Learning for Earth Observation analysis, specifically for the purpose of identifying forest disturbances in the Amazon. I built an automated, open-data pipeline which transforms Sentinel-1 radar and Sentinel-2 multispectral time series, a digital elevation model, and Brazil's PRODES deforestation maps into co-registered, multimodal spatiotemporal data cubes for training models. The current dataset is 833 versioned NetCDF data cubes covering deforestation in five 110 x 110 km tiles (about 60,000 km^2). This same workflow could scale much further; the limits are primarily storage and processing time, not code.<br />In this show-and-tell, I'll walk through the workflow from catalogue query (STAC) to training-ready data cubes, focusing on the research-software side rather than model performance. Topics: aligning sources with different geometries and revisit schedules into one format, versioning the data format, and keeping such a pipeline reproducible and maintainable. The application context is the EU Deforestation Regulations (EUDR), which from 30 December 2026 will require companies to show that products are not linked to recent deforestation. Along the way, I'll touch on my interactions integrating coding assistants into traditional workflows, carefully and within explicit limits, using them to facilitate development rather than to replace engineering judgement."
         },
         {
           "name": "Wô les moteurs - Slow down, in the time of speeding up",
@@ -216,6 +216,15 @@ export default function () {
           "code": "kirschner",
           "slots_code": "N",
           "summary": "We will present agentic tools and workflows that we are actively developing and testing in our data science projects. We plan to present two parts (~10 min each), which will include demonstrations, examples and experiences from our projects.<br /><strong>1. Renku as a platform for AI-assisted data science</strong><br />The Renku platform provides data scientists and researchers with a space for projects throughout their entire lifecycle: from ideation and data exploration in interactive cloud-based compute sessions, to bulk model training or data processing with non-interactive jobs, and finally to presentation and dissemination of models or dashboards via standalone apps. Users can now also take advantage of AI tools and agents to enhance their work within the platform. For example, when Renku builds images with project dependencies, users can choose to also automatically add agent harnesses such as Pi, Claude or Codex to their environment. When configuring their sessions, users can then choose what type of access the agents should have to the data and to their secrets, to safeguard against unintentionally leaking sensitive data or credentials. Similarly, users can take advantage of Renku's MCP server to use AI assistants to create and configure Renku projects such that the work done through a coding assistant can easily be shared with others.<br /><strong>2. Hiraku: A toolkit for AI-assisted data science research</strong><br />Hiraku is a framework for AI-assisted research in data science and machine learning. It introduces a lightweight, hierarchical record structure that connects research goals and experiments with source commits, executable entrypoints, tracked runs, and results. Hiraku integrates with existing tools: Runs and metrics remain owned by user-managed tracking backends such as Weights &amp; Biases, MLflow, or CSV files, and are queried through a common backend interface. Entrypoints and project-defined dispatch scripts enable reproducible execution across local and remote compute environments while preserving attribution to records and source commits.<br />Data scientists manage this workflow through the CLI and inspect results via dashboards, while coding agents operate on the same workflow through a project-local skill or a customized harness. This framework is explicitly designed to support both interactive, human-in-the-loop experimentation and autonomous research workflows. We are actively exploring Hiraku's capabilities in on-going SDSC projects."
+        },
+        {
+          "name": "Unrestricted LLMs: Research, Business and Attacker Perspectives",
+          "host": "Ilya Misyura",
+          "affiliation": "FHNW",
+          "confirmed": true,
+          "type": "show-and-tell",
+          "code": "misyura",
+          "slots_code": "O"
         }
       ];
     
@@ -228,12 +237,13 @@ export default function () {
       "F": [{"station": "B", "timeslots": [2], "name": "B2"}],
       "G": [{"station": "C", "timeslots": [2], "name": "C2"}],
       "H": [{"station": "D", "timeslots": [2], "name": "D2"}],
-      "I": [{"station": "E", "timeslots": [2], "name": "E2"}, {"station": "C", "timeslots": [3], "name": "C3"}],
+      "I": [{"station": "C", "timeslots": [3], "name": "C3"}],
       "J": [{"station": "A", "timeslots": [3], "name": "A3"}],
       "K": [{"station": "D", "timeslots": [3], "name": "D3"}, {"station": "A", "timeslots": [4], "name": "A4"}],
       "L": [{"station": "E", "timeslots": [3], "name": "E3"}, {"station": "C", "timeslots": [4], "name": "C4"}],
       "M": [{"station": "B", "timeslots": [4], "name": "B4"}],
-      "N": [{"station": "D", "timeslots": [4], "name": "D4"}]
+      "N": [{"station": "D", "timeslots": [4], "name": "D4"}],
+      "O": [{"station": "E", "timeslots": [2], "name": "E2"}]
     };
 
     presentations.forEach((presentation) => {
