@@ -28,7 +28,7 @@ export default function () {
           "type": "announcement", "merged": true
         },
         {
-          "start": "11:00", "end": "11:45",
+          "start": "11:15", "end": "11:45",
           "name": "Coffee Break",
           "type": "lunch", "merged": true
         },
